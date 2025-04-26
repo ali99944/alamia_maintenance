@@ -16,9 +16,9 @@ export const lgData: BrandData = {
 
   hero: {
     slides: [
-      { image: placeholderImg('lg', 'appliances', 'hero'), title: "فنيين ذو خبره وكفاءة لصيانة ال جي", subtitle: "خدمة فورية بالمنزل", buttonText: "اتصل بنا الآن", buttonLink: "tel:19001" },
-      { image: placeholderImg('lg', 'living-room', 'hero'), title: "قطع غيار أصلية ١٠٠٪ من ال جي", subtitle: "ضمان معتمد لمدة عام", buttonText: "اطلب صيانة", buttonLink: "#footer" },
-      { image: placeholderImg('lg', 'kitchen', 'hero'), title: "نغطي جميع محافظات مصر", subtitle: "مراكز صيانة ال جي منتشرة", buttonText: "تواصل معنا", buttonLink: "tel:19001" },
+      { image: 'https://maintenance-eg.com/files/slider1.webp', title: "فنيين ذو خبره وكفاءة لصيانة ال جي", subtitle: "خدمة فورية بالمنزل", buttonText: "اتصل بنا الآن", buttonLink: "tel:19001" },
+      { image: 'https://maintenance-eg.com/files/slider2.webp', title: "قطع غيار أصلية ١٠٠٪ من ال جي", subtitle: "ضمان معتمد لمدة عام", buttonText: "اطلب صيانة", buttonLink: "#footer" },
+      { image: 'https://maintenance-eg.com/files/slider3.webp', title: "نغطي جميع محافظات مصر", subtitle: "مراكز صيانة ال جي منتشرة", buttonText: "تواصل معنا", buttonLink: "tel:19001" },
     ]
   },
   intro: {
@@ -45,9 +45,9 @@ export const lgData: BrandData = {
     preTitle: "خدمات مركز ال جي",
     title: "كل ما تحتاجه لصيانة أجهزة ال جي",
     items: [
-      { image: placeholderImg('lg', 'refrigerator', 'service'), category: "صيانة ثلاجات ال جي", title: "صيانة ثلاجات وديب فريزر ال جي", description: "حلول متكاملة لجميع أعطال ثلاجات ال جي، بما في ذلك مشاكل التبريد، تسريب المياه، وأعطال الموتور، مع توفير قطع غيار أصلية.", linkText: "اعرف المزيد", link: "/صيانة/lg/ثلاجات" },
-      { image: placeholderImg('lg', 'washing-machine', 'service'), category: "صيانة غسالات ال جي", title: "صيانة غسالات ملابس وأطباق ال جي", description: "إصلاح أعطال غسالات ال جي بجميع موديلاتها، سواء كانت مشاكل في الدوران، صرف المياه، أو لوحة التحكم الإلكترونية.", linkText: "اعرف المزيد", link: "/صيانة/lg/غسالات" },
-      { image: placeholderImg('lg', 'air-conditioner', 'service'), category: "صيانة تكييفات ال جي", title: "صيانة تكييفات ال جي سبليت وشباك", description: "خدمات صيانة دورية وشاملة لتكييفات ال جي، تشمل تنظيف الفلاتر، فحص الفريون، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/تكييفات" },
+      { image: "https://maintenance-eg.com/uploads/lg-official-maintenance.webp", category: "صيانة ثلاجات ال جي", title: "صيانة ثلاجات وديب فريزر ال جي", description: "حلول متكاملة لجميع أعطال ثلاجات ال جي، بما في ذلك مشاكل التبريد، تسريب المياه، وأعطال الموتور، مع توفير قطع غيار أصلية.", linkText: "اعرف المزيد", link: "/صيانة/lg/ثلاجات" },
+      { image: "https://maintenance-eg.com/uploads/lg-main-maintenance.webp", category: "صيانة غسالات ال جي", title: "صيانة غسالات ملابس وأطباق ال جي", description: "إصلاح أعطال غسالات ال جي بجميع موديلاتها، سواء كانت مشاكل في الدوران، صرف المياه، أو لوحة التحكم الإلكترونية.", linkText: "اعرف المزيد", link: "/صيانة/lg/غسالات" },
+      { image: "https://maintenance-eg.com/uploads/lg-main-maintenance.webp", category: "صيانة تكييفات ال جي", title: "صيانة تكييفات ال جي سبليت وشباك", description: "خدمات صيانة دورية وشاملة لتكييفات ال جي، تشمل تنظيف الفلاتر، فحص الفريون، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/تكييفات" },
     ]
   },
   features: {
@@ -74,9 +74,9 @@ export const lgData: BrandData = {
     preTitle: "فروعنا",
     title: "أقرب مركز صيانة ال جي إليك",
      items: [
-      { image: placeholderImg('lg', 'cairo-skyline', 'location'), category: "فرع القاهرة", title: "مركز صيانة ال جي القاهرة", description: "نوفر خدمات صيانة ال جي المعتمدة لجميع أحياء القاهرة الكبرى، بما في ذلك مدينة نصر، مصر الجديدة، المعادي، والزمالك.", linkText: "عرض التفاصيل", link: "/صيانة/lg/locations/cairo" },
-      { image: placeholderImg('lg', 'alexandria-library', 'location'), category: "فرع الإسكندرية", title: "مركز صيانة ال جي الإسكندرية", description: "خدماتنا تغطي جميع مناطق الإسكندرية، من المنتزه إلى العجمي. اتصل بنا لحجز موعد صيانة سريع وموثوق.", linkText: "عرض التفاصيل", link: "/صيانة/lg/locations/alexandria" },
-      { image: placeholderImg('lg', 'giza-pyramids', 'location'), category: "فرع الجيزة", title: "مركز صيانة ال جي الجيزة", description: "نخدم عملاءنا في الجيزة، 6 أكتوبر، والشيخ زايد. مركزنا يقدم صيانة فورية لجميع أجهزة ال جي.", linkText: "عرض التفاصيل", link: "/صيانة/lg/locations/giza" },
+      { image: "https://maintenance-eg.com/uploads/lg-maintenance-branches.webp", category: "فرع القاهرة", title: "مركز صيانة ال جي القاهرة", description: "نوفر خدمات صيانة ال جي المعتمدة لجميع أحياء القاهرة الكبرى، بما في ذلك مدينة نصر، مصر الجديدة، المعادي، والزمالك.", linkText: "عرض التفاصيل", link: "/صيانة/lg/locations/cairo" },
+      { image: "https://maintenance-eg.com/uploads/lg-maintenance-branches-in-cairo.webp", category: "فرع الإسكندرية", title: "مركز صيانة ال جي الإسكندرية", description: "خدماتنا تغطي جميع مناطق الإسكندرية، من المنتزه إلى العجمي. اتصل بنا لحجز موعد صيانة سريع وموثوق.", linkText: "عرض التفاصيل", link: "/صيانة/lg/locations/alexandria" },
+      { image: "https://maintenance-eg.com/uploads/2.jpg", category: "فرع الجيزة", title: "مركز صيانة ال جي الجيزة", description: "نخدم عملاءنا في الجيزة، 6 أكتوبر، والشيخ زايد. مركزنا يقدم صيانة فورية لجميع أجهزة ال جي.", linkText: "عرض التفاصيل", link: "/صيانة/lg/locations/giza" },
     ]
   },
 };
@@ -94,8 +94,9 @@ export const samsungData: BrandData = {
 
   hero: {
     slides: [
-      { image: placeholderImg('samsung', 'smart-tv', 'hero'), title: "صيانة سامسونج المعتمدة في مصر", subtitle: "خبراء الأجهزة الذكية", buttonText: "اتصل بالخط الساخن", buttonLink: "tel:19002" },
-      { image: placeholderImg('samsung', 'kitchen-appliances', 'hero'), title: "حلول مبتكرة لصيانة أجهزة سامسونج", subtitle: "تكنولوجيا وجودة", buttonText: "اطلب زيارة فني", buttonLink: "#footer" },
+      { image: 'https://maintenance-eg.com/files/slider1.webp', title: "صيانة سامسونج المعتمدة في مصر", subtitle: "خبراء الأجهزة الذكية", buttonText: "اتصل بالخط الساخن", buttonLink: "tel:19002" },
+      { image: 'https://maintenance-eg.com/files/slider2.webp', title: "حلول مبتكرة لصيانة أجهزة سامسونج", subtitle: "تكنولوجيا وجودة", buttonText: "اطلب زيارة فني", buttonLink: "#footer" },
+      { image: 'https://maintenance-eg.com/files/slider3.webp', title: "أجهزة سامسونج المعتمدة - جودة لا مثيل لها", subtitle: "نوفر خدمات صيانة معتمدة لجميع منتجات سامسونج", buttonText: "اطلب زيارة فني", buttonLink: "#footer" },
     ]
   },
   intro: {
@@ -122,9 +123,9 @@ export const samsungData: BrandData = {
     preTitle: "خدماتنا المتخصصة",
     title: "صيانة جميع منتجات سامسونج",
     items: [
-      { image: placeholderImg('samsung', 'qled-tv', 'service'), category: "صيانة شاشات سامسونج", title: "إصلاح شاشات سامسونج (LED, QLED, OLED)", description: "متخصصون في إصلاح جميع أعطال شاشات سامسونج، بما في ذلك مشاكل الصورة، الصوت، والاتصال بالإنترنت.", linkText: "التفاصيل", link: "/صيانة/samsung/شاشات" },
-      { image: placeholderImg('samsung', 'bespoke-fridge', 'service'), category: "صيانة ثلاجات سامسونج", title: "صيانة ثلاجات سامسونج الحديثة", description: "نقدم صيانة لثلاجات سامسونج بجميع أنواعها، بما في ذلك موديلات Bespoke، مع حلول لمشاكل التبريد وصانع الثلج.", linkText: "التفاصيل", link: "/صيانة/samsung/ثلاجات" },
-      { image: placeholderImg('samsung', 'addwash-washer', 'service'), category: "صيانة غسالات سامسونج", title: "صيانة غسالات سامسونج AddWash وغيرها", description: "إصلاح أعطال غسالات سامسونج، بما في ذلك مشاكل عدم دوران الحلة، تسريب المياه، والأخطاء الرقمية.", linkText: "التفاصيل", link: "/صيانة/samsung/غسالات" },
+      { image: "https://maintenance-eg.com/uploads/samsung-official-maintenance.webp", category: "صيانة شاشات سامسونج", title: "إصلاح شاشات سامسونج (LED, QLED, OLED)", description: "متخصصون في إصلاح جميع أعطال شاشات سامسونج، بما في ذلك مشاكل الصورة، الصوت، والاتصال بالإنترنت.", linkText: "التفاصيل", link: "/صيانة/samsung/شاشات" },
+      { image: "https://maintenance-eg.com/uploads/samsung-main-maintenance.webp", category: "صيانة ثلاجات سامسونج", title: "صيانة ثلاجات سامسونج الحديثة", description: "نقدم صيانة لثلاجات سامسونج بجميع أنواعها، بما في ذلك موديلات Bespoke، مع حلول لمشاكل التبريد وصانع الثلج.", linkText: "التفاصيل", link: "/صيانة/samsung/ثلاجات" },
+      { image: "https://maintenance-eg.com/uploads/samsung-company.webp", category: "صيانة غسالات سامسونج", title: "صيانة غسالات سامسونج AddWash وغيرها", description: "إصلاح أعطال غسالات سامسونج، بما في ذلك مشاكل عدم دوران الحلة، تسريب المياه، والأخطاء الرقمية.", linkText: "التفاصيل", link: "/صيانة/samsung/غسالات" },
     ]
   },
   features: {
@@ -151,9 +152,8 @@ export const samsungData: BrandData = {
     preTitle: "انتشارنا",
     title: "مراكز خدمة سامسونج المعتمدة",
      items: [
-      { image: placeholderImg('samsung', 'cairo-branch', 'location'), category: "خدمة القاهرة", title: "مركز خدمة سامسونج القاهرة", description: "مركزنا الرئيسي بالقاهرة يقدم خدمات صيانة لجميع منتجات سامسونج مع أسرع استجابة.", linkText: "زيارة الفرع", link: "/صيانة/samsung/locations/cairo" },
-      { image: placeholderImg('samsung', 'delta-map', 'location'), category: "خدمة الدلتا", title: "مراكز خدمة سامسونج بالدلتا", description: "نخدم محافظات الدلتا (طنطا، المنصورة، المحلة) من خلال فروعنا المعتمدة لضمان راحتكم.", linkText: "زيارة الفرع", link: "/صيانة/samsung/locations/delta" },
-      { image: placeholderImg('samsung', 'upper-egypt', 'location'), category: "خدمة الصعيد", title: "مراكز خدمة سامسونج بصعيد مصر", description: "نوفر خدمات الصيانة المعتمدة في محافظات الصعيد الرئيسية لضمان وصول خدماتنا للجميع.", linkText: "زيارة الفرع", link: "/صيانة/samsung/locations/upper-egypt" },
+      { image: "https://maintenance-eg.com/uploads/samsung-maintenance-branches.webp", category: "خدمة القاهرة", title: "مركز خدمة سامسونج القاهرة", description: "مركزنا الرئيسي بالقاهرة يقدم خدمات صيانة لجميع منتجات سامسونج مع أسرع استجابة.", linkText: "زيارة الفرع", link: "/صيانة/samsung/locations/cairo" },
+      { image: "https://maintenance-eg.com/uploads/samsung-maintenance-branches-in-cairo.webp", category: "خدمة الدلتا", title: "مراكز خدمة سامسونج بالدلتا", description: "نخدم محافظات الدلتا (طنطا، المنصورة، المحلة) من خلال فروعنا المعتمدة لضمان راحتكم.", linkText: "زيارة الفرع", link: "/صيانة/samsung/locations/delta" },
     ]
   },
 };
@@ -171,8 +171,9 @@ export const carrierData: BrandData = {
 
   hero: {
     slides: [
-      { image: placeholderImg('carrier', 'cool-air', 'hero'), title: "صيانة تكييفات كارير رقم #1 في مصر", subtitle: "خبراء التبريد والتدفئة", buttonText: "اتصل بنا للتكييف", buttonLink: "tel:19003" },
-      { image: placeholderImg('carrier', 'technician-installing', 'hero'), title: "تركيب وصيانة جميع موديلات كارير", subtitle: "خدمة معتمدة وموثوقة", buttonText: "حجز موعد صيانة", buttonLink: "#footer" },
+      { image: 'https://maintenance-eg.com/files/slider1.webp', title: "صيانة تكييفات كارير رقم #1 في مصر", subtitle: "خبراء التبريد والتدفئة", buttonText: "اتصل بنا للتكييف", buttonLink: "tel:19003" },
+      { image: 'https://maintenance-eg.com/files/slider2.webp', title: "تركيب وصيانة جميع موديلات كارير", subtitle: "خدمة معتمدة وموثوقة", buttonText: "حجز موعد صيانة", buttonLink: "#footer" },
+      { image: 'https://maintenance-eg.com/files/slider3.webp', title: "صيانة سخانات كارير بجميع أنواعها", subtitle: "فنيون متخصصون في إصلاح جميع أعطال سخانات كارير", buttonText: "اتصل بنا لصيانة سخانات", buttonLink: "tel:19003" },
     ]
   },
   intro: {
@@ -199,9 +200,9 @@ export const carrierData: BrandData = {
     preTitle: "خدمات تكييف كارير",
     title: "صيانة وتركيب تكييفات كارير",
     items: [
-      { image: placeholderImg('carrier', 'split-unit', 'service'), category: "صيانة تكييف سبليت", title: "صيانة تكييف كارير سبليت", description: "خدمات صيانة متكاملة لجميع موديلات تكييف كارير سبليت، تشمل الكشف عن الأعطال وإصلاحها وتنظيف الوحدات.", linkText: "خدمات السبليت", link: "/صيانة/carrier/سبليت" },
-      { image: placeholderImg('carrier', 'central-ac', 'service'), category: "صيانة تكييف مركزي", title: "صيانة التكييف المركزي كارير", description: "حلول صيانة متخصصة لأنظمة التكييف المركزي من كارير للمباني التجارية والسكنية الكبيرة.", linkText: "خدمات المركزي", link: "/صيانة/carrier/مركزي" },
-      { image: placeholderImg('carrier', 'freon-check', 'service'), category: "خدمات الفريون", title: "فحص وشحن فريون كارير", description: " نقدم خدمة فحص دقيق لمستوى الفريون وشحن التكييف بالكمية المناسبة لضمان أفضل أداء تبريد.", linkText: "خدمات الفريون", link: "/صيانة/carrier/فريون" },
+      { image: "https://maintenance-eg.com/uploads/carrier-official-maintenance.webp", category: "صيانة تكييف سبليت", title: "صيانة تكييف كارير سبليت", description: "خدمات صيانة متكاملة لجميع موديلات تكييف كارير سبليت، تشمل الكشف عن الأعطال وإصلاحها وتنظيف الوحدات.", linkText: "خدمات السبليت", link: "/صيانة/carrier/سبليت" },
+      { image: "https://maintenance-eg.com/uploads/carrier-official-maintenance.webp", category: "صيانة تكييف مركزي", title: "صيانة التكييف المركزي كارير", description: "حلول صيانة متخصصة لأنظمة التكييف المركزي من كارير للمباني التجارية والسكنية الكبيرة.", linkText: "خدمات المركزي", link: "/صيانة/carrier/مركزي" },
+      { image: "https://maintenance-eg.com/uploads/carrier-company.webp", category: "خدمات الفريون", title: "فحص وشحن فريون كارير", description: " نقدم خدمة فحص دقيق لمستوى الفريون وشحن التكييف بالكمية المناسبة لضمان أفضل أداء تبريد.", linkText: "خدمات الفريون", link: "/صيانة/carrier/فريون" },
     ]
   },
   features: {
@@ -228,9 +229,8 @@ export const carrierData: BrandData = {
     preTitle: "نصل إليك",
     title: "مراكز خدمة تكييف كارير",
      items: [
-      { image: placeholderImg('carrier', 'cairo-service', 'location'), category: "خدمة القاهرة والجيزة", title: "مركز خدمة كارير القاهرة والجيزة", description: "نخدم جميع مناطق القاهرة الكبرى والجيزة، اتصل بنا لتركيب أو صيانة تكييف كارير.", linkText: "اتصل الآن", link: "tel:19003" },
-      { image: placeholderImg('carrier', 'coast-service', 'location'), category: "خدمة الساحل الشمالي", title: "مركز خدمة كارير الساحل الشمالي", description: "نوفر خدمات صيانة وتركيب سريعة في الساحل الشمالي خلال فصل الصيف لضمان راحتك.", linkText: "اتصل الآن", link: "tel:19003" },
-      { image: placeholderImg('carrier', 'alex-service', 'location'), category: "خدمة الإسكندرية", title: "مركز خدمة كارير الإسكندرية", description: "فرعنا بالإسكندرية جاهز لتلبية جميع احتياجات صيانة وتركيب تكييفات كارير.", linkText: "اتصل الآن", link: "tel:19003" },
+      { image: "https://maintenance-eg.com/uploads/carrier-maintenance-branches.webp", category: "خدمة القاهرة والجيزة", title: "مركز خدمة كارير القاهرة والجيزة", description: "نخدم جميع مناطق القاهرة الكبرى والجيزة، اتصل بنا لتركيب أو صيانة تكييف كارير.", linkText: "اتصل الآن", link: "tel:19003" },
+      { image: "https://maintenance-eg.com/uploads/carrier-maintenance-branches.webp", category: "خدمة الساحل الشمالي", title: "مركز خدمة كارير الساحل الشمالي", description: "نوفر خدمات صيانة وتركيب سريعة في الساحل الشمالي خلال فصل الصيف لضمان راحتك.", linkText: "اتصل الآن", link: "tel:19003" },
     ]
   },
 };
@@ -248,8 +248,10 @@ export const unionaireData: BrandData = {
 
   hero: {
     slides: [
-      { image: placeholderImg('unionaire', 'group-appliances', 'hero'), title: "صيانة يونيون اير المعتمدة لجميع الأجهزة", subtitle: "جودة وكفاءة تثق بها", buttonText: "اتصل بالصيانة", buttonLink: "tel:19004" },
-      { image: placeholderImg('unionaire', 'ac-cool', 'hero'), title: "صيانة تكييفات يونيون اير بكفاءة عالية", subtitle: "استمتع بجو مثالي", buttonText: "طلب صيانة تكييف", buttonLink: "#footer" },
+      { image: 'https://maintenance-eg.com/files/slider1.webp', title: "صيانة يونيون اير المعتمدة لجميع الأجهزة", subtitle: "جودة وكفاءة تثق بها", buttonText: "اتصل بالصيانة", buttonLink: "tel:19004" },
+      { image: 'https://maintenance-eg.com/files/slider2.webp', title: "صيانة تكييفات يونيون اير بكفاءة عالية", subtitle: "استمتع بجو مثالي", buttonText: "طلب صيانة تكييف", buttonLink: "#footer" },
+      { image: 'https://maintenance-eg.com/files/slider3.webp', title: "فريق فني متخصص لصيانة يونيون اير", subtitle: "نقدم لكم خبرة 22 سنة في خدمة الصناعة المصرية", buttonText: "اعرف المزيد", buttonLink: "#intro" },
+      
     ]
   },
   intro: {
@@ -276,9 +278,9 @@ export const unionaireData: BrandData = {
     preTitle: "خدمات صيانة يونيون اير",
     title: "صيانة شاملة لأجهزة يونيون اير",
     items: [
-      { image: placeholderImg('unionaire', 'ac-maintenance', 'service'), category: "صيانة تكييف يونيون اير", title: "صيانة تكييفات يونيون اير (سبليت وشباك)", description: "نقدم خدمات صيانة وإصلاح لجميع موديلات تكييفات يونيون اير، بما في ذلك Artify و Megafy، لضمان تبريد فعال.", linkText: "صيانة التكييف", link: "/صيانة/unionaire/تكييفات" },
-      { image: placeholderImg('unionaire', 'screen-repair', 'service'), category: "صيانة شاشات يونيون اير", title: "إصلاح شاشات يونيون اير (LED)", description: "متخصصون في إصلاح أعطال شاشات يونيون اير المختلفة، مثل مشاكل الإضاءة، الصورة، أو الصوت.", linkText: "صيانة الشاشات", link: "/صيانة/unionaire/شاشات" },
-      { image: placeholderImg('unionaire', 'cooker-service', 'service'), category: "صيانة بوتاجاز يونيون اير", title: "صيانة بوتاجازات يونيون اير (غاز وكهرباء)", description: "إصلاح أعطال بوتاجازات يونيون اير، بما في ذلك مشاكل الإشعال الذاتي، تسريب الغاز، وأعطال الفرن.", linkText: "صيانة البوتاجاز", link: "/صيانة/unionaire/بوتاجازات" },
+      { image: "https://maintenance-eg.com/uploads/unionaire-official-maintenance.webp", category: "صيانة تكييف يونيون اير", title: "صيانة تكييفات يونيون اير (سبليت وشباك)", description: "نقدم خدمات صيانة وإصلاح لجميع موديلات تكييفات يونيون اير، بما في ذلك Artify و Megafy، لضمان تبريد فعال.", linkText: "صيانة التكييف", link: "/صيانة/unionaire/تكييفات" },
+      { image: "https://maintenance-eg.com/uploads/unionaire-official-maintenance.webp", category: "صيانة شاشات يونيون اير", title: "إصلاح شاشات يونيون اير (LED)", description: "متخصصون في إصلاح أعطال شاشات يونيون اير المختلفة، مثل مشاكل الإضاءة، الصورة، أو الصوت.", linkText: "صيانة الشاشات", link: "/صيانة/unionaire/شاشات" },
+      { image: "https://maintenance-eg.com/uploads/unionaire-company.webp", category: "صيانة بوتاجاز يونيون اير", title: "صيانة بوتاجازات يونيون اير (غاز وكهرباء)", description: "إصلاح أعطال بوتاجازات يونيون اير، بما في ذلك مشاكل الإشعال الذاتي، تسريب الغاز، وأعطال الفرن.", linkText: "صيانة البوتاجاز", link: "/صيانة/unionaire/بوتاجازات" },
     ]
   },
   features: {
@@ -305,9 +307,8 @@ export const unionaireData: BrandData = {
     preTitle: "فروعنا المعتمدة",
     title: "مراكز صيانة يونيون اير القريبة منك",
      items: [
-      { image: placeholderImg('unionaire', 'main-branch', 'location'), category: "المركز الرئيسي", title: "مركز يونيون اير الرئيسي", description: "المركز الرئيسي بالقاهرة لخدمة عملاء يونيون اير وتقديم الدعم الشامل.", linkText: "تواصل معنا", link: "tel:19004" },
-      { image: placeholderImg('unionaire', 'alex-branch', 'location'), category: "فرع الإسكندرية", title: "مركز يونيون اير بالإسكندرية", description: "فرعنا في الإسكندرية لخدمة عملاء المحافظة والمناطق المجاورة بسرعة وكفاءة.", linkText: "تواصل معنا", link: "tel:19004" },
-      { image: placeholderImg('unionaire', 'regional-map', 'location'), category: "فروع المحافظات", title: "مراكز خدمة يونيون اير بالمحافظات", description: "لدينا فروع ونقاط خدمة معتمدة في العديد من المحافظات لتلبية احتياجاتكم.", linkText: "تواصل معنا", link: "tel:19004" },
+      { image: "https://maintenance-eg.com/uploads/unionaire-company.webp", category: "المركز الرئيسي", title: "مركز يونيون اير الرئيسي", description: "المركز الرئيسي بالقاهرة لخدمة عملاء يونيون اير وتقديم الدعم الشامل.", linkText: "تواصل معنا", link: "tel:19004" },
+      { image: "https://maintenance-eg.com/uploads/unionaire-company.webp", category: "فرع الإسكندرية", title: "مركز يونيون اير بالإسكندرية", description: "فرعنا في الإسكندرية لخدمة عملاء المحافظة والمناطق المجاورة بسرعة وكفاءة.", linkText: "تواصل معنا", link: "tel:19004" },
     ]
   },
 };
@@ -326,8 +327,8 @@ export const sharpData: BrandData = {
 
   hero: {
     slides: [
-      { image: placeholderImg('sharp', 'tv-home', 'hero'), title: "صيانة شارب المعتمدة للأجهزة اليابانية", subtitle: "جودة ودقة تثق بها", buttonText: "اتصل بخبراء شارب", buttonLink: "tel:19005" },
-      { image: placeholderImg('sharp', 'appliances-sharp', 'hero'), title: "حلول صيانة متكاملة لأجهزة شارب", subtitle: "ثلاجات، غسالات، شاشات، والمزيد", buttonText: "اطلب خدمة الصيانة", buttonLink: "#footer" },
+      { image: 'https://maintenance-eg.com/files/slider1.webp', title: "صيانة شارب المعتمدة للأجهزة اليابانية", subtitle: "جودة ودقة تثق بها", buttonText: "اتصل بخبراء شارب", buttonLink: "tel:19005" },
+      { image: 'https://maintenance-eg.com/files/slider2.webp', title: "حلول صيانة متكاملة لأجهزة شارب", subtitle: "ثلاجات، غسالات، شاشات، والمزيد", buttonText: "اطلب خدمة الصيانة", buttonLink: "#footer" },
     ]
   },
   intro: {
@@ -354,9 +355,9 @@ export const sharpData: BrandData = {
     preTitle: "خدمات صيانة شارب",
     title: "صيانة جميع أجهزة شارب المنزلية",
     items: [
-      { image: placeholderImg('sharp', 'aquos-tv', 'service'), category: "صيانة شاشات شارب", title: "إصلاح شاشات شارب Aquos وغيرها", description: "صيانة متخصصة لشاشات شارب بجميع أنواعها وتقنياتها، لحل مشاكل الصورة والصوت والوظائف الذكية.", linkText: "خدمة الشاشات", link: "/صيانة/sharp/شاشات" },
-      { image: placeholderImg('sharp', 'refrigerator-sharp', 'service'), category: "صيانة ثلاجات شارب", title: "صيانة ثلاجات وديب فريزر شارب", description: "حلول لجميع أعطال ثلاجات شارب، بما في ذلك مشاكل التبريد، تقنية البلازما كلاستر، وتسريب المياه.", linkText: "خدمة الثلاجات", link: "/صيانة/sharp/ثلاجات" },
-      { image: placeholderImg('sharp', 'air-purifier', 'service'), category: "أجهزة شارب الأخرى", title: "صيانة منقيات الهواء وأجهزة شارب الأخرى", description: "نقدم أيضًا صيانة لأجهزة شارب الأخرى مثل منقيات الهواء والميكروويف لضمان عملها بكفاءة.", linkText: "خدمات أخرى", link: "/صيانة/sharp/أخرى" },
+      { image: "https://maintenance-eg.com/uploads/sharp-official-maintenance.webp", category: "صيانة شاشات شارب", title: "إصلاح شاشات شارب Aquos وغيرها", description: "صيانة متخصصة لشاشات شارب بجميع أنواعها وتقنياتها، لحل مشاكل الصورة والصوت والوظائف الذكية.", linkText: "خدمة الشاشات", link: "/صيانة/sharp/شاشات" },
+      { image: "https://maintenance-eg.com/uploads/sharp-main-maintenance.webp", category: "صيانة ثلاجات شارب", title: "صيانة ثلاجات وديب فريزر شارب", description: "حلول لجميع أعطال ثلاجات شارب، بما في ذلك مشاكل التبريد، تقنية البلازما كلاستر، وتسريب المياه.", linkText: "خدمة الثلاجات", link: "/صيانة/sharp/ثلاجات" },
+      { image: "https://maintenance-eg.com/uploads/sharp-company.webp", category: "أجهزة شارب الأخرى", title: "صيانة منقيات الهواء وأجهزة شارب الأخرى", description: "نقدم أيضًا صيانة لأجهزة شارب الأخرى مثل منقيات الهواء والميكروويف لضمان عملها بكفاءة.", linkText: "خدمات أخرى", link: "/صيانة/sharp/أخرى" },
     ]
   },
   features: {
@@ -383,9 +384,8 @@ export const sharpData: BrandData = {
     preTitle: "أين تجدنا؟",
     title: "مراكز صيانة شارب المعتمدة",
      items: [
-      { image: placeholderImg('sharp', 'cairo-center', 'location'), category: "مركز القاهرة", title: "مركز صيانة شارب بالقاهرة", description: "المركز المعتمد لصيانة شارب في القاهرة الكبرى، يقدم خدمة سريعة ومضمونة.", linkText: "اتصل بالمركز", link: "tel:19005" },
-      { image: placeholderImg('sharp', 'giza-center', 'location'), category: "مركز الجيزة", title: "مركز صيانة شارب بالجيزة", description: "نخدم عملاء الجيزة و6 أكتوبر بخدمات صيانة معتمدة لجميع أجهزة شارب.", linkText: "اتصل بالمركز", link: "tel:19005" },
-      { image: placeholderImg('sharp', 'other-cities', 'location'), category: "خدمة المحافظات", title: "خدمة شارب بباقي المحافظات", description: "يمكنك الاستفسار عن أقرب نقطة خدمة معتمدة لشارب في محافظتك عبر الاتصال بالخط الساخن.", linkText: "اتصل بالمركز", link: "tel:19005" },
+      { image: "https://maintenance-eg.com/uploads/sharp-company.webp", category: "مركز القاهرة", title: "مركز صيانة شارب بالقاهرة", description: "المركز المعتمد لصيانة شارب في القاهرة الكبرى، يقدم خدمة سريعة ومضمونة.", linkText: "اتصل بالمركز", link: "tel:19005" },
+      { image: "https://maintenance-eg.com/uploads/sharp-company.webp", category: "مركز الجيزة", title: "مركز صيانة شارب بالجيزة", description: "نخدم عملاء الجيزة و6 أكتوبر بخدمات صيانة معتمدة لجميع أجهزة شارب.", linkText: "اتصل بالمركز", link: "tel:19005" },
     ]
   },
 };
@@ -396,16 +396,18 @@ export const freshData: BrandData = {
   slug: "fresh",
   primaryColor: "#ED1C24", // Fresh Red
   secondaryColor: "#FFFFFF",
-  logo: "/brands/fresh/logos/fresh-logo-color.png",
-  logoWhite: "/brands/fresh/logos/fresh-logo-white.png",
+  logo: "/brands/fresh.svg",
+  logoWhite: "/brands/fresh.svg",
   hotline: "19006", // Assuming hotline for Fresh
 
   contactEmail: 'fresh@alalamiah-maintenance.com',
 
   hero: {
     slides: [
-      { image: placeholderImg('fresh', 'kitchen-fresh', 'hero'), title: "صيانة فريش المعتمدة للأجهزة المنزلية", subtitle: "اختيار العائلة المصرية", buttonText: "اتصل بصيانة فريش", buttonLink: "tel:19006" },
-      { image: placeholderImg('fresh', 'water-heater', 'hero'), title: "إصلاح سخانات وغسالات وبوتاجازات فريش", subtitle: "خدمة سريعة بأسعار مناسبة", buttonText: "احجز موعد صيانة", buttonLink: "#footer" },
+      { image: 'https://maintenance-eg.com/files/slider1.webp', title: "صيانة فريش المعتمدة للأجهزة المنزلية", subtitle: "اختيار العائلة المصرية", buttonText: "اتصل بصيانة فريش", buttonLink: "tel:19006" },
+      { image: 'https://maintenance-eg.com/files/slider2.webp', title: "إصلاح سخانات وغسالات وبوتاجازات فريش", subtitle: "خدمة سريعة بأسعار مناسبة", buttonText: "احجز موعد صيانة", buttonLink: "#footer" },
+      { image: 'https://maintenance-eg.com/files/slider3.webp', title: "دعم فني متواصل", subtitle: "استجابة سريعة على مدار الساعة", buttonText: "تواصل مع الدعم الفني", buttonLink: "tel:19006" },
+
     ]
   },
   intro: {
@@ -432,9 +434,9 @@ export const freshData: BrandData = {
     preTitle: "خدماتنا لأجهزة فريش",
     title: "صيانة شاملة لمنتجات فريش",
     items: [
-      { image: placeholderImg('fresh', 'heater-service', 'service'), category: "صيانة سخانات فريش", title: "إصلاح سخانات فريش (غاز وكهرباء)", description: "حلول لجميع مشاكل سخانات فريش، بما في ذلك ضعف تسخين المياه، تسريب الغاز، أو أعطال الأمان.", linkText: "خدمة السخانات", link: "/صيانة/fresh/سخانات" },
-      { image: placeholderImg('fresh', 'cooker-fresh', 'service'), category: "صيانة بوتاجازات فريش", title: "صيانة بوتاجازات فريش بجميع الموديلات", description: "إصلاح أعطال الإشعال، تسريب الغاز، مشاكل الفرن والشواية في بوتاجازات فريش.", linkText: "خدمة البوتاجازات", link: "/صيانة/fresh/بوتاجازات" },
-      { image: placeholderImg('fresh', 'washing-machine-fresh', 'service'), category: "صيانة غسالات فريش", title: "صيانة غسالات فريش (فوق وتحميل أمامي)", description: "خدمات إصلاح لغسالات فريش تشمل مشاكل العصر، سحب المياه، أو توقف التشغيل.", linkText: "خدمة الغسالات", link: "/صيانة/fresh/غسالات" },
+      { image: "https://maintenance-eg.com/uploads/fresh-official-maintenance.webp", category: "صيانة سخانات فريش", title: "إصلاح سخانات فريش (غاز وكهرباء)", description: "حلول لجميع مشاكل سخانات فريش، بما في ذلك ضعف تسخين المياه، تسريب الغاز، أو أعطال الأمان.", linkText: "خدمة السخانات", link: "/صيانة/fresh/سخانات" },
+      { image: "https://maintenance-eg.com/uploads/fresh-official-maintenance.webp", category: "صيانة بوتاجازات فريش", title: "صيانة بوتاجازات فريش بجميع الموديلات", description: "إصلاح أعطال الإشعال، تسريب الغاز، مشاكل الفرن والشواية في بوتاجازات فريش.", linkText: "خدمة البوتاجازات", link: "/صيانة/fresh/بوتاجازات" },
+      { image: "https://maintenance-eg.com/uploads/fresh-company.webp", category: "صيانة غسالات فريش", title: "صيانة غسالات فريش (فوق وتحميل أمامي)", description: "خدمات إصلاح لغسالات فريش تشمل مشاكل العصر، سحب المياه، أو توقف التشغيل.", linkText: "خدمة الغسالات", link: "/صيانة/fresh/غسالات" },
     ]
   },
   features: {
@@ -461,9 +463,8 @@ export const freshData: BrandData = {
     preTitle: "فروع خدمة فريش",
     title: "أين تجد خدمة صيانة فريش؟",
      items: [
-      { image: placeholderImg('fresh', 'cairo-map', 'location'), category: "خدمة القاهرة الكبرى", title: "مراكز خدمة فريش بالقاهرة والجيزة", description: "نقاط خدمة متعددة في القاهرة والجيزة لضمان سرعة الوصول إليك.", linkText: "اتصل بنا", link: "tel:19006" },
-      { image: placeholderImg('fresh', 'alex-location', 'location'), category: "خدمة الإسكندرية", title: "مركز خدمة فريش بالإسكندرية", description: "فرعنا بالإسكندرية يقدم صيانة شاملة لجميع أجهزة فريش.", linkText: "اتصل بنا", link: "tel:19006" },
-      { image: placeholderImg('fresh', 'cities-map', 'location'), category: "خدمة المحافظات الأخرى", title: "خدمة فريش بباقي المحافظات", description: "اتصل بالخط الساخن للاستعلام عن أقرب مركز خدمة معتمد لـ فريش في محافظتك.", linkText: "اتصل بنا", link: "tel:19006" },
+      { image: "https://maintenance-eg.com/uploads/fresh-maintenance-branches.webp", category: "خدمة القاهرة الكبرى", title: "مراكز خدمة فريش بالقاهرة والجيزة", description: "نقاط خدمة متعددة في القاهرة والجيزة لضمان سرعة الوصول إليك.", linkText: "اتصل بنا", link: "tel:19006" },
+      { image: "https://maintenance-eg.com/uploads/fresh-maintenance-branches.webp", category: "خدمة الإسكندرية", title: "مركز خدمة فريش بالإسكندرية", description: "فرعنا بالإسكندرية يقدم صيانة شاملة لجميع أجهزة فريش.", linkText: "اتصل بنا", link: "tel:19006" },
     ]
   },
 };
@@ -482,3 +483,6 @@ const allBrandsData: Record<string, BrandData> = {
 export const getBrandData = (slug: string): BrandData | undefined => {
   return allBrandsData[slug];
 };
+
+// Export the list of brands for use in the Navbar
+export const supportedBrandsList: BrandData[] = Object.values(allBrandsData);

@@ -101,7 +101,10 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-700 pt-6 mt-8 text-center text-xs text-gray-500">
-           <p>© {new Date().getFullYear()} العالمية للصيانة. جميع الحقوق محفوظة.</p>
+              <div>
+                <p>© {new Date().getFullYear()} العالمية للصيانة. جميع الحقوق محفوظة.</p>
+                <p className="mt-2">مصمم ومتطور من قبل <a href="https://sourcemediagroup.com" target="_blank" rel="noopener noreferrer" className="hover:underline text-[#0d6efd] transition-colors">source media group</a></p>
+              </div>
            <ul className="flex items-center justify-center space-x-4 mt-2">
              <li>
                <Link href="/privacy-policy" className="hover:text-white transition-colors">

@@ -35,8 +35,8 @@ const BrandsSection = () => {
                 />
               </div>
               <Link
-                 // href={`/صيانة/${brand.slug}`} // Or link to contact/specific page
-                 href="#footer" // Example: Link to contact section
+                 href={`/brands/${brand.slug}`} // Or link to contact/specific page
+                //  href="#footer" // Example: Link to contact section
                  className="inline-flex items-center text-base font-medium text-[#0d6efd] hover:text-[#0b5ed7] group"
               >
                 {`صيانة ${brand.name}`}

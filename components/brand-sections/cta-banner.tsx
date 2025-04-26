@@ -1,5 +1,7 @@
+'use client';
 import React from 'react';
 import Link from 'next/link';
+import { motion } from 'framer-motion'; // Import motion
 import { BrandData } from '@/src/types/brand';
 
 interface CtaBannerProps {
@@ -9,7 +11,14 @@ interface CtaBannerProps {
 
 const CtaBanner: React.FC<CtaBannerProps> = ({ data, primaryColor }) => {
   return (
-    <section className="py-12 md:py-16 text-white" style={{ backgroundColor: primaryColor }}>
+    <motion.section
+      className="py-12 md:py-16 text-white"
+      style={{ backgroundColor: primaryColor }}
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.3 }}
+      transition={{ duration: 0.6, ease: "easeOut" }}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center md:text-right">
          <div className="md:flex md:items-center md:justify-between">
             <div className="md:w-2/3 mb-6 md:mb-0">
@@ -27,7 +36,7 @@ const CtaBanner: React.FC<CtaBannerProps> = ({ data, primaryColor }) => {
             </div>
          </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

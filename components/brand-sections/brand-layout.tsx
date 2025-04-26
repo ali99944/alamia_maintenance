@@ -1,18 +1,18 @@
-'use client';
-
 import { BrandData } from '@/src/types/brand';
 import React from 'react';
 import ArticlesOrLocationsSection from './articles-locations-section';
+import ContactFormSection from './contact-form';
 import CtaBanner from './cta-banner';
 import FeaturesSection from './features-section';
 import HeroSlider from './hero-slider';
 import IntroSection from './intro-section';
-import ContactFormSection from './contact-form';
+
+// Define the general contact email (can be imported from a config file)
+const GENERAL_CONTACT_EMAIL = "info@alalamiah-maintenance.com"; // <<-- REPLACE WITH YOUR ACTUAL EMAIL
+
 interface BrandPageLayoutProps {
   brandData: BrandData;
 }
-
-const GENERAL_CONTACT_EMAIL = "info@alalamiah-maintenance.com"; 
 
 const BrandPageLayout: React.FC<BrandPageLayoutProps> = ({ brandData }) => {
   if (!brandData) {
@@ -21,7 +21,11 @@ const BrandPageLayout: React.FC<BrandPageLayoutProps> = ({ brandData }) => {
   }
 
   const { primaryColor, name } = brandData;
+
+  // Decide which email to use. Default to general email.
+  // If you add 'contactEmail' to BrandData interface, you could use:
   const targetEmail = brandData.contactEmail || GENERAL_CONTACT_EMAIL;
+  // const targetEmail = GENERAL_CONTACT_EMAIL; // Or always use general
 
   return (
     <div className="brand-page"> {/* Add a class for potential global styling */}
@@ -36,13 +40,13 @@ const BrandPageLayout: React.FC<BrandPageLayoutProps> = ({ brandData }) => {
       <CtaBanner data={brandData.ctaBanner1} primaryColor={primaryColor} />
 
       {/* Section 4: Articles/Services */}
-      {brandData.articles.items.length > 0 && (
+      {brandData.articles?.items && brandData.articles.items.length > 0 && (
         <ArticlesOrLocationsSection
           preTitle={brandData.articles.preTitle}
           title={brandData.articles.title}
           items={brandData.articles.items}
           primaryColor={primaryColor}
-          bgColorClass="bg-white" // Example background
+          bgColorClass="bg-gray-50" // Alternate background
         />
       )}
 
@@ -54,22 +58,22 @@ const BrandPageLayout: React.FC<BrandPageLayoutProps> = ({ brandData }) => {
       />
 
       {/* Section 6: Locations/Branches */}
-       {brandData.locations.items.length > 0 && (
+       {brandData.locations?.items && brandData.locations.items.length > 0 && (
          <ArticlesOrLocationsSection
            preTitle={brandData.locations.preTitle}
            title={brandData.locations.title}
            items={brandData.locations.items}
            primaryColor={primaryColor}
-           bgColorClass="bg-white" // Example background
+           bgColorClass="bg-white" // Alternate background
          />
        )}
 
       {/* Section 7: Contact Form */}
-      <ContactFormSection
-          primaryColor={primaryColor}
-          brandName={name}
-          targetEmail={targetEmail} // Pass the determined email
-      />
+       <ContactFormSection
+           primaryColor={primaryColor}
+           brandName={name}
+           targetEmail={targetEmail} // Pass the determined email
+       />
 
     </div>
   );

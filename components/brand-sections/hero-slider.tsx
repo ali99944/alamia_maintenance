@@ -5,6 +5,7 @@ import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { motion } from 'framer-motion'; // Import motion
 
 // Import Swiper styles
 import 'swiper/css';
@@ -19,7 +20,13 @@ interface HeroSliderProps {
 
 const HeroSlider: React.FC<HeroSliderProps> = ({ slides, primaryColor }) => {
   return (
-    <div className="relative h-[60vh] md:h-[75vh] lg:h-[85vh] w-full group">
+    // Wrap the entire slider container with motion.div for initial load animation
+    <motion.div
+      className="relative h-[60vh] md:h-[75vh] lg:h-[85vh] w-full group"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.8 }}
+    >
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={0}
@@ -28,7 +35,7 @@ const HeroSlider: React.FC<HeroSliderProps> = ({ slides, primaryColor }) => {
           nextEl: '.swiper-button-next-custom',
           prevEl: '.swiper-button-prev-custom',
         }}
-        pagination={{ clickable: true }}
+        pagination={{ clickable: true, dynamicBullets: true }} // Added dynamic bullets
         loop={true}
         autoplay={{ delay: 5000, disableOnInteraction: false }}
         className="h-full"
@@ -52,7 +59,7 @@ const HeroSlider: React.FC<HeroSliderProps> = ({ slides, primaryColor }) => {
                 </h1>
                 <Link href={slide.buttonLink}>
                   <button
-                    className="mt-4 px-8 py-3 text-white font-semibold rounded-md hover:opacity-90 transition duration-300"
+                    className="mt-4 px-8 py-3 text-white font-semibold rounded-md hover:opacity-90 transition duration-300 transform hover:scale-105"
                     style={{ backgroundColor: primaryColor }}
                   >
                     {slide.buttonText}
@@ -65,13 +72,13 @@ const HeroSlider: React.FC<HeroSliderProps> = ({ slides, primaryColor }) => {
       </Swiper>
 
       {/* Custom Navigation Arrows */}
-      <button className="swiper-button-prev-custom absolute top-1/2 right-4 transform -translate-y-1/2 z-10 bg-black bg-opacity-40 hover:bg-opacity-60 text-white p-3 rounded-full transition duration-300 group-hover:opacity-100 opacity-0 md:opacity-100">
-        <ChevronRight className="w-6 h-6" /> {/* RTL: Right arrow for Prev */}
-      </button>
-      <button className="swiper-button-next-custom absolute top-1/2 left-4 transform -translate-y-1/2 z-10 bg-black bg-opacity-40 hover:bg-opacity-60 text-white p-3 rounded-full transition duration-300 group-hover:opacity-100 opacity-0 md:opacity-100">
+      <button className="swiper-button-next-custom absolute top-1/2 right-4 transform -translate-y-1/2 z-10 bg-black bg-opacity-40 hover:bg-opacity-60 text-white p-3 rounded-full transition duration-300 group-hover:opacity-100 opacity-0 md:opacity-100">
         <ChevronLeft className="w-6 h-6" /> {/* RTL: Left arrow for Next */}
       </button>
-    </div>
+      <button className="swiper-button-prev-custom absolute top-1/2 left-4 transform -translate-y-1/2 z-10 bg-black bg-opacity-40 hover:bg-opacity-60 text-white p-3 rounded-full transition duration-300 group-hover:opacity-100 opacity-0 md:opacity-100">
+        <ChevronRight className="w-6 h-6" /> {/* RTL: Right arrow for Prev */}
+      </button>
+    </motion.div>
   );
 };
 

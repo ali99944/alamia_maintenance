@@ -5,9 +5,9 @@ import { Phone } from 'lucide-react';
 import { MessageCircle } from 'lucide-react'; // Using MessageCircle as placeholder
 
 const FloatingButtons = () => {
-  const phoneNumber = "+201014288385"; // <-- REPLACE with your phone
-  const secondPhoneNumber = "+201014288385"; // <-- REPLACE with your phone
-  const whatsappNumber = "201014288385"; // <-- REPLACE with WhatsApp number (no +)
+  const phoneNumber = "+201288582979"; // <-- REPLACE with your phone
+  const secondPhoneNumber = "+201143740234"; // <-- REPLACE with your phone
+  const whatsappNumber = "201154021207"; // <-- REPLACE with WhatsApp number (no +)
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent("أرغب في الاستفسار عن خدمات الصيانة")}`;
 
   return (

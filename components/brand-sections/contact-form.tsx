@@ -1,6 +1,6 @@
 'use client';
-
 import React, { useState } from 'react';
+import { motion } from 'framer-motion'; // Import motion
 
 interface ContactFormSectionProps {
   primaryColor: string;
@@ -53,15 +53,9 @@ ${message}
     // Attempt to open the mail client
     try {
         // Using window.open for potentially better compatibility in some scenarios
-        const mailWindow = window.open(mailtoLink, '_self');
+        window.open(mailtoLink, '_self');
         // Small delay to allow mail client to potentially open
         setTimeout(() => {
-            // Check if the window/tab is still open (might indicate mail client didn't open)
-            // This check is not perfectly reliable across all browsers/clients
-            if (mailWindow && !mailWindow.closed) {
-               // console.log("Mail client might not have opened automatically.");
-               // Optionally show a message asking user to check their mail client
-            }
              // Show success message regardless, assuming the intent was made
              setShowSuccessMessage(true);
              // Clear the form after a short delay
@@ -79,7 +73,13 @@ ${message}
   };
 
   return (
-    <section className="py-16 md:py-20 bg-white">
+    <motion.section
+      className="py-16 md:py-20 bg-white" // Or bg-gray-50
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true, amount: 0.2 }}
+      transition={{ duration: 0.7 }}
+    >
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-10">
            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mt-2">
@@ -90,7 +90,15 @@ ${message}
            </p>
         </div>
 
-        <form onSubmit={handleSubmit} className="space-y-6">
+        {/* Animate the form itself slightly */}
+        <motion.form
+           onSubmit={handleSubmit}
+           className="space-y-6"
+           initial={{ opacity: 0, y: 30 }}
+           whileInView={{ opacity: 1, y: 0 }}
+           viewport={{ once: true, amount: 0.2 }}
+           transition={{ duration: 0.6, delay: 0.2 }} // Slight delay after section appears
+        >
           {/* Input fields remain the same as before */}
           <div>
             <label htmlFor="fullName" className="block text-sm font-medium text-gray-700 mb-1">
@@ -157,9 +165,9 @@ ${message}
               إرسال عبر البريد الإلكتروني
             </button>
           </div>
-        </form>
+        </motion.form>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
