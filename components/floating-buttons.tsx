@@ -16,7 +16,7 @@ const FloatingButtons = () => {
       <a
         href={`tel:${phoneNumber}`}
         aria-label="اتصل بنا"
-        className="bg-[#0d6efd] hover:bg-[#0b5ed7] text-white p-3.5 rounded-full  transition duration-300 ease-in-out flex items-center justify-center" // Adjusted blue color, slightly larger padding
+        className="bg-[#bb1414] hover:bg-[#9b1111] text-white p-3.5 rounded-full  transition duration-300 ease-in-out flex items-center justify-center" // Adjusted blue color, slightly larger padding
       >
         <Phone className="h-6 w-6" />
       </a>

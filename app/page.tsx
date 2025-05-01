@@ -2,33 +2,37 @@
 
 import React from 'react';
 import { motion } from 'framer-motion'; // Import motion
-
-// Import Components
-import BrandsSection from "@/components/brands-section"; // Your existing brands section
+import AcServiceSection from '@/components/ac-service-section';
 import HeroSlider from '@/components/brand-sections/hero-slider';
+import BrandsSection from '@/components/brands-section';
 import { HeroSlide } from '@/src/types/brand';
+import ProcessSection from '@/components/proccess-section';
+import WhyChooseUsSection from '@/components/why-choose-us';
 
+
+// --- Define Homepage Slider Data ---
+// <<-- KEEP YOUR UPDATED homePageSlides ARRAY HERE -->>
 const homePageSlides: HeroSlide[] = [
   {
-    image: 'https://maintenance-eg.com/files/slider1.webp', // Replace with actual image path
+    image: 'https://maintenance-eg.com/files/slider1.webp',
     title: "مركز العالمية للصيانة المعتمد",
     subtitle: "خدمة سريعة وموثوقة لجميع الأجهزة المنزلية",
     buttonText: "اتصل بنا الآن",
-    buttonLink: "tel:+201098765432" // <<-- REPLACE with main contact number
+    buttonLink: "tel:+201098765432"
   },
   {
-    image: 'https://maintenance-eg.com/files/slider2.webp', // Replace with actual image path
+    image: 'https://maintenance-eg.com/files/slider2.webp',
     title: "فنيون خبراء وقطع غيار أصلية",
     subtitle: "ضمان على الصيانة لجميع الماركات",
     buttonText: "اعرف المزيد عن خدماتنا",
-    buttonLink: "/about" // Link to about page, for example
+    buttonLink: "/about"
   },
    {
-    image: 'https://maintenance-eg.com/files/slider3.webp', // Replace with actual image path
+    image: 'https://maintenance-eg.com/files/slider3.webp',
     title: "صيانة معتمدة لـ كارير، سامسونج، ال جي والمزيد",
     subtitle: "نغطي كافة أنحاء الجمهورية",
     buttonText: "اطلب صيانة فورية",
-    buttonLink: "/contact" // Link to contact page, for example
+    buttonLink: "/contact"
   },
 ];
 // ----------------------------------
@@ -40,32 +44,32 @@ export default function HomePage() {
   return (
     <>
       {/* --- Hero Slider Section --- */}
-      {/* Reusing the HeroSlider component */}
       <HeroSlider slides={homePageSlides} primaryColor={sitePrimaryColor} />
 
+      {/* === NEW: Air Conditioner Service Section === */}
+      <AcServiceSection />
+      {/* ========================================== */}
 
       {/* --- Brands Section (Animated) --- */}
+      {/* Keep the motion div wrapper if desired */}
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, amount: 0.2 }} // Trigger when 20% is visible
+        viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
       >
         <BrandsSection />
       </motion.div>
 
 
-      {/* Add other homepage sections here and wrap them in motion.div if desired */}
-      {/* Example:
-      <motion.div
-        initial={{ opacity: 0, y: 50 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, amount: 0.2 }}
-        transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }} // Add delay if needed
-      >
-        <SomeOtherSectionComponent />
-      </motion.div>
-      */}
+{/* === NEW: Why Choose Us Section === */}
+<WhyChooseUsSection />
+      {/* ================================ */}
+
+      {/* === NEW: Our Simple Process Section === */}
+      <ProcessSection />
+      {/* ===================================== */}
+
     </>
   );
 }

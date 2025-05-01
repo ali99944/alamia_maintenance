@@ -14,9 +14,9 @@ const Footer = () => {
     { name: "فريش", slug: "fresh" },
   ];
 
-  const footerPhone = "01014288385"; // <-- REPLACE number
+  const footerPhone = "01288582979"; // <-- REPLACE number
   const footerEmail = "[email protected]"; // <-- REPLACE email (or remove if none)
-  const facebookLink = "#"; // <-- REPLACE social links
+  const facebookLink = "#"  ; // <-- REPLACE social links
   const twitterLink = "#";
   const instagramLink = "#";
   const youtubeLink = "#";
@@ -103,7 +103,7 @@ const Footer = () => {
         <div className="border-t border-gray-700 pt-6 mt-8 text-center text-xs text-gray-500">
               <div>
                 <p>© {new Date().getFullYear()} العالمية للصيانة. جميع الحقوق محفوظة.</p>
-                <p className="mt-2">مصمم ومتطور من قبل <a href="https://sourcemediagroup.com" target="_blank" rel="noopener noreferrer" className="hover:underline text-[#0d6efd] transition-colors">source media group</a></p>
+                <p className="mt-2">مصمم ومتطور من قبل <a href="https://sourcemediaagency.com" target="_blank" rel="noopener noreferrer" className="hover:underline text-[#0d6efd] transition-colors">source media group</a></p>
               </div>
            <ul className="flex items-center justify-center space-x-4 mt-2">
              <li>
