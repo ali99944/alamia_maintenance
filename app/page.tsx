@@ -15,23 +15,23 @@ import WhyChooseUsSection from '@/components/why-choose-us';
 const homePageSlides: HeroSlide[] = [
   {
     image: 'https://maintenance-eg.com/files/slider1.webp',
-    title: "مركز العالمية للصيانة المعتمد",
-    subtitle: "خدمة سريعة وموثوقة لجميع الأجهزة المنزلية",
+    title: "مركز العالمية لصيانة المكيفات المعتمد",
+    subtitle: "خدمة سريعة وموثوقة لجميع أنواع المكيفات",
     buttonText: "اتصل بنا الآن",
     buttonLink: "tel:+201098765432"
   },
   {
     image: 'https://maintenance-eg.com/files/slider2.webp',
-    title: "فنيون خبراء وقطع غيار أصلية",
-    subtitle: "ضمان على الصيانة لجميع الماركات",
-    buttonText: "اعرف المزيد عن خدماتنا",
+    title: "فنيون خبراء في إصلاح المكيفات",
+    subtitle: "نقدم ضمان على الصيانة لجميع أنواع المكيفات",
+    buttonText: "اعرف المزيد عن خدمات صيانة المكيفات",
     buttonLink: "/about"
   },
    {
     image: 'https://maintenance-eg.com/files/slider3.webp',
-    title: "صيانة معتمدة لـ كارير، سامسونج، ال جي والمزيد",
+    title: "صيانة معتمدة لجميع أنواع المكيفات",
     subtitle: "نغطي كافة أنحاء الجمهورية",
-    buttonText: "اطلب صيانة فورية",
+    buttonText: "اطلب صيانة مكيف فورية",
     buttonLink: "/contact"
   },
 ];
