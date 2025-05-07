@@ -12,6 +12,7 @@ interface ArticlesOrLocationsProps {
   items: BrandArticleOrLocation[];
   primaryColor: string;
   bgColorClass?: string;
+  logo: string;
 }
 
 const ArticlesOrLocationsSection: React.FC<ArticlesOrLocationsProps> = ({
@@ -20,6 +21,7 @@ const ArticlesOrLocationsSection: React.FC<ArticlesOrLocationsProps> = ({
   items,
   primaryColor,
   bgColorClass = 'bg-white',
+  logo
 }) => {
 
   // Animation variants for stagger effect
@@ -81,9 +83,13 @@ const ArticlesOrLocationsSection: React.FC<ArticlesOrLocationsProps> = ({
                   objectFit="cover"
                 />
                 {/* Category Tag */}
-                <span className="absolute top-3 right-3 px-3 py-1 text-xs font-semibold text-white rounded" style={{ backgroundColor: primaryColor }}>
-                    {item.category}
-                 </span>
+                <Image
+                  src={logo}
+                  alt={item.category}
+                  className="absolute top-3 right-3 w-8 h-8"
+                  width={32}
+                  height={32}
+                />
               </div>
               <div className="p-6 flex flex-col flex-grow">
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">{item.title}</h3>

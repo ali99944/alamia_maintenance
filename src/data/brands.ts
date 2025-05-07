@@ -9,16 +9,16 @@ export const lgData: BrandData = {
   slug: "lg",
   primaryColor: "#C3003C", // LG Red
   secondaryColor: "#FFFFFF",
-  logo: "/brands/lg/logos/lg-logo-color.png",
+  logo: "/brands/lg.png",
   logoWhite: "/brands/lg/logos/lg-logo-white.png",
   hotline: "19001",
   contactEmail: "lg@lg.com.eg",
 
   hero: {
     slides: [
-      { image: 'https://maintenance-eg.com/files/slider1.webp', title: "فنيين ذو خبره وكفاءة لصيانة ال جي", subtitle: "خدمة فورية بالمنزل", buttonText: "اتصل بنا الآن", buttonLink: "tel:19001" },
-      { image: 'https://maintenance-eg.com/files/slider2.webp', title: "قطع غيار أصلية ١٠٠٪ من ال جي", subtitle: "ضمان معتمد لمدة عام", buttonText: "اطلب صيانة", buttonLink: "#footer" },
-      { image: 'https://maintenance-eg.com/files/slider3.webp', title: "نغطي جميع محافظات مصر", subtitle: "مراكز صيانة ال جي منتشرة", buttonText: "تواصل معنا", buttonLink: "tel:19001" },
+      { image: 'https://maintenance-eg.com/files/slider1.webp', title: "فنيين ذو خبره وكفاءة لصيانة تكييف ال جي", subtitle: "خدمة فورية بالمنزل", buttonText: "اتصل بنا الآن", buttonLink: "tel:19001" },
+      { image: 'https://maintenance-eg.com/files/slider2.webp', title: "قطع غيار أصلية ١٠٠٪ من تكييف ال جي", subtitle: "ضمان معتمد لمدة عام", buttonText: "اطلب صيانة", buttonLink: "#footer" },
+      { image: 'https://maintenance-eg.com/files/slider3.webp', title: "نغطي جميع محافظات مصر لصيانة تكييف ال جي", subtitle: "مراكز صيانة تكييف ال جي منتشرة", buttonText: "تواصل معنا", buttonLink: "tel:19001" },
     ]
   },
   intro: {
@@ -45,9 +45,9 @@ export const lgData: BrandData = {
     preTitle: "خدمات مركز ال جي",
     title: "كل ما تحتاجه لصيانة أجهزة ال جي",
     items: [
-      { image: "https://maintenance-eg.com/uploads/lg-official-maintenance.webp", category: "صيانة ثلاجات ال جي", title: "صيانة ثلاجات وديب فريزر ال جي", description: "حلول متكاملة لجميع أعطال ثلاجات ال جي، بما في ذلك مشاكل التبريد، تسريب المياه، وأعطال الموتور، مع توفير قطع غيار أصلية.", linkText: "اعرف المزيد", link: "/صيانة/lg/ثلاجات" },
-      { image: "https://maintenance-eg.com/uploads/lg-main-maintenance.webp", category: "صيانة غسالات ال جي", title: "صيانة غسالات ملابس وأطباق ال جي", description: "إصلاح أعطال غسالات ال جي بجميع موديلاتها، سواء كانت مشاكل في الدوران، صرف المياه، أو لوحة التحكم الإلكترونية.", linkText: "اعرف المزيد", link: "/صيانة/lg/غسالات" },
-      { image: "https://maintenance-eg.com/uploads/lg-main-maintenance.webp", category: "صيانة تكييفات ال جي", title: "صيانة تكييفات ال جي سبليت وشباك", description: "خدمات صيانة دورية وشاملة لتكييفات ال جي، تشمل تنظيف الفلاتر، فحص الفريون، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/تكييفات" },
+      { image: "https://img.freepik.com/free-photo/air-conditioning-decoration-interior_74190-6226.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات ال جي سبليت", title: "صيانة تكييفات ال جي سبليت", description: "خدمات صيانة دورية وشاملة لتكييفات ال جي سبليت، تشمل تنظيف الفلاتر، فحص الفريون، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/سبليت" },
+      { image: "https://img.freepik.com/free-photo/checking-conditioner_1098-17787.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات ال جي شباك", title: "صيانة تكييفات ال جي شباك", description: "نقدم خدمات صيانة متخصصة لتكييفات ال جي شباك، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/شباك" },
+      { image: "https://img.freepik.com/premium-photo/young-happy-woman-with-closed-eyes-sitting-sofa-air-conditioning-adjusting-comfortable-temperature-with-remote-control-modern-home_122732-3729.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات ال جي فيلكس", title: "صيانة تكييفات ال جي فيلكس", description: "نقدم خدمات صيانة متخصصة لتكييفات ال جي فيلكس، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/فيلكس" },
     ]
   },
   features: {
@@ -87,16 +87,16 @@ export const samsungData: BrandData = {
   slug: "samsung",
   primaryColor: "#1428A0", // Samsung Blue
   secondaryColor: "#FFFFFF",
-  logo: "/brands/samsung/logos/samsung-logo-color.png",
+  logo: "/brands/samsung.png",
   logoWhite: "/brands/samsung/logos/samsung-logo-white.png",
   hotline: "19002",
   contactEmail: "samsung@lg.com.eg",
 
   hero: {
     slides: [
-      { image: 'https://maintenance-eg.com/files/slider1.webp', title: "صيانة سامسونج المعتمدة في مصر", subtitle: "خبراء الأجهزة الذكية", buttonText: "اتصل بالخط الساخن", buttonLink: "tel:19002" },
-      { image: 'https://maintenance-eg.com/files/slider2.webp', title: "حلول مبتكرة لصيانة أجهزة سامسونج", subtitle: "تكنولوجيا وجودة", buttonText: "اطلب زيارة فني", buttonLink: "#footer" },
-      { image: 'https://maintenance-eg.com/files/slider3.webp', title: "أجهزة سامسونج المعتمدة - جودة لا مثيل لها", subtitle: "نوفر خدمات صيانة معتمدة لجميع منتجات سامسونج", buttonText: "اطلب زيارة فني", buttonLink: "#footer" },
+      { image: 'https://maintenance-eg.com/files/slider1.webp', title: "صيانة مكيفات سامسونج المعتمدة في مصر", subtitle: "خبراء التبريد والتدفئة", buttonText: "اتصل بالخط الساخن", buttonLink: "tel:19002" },
+      { image: 'https://maintenance-eg.com/files/slider2.webp', title: "حلول مبتكرة لصيانة مكيفات سامسونج", subtitle: "تكنولوجيا وجودة", buttonText: "اطلب زيارة فني", buttonLink: "#footer" },
+      { image: 'https://maintenance-eg.com/files/slider3.webp', title: "مكيفات سامسونج المعتمدة - جودة لا مثيل لها", subtitle: "نوفر خدمات صيانة معتمدة لجميع منتجات سامسونج", buttonText: "اطلب زيارة فني", buttonLink: "#footer" },
     ]
   },
   intro: {
@@ -123,9 +123,9 @@ export const samsungData: BrandData = {
     preTitle: "خدماتنا المتخصصة",
     title: "صيانة جميع منتجات سامسونج",
     items: [
-      { image: "https://maintenance-eg.com/uploads/samsung-official-maintenance.webp", category: "صيانة شاشات سامسونج", title: "إصلاح شاشات سامسونج (LED, QLED, OLED)", description: "متخصصون في إصلاح جميع أعطال شاشات سامسونج، بما في ذلك مشاكل الصورة، الصوت، والاتصال بالإنترنت.", linkText: "التفاصيل", link: "/صيانة/samsung/شاشات" },
-      { image: "https://maintenance-eg.com/uploads/samsung-main-maintenance.webp", category: "صيانة ثلاجات سامسونج", title: "صيانة ثلاجات سامسونج الحديثة", description: "نقدم صيانة لثلاجات سامسونج بجميع أنواعها، بما في ذلك موديلات Bespoke، مع حلول لمشاكل التبريد وصانع الثلج.", linkText: "التفاصيل", link: "/صيانة/samsung/ثلاجات" },
-      { image: "https://maintenance-eg.com/uploads/samsung-company.webp", category: "صيانة غسالات سامسونج", title: "صيانة غسالات سامسونج AddWash وغيرها", description: "إصلاح أعطال غسالات سامسونج، بما في ذلك مشاكل عدم دوران الحلة، تسريب المياه، والأخطاء الرقمية.", linkText: "التفاصيل", link: "/صيانة/samsung/غسالات" },
+      { image: "https://img.freepik.com/free-photo/air-conditioning-decoration-interior_74190-6226.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات سامسونج سبليت", title: "صيانة تكييفات سامسونج سبليت", description: "خدمات صيانة دورية وشاملة لتكييفات سامسونج سبليت، تشمل تنظيف الفلاتر، فحص الفريون، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/سبليت" },
+      { image: "https://img.freepik.com/free-photo/checking-conditioner_1098-17787.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات سامسونج شباك", title: "صيانة تكييفات سامسونج شباك", description: "نقدم خدمات صيانة متخصصة لتكييفات سامسونج شباك، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/شباك" },
+      { image: "https://img.freepik.com/premium-photo/young-happy-woman-with-closed-eyes-sitting-sofa-air-conditioning-adjusting-comfortable-temperature-with-remote-control-modern-home_122732-3729.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات سامسونج فيلكس", title: "صيانة تكييفات سامسونج فيلكس", description: "نقدم خدمات صيانة متخصصة لتكييفات سامسونج فيلكس، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/فيلكس" },
     ]
   },
   features: {
@@ -164,7 +164,7 @@ export const carrierData: BrandData = {
   slug: "carrier",
   primaryColor: "#0053A0", // Carrier Blue
   secondaryColor: "#FFFFFF",
-  logo: "/brands/carrier/logos/carrier-logo-color.png",
+  logo: "/brands/carrier.svg",
   logoWhite: "/brands/carrier/logos/carrier-logo-white.png",
   hotline: "19003",
   contactEmail: 'carrier@alalamiah-maintenance.com',
@@ -200,9 +200,9 @@ export const carrierData: BrandData = {
     preTitle: "خدمات تكييف كارير",
     title: "صيانة وتركيب تكييفات كارير",
     items: [
-      { image: "https://maintenance-eg.com/uploads/carrier-official-maintenance.webp", category: "صيانة تكييف سبليت", title: "صيانة تكييف كارير سبليت", description: "خدمات صيانة متكاملة لجميع موديلات تكييف كارير سبليت، تشمل الكشف عن الأعطال وإصلاحها وتنظيف الوحدات.", linkText: "خدمات السبليت", link: "/صيانة/carrier/سبليت" },
-      { image: "https://maintenance-eg.com/uploads/carrier-official-maintenance.webp", category: "صيانة تكييف مركزي", title: "صيانة التكييف المركزي كارير", description: "حلول صيانة متخصصة لأنظمة التكييف المركزي من كارير للمباني التجارية والسكنية الكبيرة.", linkText: "خدمات المركزي", link: "/صيانة/carrier/مركزي" },
-      { image: "https://maintenance-eg.com/uploads/carrier-company.webp", category: "خدمات الفريون", title: "فحص وشحن فريون كارير", description: " نقدم خدمة فحص دقيق لمستوى الفريون وشحن التكييف بالكمية المناسبة لضمان أفضل أداء تبريد.", linkText: "خدمات الفريون", link: "/صيانة/carrier/فريون" },
+      { image: "https://img.freepik.com/free-photo/air-conditioning-decoration-interior_74190-6226.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات كاريير سبليت", title: "صيانة تكييفات كاريير سبليت", description: "خدمات صيانة دورية وشاملة لتكييفات كاريير سبليت، تشمل تنظيف الفلاتر، فحص الفريون، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/سبليت" },
+      { image: "https://img.freepik.com/free-photo/checking-conditioner_1098-17787.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات كاريير شباك", title: "صيانة تكييفات كاريير شباك", description: "نقدم خدمات صيانة متخصصة لتكييفات كاريير شباك، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/شباك" },
+      { image: "https://img.freepik.com/premium-photo/young-happy-woman-with-closed-eyes-sitting-sofa-air-conditioning-adjusting-comfortable-temperature-with-remote-control-modern-home_122732-3729.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات كاريير فيلكس", title: "صيانة تكييفات كاريير فيلكس", description: "نقدم خدمات صيانة متخصصة لتكييفات كاريير فيلكس، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/فيلكس" },
     ]
   },
   features: {
@@ -241,17 +241,16 @@ export const unionaireData: BrandData = {
   slug: "unionaire",
   primaryColor: "#D81B2F", // Unionaire Red
   secondaryColor: "#FFFFFF",
-  logo: "/brands/unionaire/logos/unionaire-logo-color.png",
+  logo: "/brands/unionaire.png",
   logoWhite: "/brands/unionaire/logos/unionaire-logo-white.png",
   hotline: "19004",
   contactEmail: 'unionaire@alalamiah-maintenance.com',
 
   hero: {
     slides: [
-      { image: 'https://maintenance-eg.com/files/slider1.webp', title: "صيانة يونيون اير المعتمدة لجميع الأجهزة", subtitle: "جودة وكفاءة تثق بها", buttonText: "اتصل بالصيانة", buttonLink: "tel:19004" },
-      { image: 'https://maintenance-eg.com/files/slider2.webp', title: "صيانة تكييفات يونيون اير بكفاءة عالية", subtitle: "استمتع بجو مثالي", buttonText: "طلب صيانة تكييف", buttonLink: "#footer" },
-      { image: 'https://maintenance-eg.com/files/slider3.webp', title: "فريق فني متخصص لصيانة يونيون اير", subtitle: "نقدم لكم خبرة 22 سنة في خدمة الصناعة المصرية", buttonText: "اعرف المزيد", buttonLink: "#intro" },
-      
+      { image: 'https://maintenance-eg.com/files/slider1.webp', title: "صيانة تكييف يونيون اير المعتمدة", subtitle: "جودة وكفاءة تثق بها", buttonText: "اتصل بالصيانة", buttonLink: "tel:19004" },
+      { image: 'https://maintenance-eg.com/files/slider2.webp', title: "تركيب وصيانة تكييف يونيون اير", subtitle: "استمتع بجو مثالي", buttonText: "طلب صيانة تكييف", buttonLink: "#footer" },
+      { image: 'https://maintenance-eg.com/files/slider3.webp', title: "فريق فني متخصص لصيانة تكييف يونيون اير", subtitle: "نقدم لكم خبرة 22 سنة في خدمة الصناعة المصرية", buttonText: "اعرف المزيد", buttonLink: "#intro" },
     ]
   },
   intro: {
@@ -278,9 +277,9 @@ export const unionaireData: BrandData = {
     preTitle: "خدمات صيانة يونيون اير",
     title: "صيانة شاملة لأجهزة يونيون اير",
     items: [
-      { image: "https://maintenance-eg.com/uploads/unionaire-official-maintenance.webp", category: "صيانة تكييف يونيون اير", title: "صيانة تكييفات يونيون اير (سبليت وشباك)", description: "نقدم خدمات صيانة وإصلاح لجميع موديلات تكييفات يونيون اير، بما في ذلك Artify و Megafy، لضمان تبريد فعال.", linkText: "صيانة التكييف", link: "/صيانة/unionaire/تكييفات" },
-      { image: "https://maintenance-eg.com/uploads/unionaire-official-maintenance.webp", category: "صيانة شاشات يونيون اير", title: "إصلاح شاشات يونيون اير (LED)", description: "متخصصون في إصلاح أعطال شاشات يونيون اير المختلفة، مثل مشاكل الإضاءة، الصورة، أو الصوت.", linkText: "صيانة الشاشات", link: "/صيانة/unionaire/شاشات" },
-      { image: "https://maintenance-eg.com/uploads/unionaire-company.webp", category: "صيانة بوتاجاز يونيون اير", title: "صيانة بوتاجازات يونيون اير (غاز وكهرباء)", description: "إصلاح أعطال بوتاجازات يونيون اير، بما في ذلك مشاكل الإشعال الذاتي، تسريب الغاز، وأعطال الفرن.", linkText: "صيانة البوتاجاز", link: "/صيانة/unionaire/بوتاجازات" },
+      { image: "https://img.freepik.com/free-photo/air-conditioning-decoration-interior_74190-6226.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات يونيون اير سبليت", title: "صيانة تكييفات يونيون اير سبليت", description: "خدمات صيانة دورية وشاملة لتكييفات يونيون اير سبليت، تشمل تنظيف الفلاتر، فحص الفريون، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/سبليت" },
+      { image: "https://img.freepik.com/free-photo/checking-conditioner_1098-17787.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات يونيون اير شباك", title: "صيانة تكييفات يونيون اير شباك", description: "نقدم خدمات صيانة متخصصة لتكييفات يونيون اير شباك، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/شباك" },
+      { image: "https://img.freepik.com/premium-photo/young-happy-woman-with-closed-eyes-sitting-sofa-air-conditioning-adjusting-comfortable-temperature-with-remote-control-modern-home_122732-3729.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات يونيون اير فيلكس", title: "صيانة تكييفات يونيون اير فيلكس", description: "نقدم خدمات صيانة متخصصة لتكييفات يونيون اير فيلكس، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/فيلكس" },
     ]
   },
   features: {
@@ -319,7 +318,7 @@ export const sharpData: BrandData = {
   slug: "sharp",
   primaryColor: "#E3051B", // Sharp Red
   secondaryColor: "#FFFFFF",
-  logo: "/brands/sharp/logos/sharp-logo-color.png",
+  logo: "/brands/sharp.png",
   logoWhite: "/brands/sharp/logos/sharp-logo-white.png",
   hotline: "19005", // Assuming hotline for Sharp
 
@@ -327,8 +326,8 @@ export const sharpData: BrandData = {
 
   hero: {
     slides: [
-      { image: 'https://maintenance-eg.com/files/slider1.webp', title: "صيانة شارب المعتمدة للأجهزة اليابانية", subtitle: "جودة ودقة تثق بها", buttonText: "اتصل بخبراء شارب", buttonLink: "tel:19005" },
-      { image: 'https://maintenance-eg.com/files/slider2.webp', title: "حلول صيانة متكاملة لأجهزة شارب", subtitle: "ثلاجات، غسالات، شاشات، والمزيد", buttonText: "اطلب خدمة الصيانة", buttonLink: "#footer" },
+      { image: 'https://maintenance-eg.com/files/slider1.webp', title: "صيانة مكيفات شارب المعتمدة", subtitle: "خبراء التبريد والتدفئة", buttonText: "اتصل بنا للتكييف", buttonLink: "tel:19005" },
+      { image: 'https://maintenance-eg.com/files/slider2.webp', title: "تركيب وصيانة جميع موديلات مكيفات شارب", subtitle: "خدمة معتمدة وموثوقة", buttonText: "حجز موعد صيانة", buttonLink: "#footer" },
     ]
   },
   intro: {
@@ -355,9 +354,9 @@ export const sharpData: BrandData = {
     preTitle: "خدمات صيانة شارب",
     title: "صيانة جميع أجهزة شارب المنزلية",
     items: [
-      { image: "https://maintenance-eg.com/uploads/sharp-official-maintenance.webp", category: "صيانة شاشات شارب", title: "إصلاح شاشات شارب Aquos وغيرها", description: "صيانة متخصصة لشاشات شارب بجميع أنواعها وتقنياتها، لحل مشاكل الصورة والصوت والوظائف الذكية.", linkText: "خدمة الشاشات", link: "/صيانة/sharp/شاشات" },
-      { image: "https://maintenance-eg.com/uploads/sharp-main-maintenance.webp", category: "صيانة ثلاجات شارب", title: "صيانة ثلاجات وديب فريزر شارب", description: "حلول لجميع أعطال ثلاجات شارب، بما في ذلك مشاكل التبريد، تقنية البلازما كلاستر، وتسريب المياه.", linkText: "خدمة الثلاجات", link: "/صيانة/sharp/ثلاجات" },
-      { image: "https://maintenance-eg.com/uploads/sharp-company.webp", category: "أجهزة شارب الأخرى", title: "صيانة منقيات الهواء وأجهزة شارب الأخرى", description: "نقدم أيضًا صيانة لأجهزة شارب الأخرى مثل منقيات الهواء والميكروويف لضمان عملها بكفاءة.", linkText: "خدمات أخرى", link: "/صيانة/sharp/أخرى" },
+      { image: "https://img.freepik.com/free-photo/air-conditioning-decoration-interior_74190-6226.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات شارب سبليت", title: "صيانة تكييفات شارب سبليت", description: "خدمات صيانة دورية وشاملة لتكييفات شارب سبليت، تشمل تنظيف الفلاتر، فحص الفريون، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/سبليت" },
+      { image: "https://img.freepik.com/free-photo/checking-conditioner_1098-17787.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات شارب شباك", title: "صيانة تكييفات شارب شباك", description: "نقدم خدمات صيانة متخصصة لتكييفات شارب شباك، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/شباك" },
+      { image: "https://img.freepik.com/premium-photo/young-happy-woman-with-closed-eyes-sitting-sofa-air-conditioning-adjusting-comfortable-temperature-with-remote-control-modern-home_122732-3729.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات شارب فيلكس", title: "صيانة تكييفات شارب فيلكس", description: "نقدم خدمات صيانة متخصصة لتكييفات شارب فيلكس، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/فيلكس" },
     ]
   },
   features: {
@@ -404,8 +403,8 @@ export const freshData: BrandData = {
 
   hero: {
     slides: [
-      { image: 'https://maintenance-eg.com/files/slider1.webp', title: "صيانة فريش المعتمدة للأجهزة المنزلية", subtitle: "اختيار العائلة المصرية", buttonText: "اتصل بصيانة فريش", buttonLink: "tel:19006" },
-      { image: 'https://maintenance-eg.com/files/slider2.webp', title: "إصلاح سخانات وغسالات وبوتاجازات فريش", subtitle: "خدمة سريعة بأسعار مناسبة", buttonText: "احجز موعد صيانة", buttonLink: "#footer" },
+      { image: 'https://maintenance-eg.com/files/slider1.webp', title: "صيانة فريش المعتمدة للمكيفات", subtitle: "اختيار العائلة المصرية", buttonText: "اتصل بصيانة فريش", buttonLink: "tel:19006" },
+      { image: 'https://maintenance-eg.com/files/slider2.webp', title: "إصلاح مكيفات فريش", subtitle: "خدمة سريعة بأسعار مناسبة", buttonText: "احجز موعد صيانة", buttonLink: "#footer" },
       { image: 'https://maintenance-eg.com/files/slider3.webp', title: "دعم فني متواصل", subtitle: "استجابة سريعة على مدار الساعة", buttonText: "تواصل مع الدعم الفني", buttonLink: "tel:19006" },
 
     ]
@@ -434,9 +433,9 @@ export const freshData: BrandData = {
     preTitle: "خدماتنا لأجهزة فريش",
     title: "صيانة شاملة لمنتجات فريش",
     items: [
-      { image: "https://maintenance-eg.com/uploads/fresh-official-maintenance.webp", category: "صيانة سخانات فريش", title: "إصلاح سخانات فريش (غاز وكهرباء)", description: "حلول لجميع مشاكل سخانات فريش، بما في ذلك ضعف تسخين المياه، تسريب الغاز، أو أعطال الأمان.", linkText: "خدمة السخانات", link: "/صيانة/fresh/سخانات" },
-      { image: "https://maintenance-eg.com/uploads/fresh-official-maintenance.webp", category: "صيانة بوتاجازات فريش", title: "صيانة بوتاجازات فريش بجميع الموديلات", description: "إصلاح أعطال الإشعال، تسريب الغاز، مشاكل الفرن والشواية في بوتاجازات فريش.", linkText: "خدمة البوتاجازات", link: "/صيانة/fresh/بوتاجازات" },
-      { image: "https://maintenance-eg.com/uploads/fresh-company.webp", category: "صيانة غسالات فريش", title: "صيانة غسالات فريش (فوق وتحميل أمامي)", description: "خدمات إصلاح لغسالات فريش تشمل مشاكل العصر، سحب المياه، أو توقف التشغيل.", linkText: "خدمة الغسالات", link: "/صيانة/fresh/غسالات" },
+      { image: "https://img.freepik.com/free-photo/air-conditioning-decoration-interior_74190-6226.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات فريش سبليت", title: "صيانة تكييفات فريش سبليت", description: "خدمات صيانة دورية وشاملة لتكييفات فريش سبليت، تشمل تنظيف الفلاتر، فحص الفريون، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/سبليت" },
+      { image: "https://img.freepik.com/free-photo/checking-conditioner_1098-17787.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات فريش شباك", title: "صيانة تكييفات فريش شباك", description: "نقدم خدمات صيانة متخصصة لتكييفات فريش شباك، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/شباك" },
+      { image: "https://img.freepik.com/premium-photo/young-happy-woman-with-closed-eyes-sitting-sofa-air-conditioning-adjusting-comfortable-temperature-with-remote-control-modern-home_122732-3729.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات فريش فيلكس", title: "صيانة تكييفات فريش فيلكس", description: "نقدم خدمات صيانة متخصصة لتكييفات فريش فيلكس، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/فيلكس" },
     ]
   },
   features: {

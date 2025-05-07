@@ -6,6 +6,8 @@ import CtaBanner from './cta-banner';
 import FeaturesSection from './features-section';
 import HeroSlider from './hero-slider';
 import IntroSection from './intro-section';
+import Navbar from '../navbar';
+import Footer from '../footer';
 
 // Define the general contact email (can be imported from a config file)
 const GENERAL_CONTACT_EMAIL = "info@alalamiah-maintenance.com"; // <<-- REPLACE WITH YOUR ACTUAL EMAIL
@@ -29,7 +31,7 @@ const BrandPageLayout: React.FC<BrandPageLayoutProps> = ({ brandData }) => {
 
   return (
     <div className="brand-page"> {/* Add a class for potential global styling */}
-
+      <Navbar />
       {/* Section 1: Hero Slider */}
       <HeroSlider slides={brandData.hero.slides} primaryColor={primaryColor} />
 
@@ -42,6 +44,7 @@ const BrandPageLayout: React.FC<BrandPageLayoutProps> = ({ brandData }) => {
       {/* Section 4: Articles/Services */}
       {brandData.articles?.items && brandData.articles.items.length > 0 && (
         <ArticlesOrLocationsSection
+          logo={brandData.logo}
           preTitle={brandData.articles.preTitle}
           title={brandData.articles.title}
           items={brandData.articles.items}
@@ -60,6 +63,7 @@ const BrandPageLayout: React.FC<BrandPageLayoutProps> = ({ brandData }) => {
       {/* Section 6: Locations/Branches */}
        {brandData.locations?.items && brandData.locations.items.length > 0 && (
          <ArticlesOrLocationsSection
+           logo={brandData.logo}
            preTitle={brandData.locations.preTitle}
            title={brandData.locations.title}
            items={brandData.locations.items}
@@ -74,6 +78,8 @@ const BrandPageLayout: React.FC<BrandPageLayoutProps> = ({ brandData }) => {
            brandName={name}
            targetEmail={targetEmail} // Pass the determined email
        />
+
+       <Footer />
 
     </div>
   );

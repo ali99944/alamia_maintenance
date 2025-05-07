@@ -1,12 +1,20 @@
 @import "tailwindcss";
 
+@theme inline {
+  --color-primary: #007bff;
+  --color-secondary: #6c757d;
+}
+
+@font-face {
+  font-family: 'alilato';
+  src: url('/fonts/alilato.ttf') format('truetype'); /* Path to the font file */
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Optional: Add base body styles or font styles */
 body {
   /* Example: Smooth scrolling */
   scroll-behavior: smooth;
-}
-
-@theme inline {
-  --color-primary: #007bff;
-  --color-secondary: #6c757d;
+  font-family: 'alilato', sans-serif;
 }

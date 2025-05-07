@@ -1,43 +1,60 @@
-import React from 'react';
+'use client';
+
+import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Phone, Mail, MapPin, Facebook, Twitter, Instagram, Youtube, ChevronLeft } from 'lucide-react'; // ChevronLeft for list item indication
+import { Phone, Mail, MapPin, Facebook, Twitter, Instagram, Youtube, ArrowLeftCircle } from 'lucide-react'; // Changed to ArrowLeftCircle for quick links
+import { useParams } from 'next/navigation';
+import { getBrandData } from '@/src/data/brands';
+import { BrandData } from '@/src/types/brand';
 
 const Footer = () => {
-  // Use the same brand names/slugs as BrandsSection
-  const serviceBrands = [
-    { name: "كارير", slug: "carrier" },
-    { name: "يونيون اير", slug: "unionaire" },
-    { name: "شارب", slug: "sharp" },
-    { name: "توشيبا", slug: "toshiba" },
-    { name: "ال جي", slug: "lg" },
-    { name: "فريش", slug: "fresh" },
+  const footerEmail = "info@alalamiah.com"; // <-- REPLACE email
+  const siteAddress = "القاهرة، مصر"; // <-- REPLACE address
+
+  // Social Media Links - <<-- REPLACE WITH YOUR ACTUAL LINKS -->>
+  const facebookLink = "https://facebook.com/yourpage";
+  const twitterLink = "https://twitter.com/yourhandle";
+  const instagramLink = "https://instagram.com/yourprofile";
+  const youtubeLink = "https://youtube.com/yourchannel";
+
+  const [currentBrandData, setCurrentBrandData] = useState<BrandData | null>(null);
+
+  const params = useParams(); // Get current params
+  // Determine current brand based on path
+  useEffect(() => {
+    // Check if path starts with /صيانة/ and has a slug
+    const slug = params.slug; // Decode slug (e.g., if it contains Arabic)
+    const brand = getBrandData(slug as string);
+    setCurrentBrandData(brand || null);
+  }, [params.slug]); // Re-run when path changes
+
+  // Quick Links
+  const quickLinks = [
+    { label: "الرئيسية", href: "/" },
+    { label: "عن العالمية للصيانة", href: "/about" },
+    { label: "خدمات الصيانة", href: "/#brands" }, // Link to brands section on homepage
+    { label: "اتصل بنا", href: "/contact" },
+    { label: "سياسة الخصوصية", href: "/privacy-policy" },
+    // Add more links if needed, e.g., to a blog or specific service pages if you create them
   ];
 
-  const footerPhone = "01288582979"; // <-- REPLACE number
-  const footerEmail = "[email protected]"; // <-- REPLACE email (or remove if none)
-  const facebookLink = "#"  ; // <-- REPLACE social links
-  const twitterLink = "#";
-  const instagramLink = "#";
-  const youtubeLink = "#";
-
   return (
-    // Section ID matches the nav link
-    <footer id="footer" className="bg-[#212529] text-gray-300 pt-16 pb-8"> {/* Dark background */}
+    <footer id="footer" className="bg-[#212529] text-gray-300 pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mb-8">
 
           {/* Column 1 (Right - RTL): About / Logo */}
           <div className="md:col-span-1">
              <div className="mb-5">
-                {/* Use the same logo as Navbar */}
                 <Link href="/">
                     <Image
-                        src="/logo.png" // <-- CREATE a white version of your logo or use the original
+                        src={currentBrandData?.logo || '/logo.png'} // <<-- ENSURE you have a white/light version of your logo in /public
                         alt="العالمية للصيانة Logo"
-                        width={160} // Adjust size
-                        height={40} // Adjust size
-                        className="h-auto w-auto max-w-[160px]" // Control max width
+                        width={180} // Adjust size
+                        height={45} // Adjust size
+                        className="h-auto w-auto max-w-[180px]"
+                        priority
                      />
                  </Link>
              </div>
@@ -46,22 +63,30 @@ const Footer = () => {
              </p>
               {/* Social Links */}
              <div className="flex gap-x-4">
-                <a href={facebookLink} target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="text-gray-400 hover:text-white transition-colors"><Facebook className="w-5 h-5"/></a>
-                <a href={twitterLink} target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="text-gray-400 hover:text-white transition-colors"><Twitter className="w-5 h-5"/></a>
-                <a href={instagramLink} target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-gray-400 hover:text-white transition-colors"><Instagram className="w-5 h-5"/></a>
-                <a href={youtubeLink} target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="text-gray-400 hover:text-white transition-colors"><Youtube className="w-5 h-5"/></a>
+                {facebookLink && (
+                    <a href={facebookLink} target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="text-gray-400 hover:text-white transition-colors"><Facebook className="w-5 h-5"/></a>
+                )}
+                {twitterLink && (
+                    <a href={twitterLink} target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="text-gray-400 hover:text-white transition-colors"><Twitter className="w-5 h-5"/></a>
+                )}
+                {instagramLink && (
+                     <a href={instagramLink} target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-gray-400 hover:text-white transition-colors"><Instagram className="w-5 h-5"/></a>
+                )}
+                {youtubeLink && (
+                    <a href={youtubeLink} target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="text-gray-400 hover:text-white transition-colors"><Youtube className="w-5 h-5"/></a>
+                )}
             </div>
           </div>
 
-          {/* Column 2 (Middle): Services/Brands */}
-          <div className="md:col-span-1">
-            <h3 className="text-lg font-semibold text-white mb-5 border-b border-gray-700 pb-2">أقسام مركز الصيانة</h3>
+          {/* Column 2 (Middle): Quick Links */}
+          <div className="md:col-span-1 lg:col-span-1"> {/* Adjust col-span for better balance if needed */}
+            <h3 className="text-lg font-semibold text-white mb-5 border-b border-gray-700 pb-2">روابط سريعة</h3>
             <ul className="space-y-3">
-              {serviceBrands.map(brand => (
-                 <li key={brand.slug} className="flex items-center text-sm">
-                   <ChevronLeft className="w-4 h-4 ml-2 text-gray-500" /> {/* Simple indicator */}
-                   <Link href={`/brands/${brand.slug}`} className="hover:text-white transition-colors"> {/* Link to brand card */}
-                      {`صيانة ${brand.name}`}
+              {quickLinks.map(link => (
+                 <li key={link.href} className="flex items-center text-sm">
+                   <ArrowLeftCircle className="w-4 h-4 ml-2 text-gray-500" /> {/* Changed icon */}
+                   <Link href={link.href} className="hover:text-white transition-colors">
+                      {link.label}
                     </Link>
                  </li>
               ))}
@@ -69,14 +94,14 @@ const Footer = () => {
           </div>
 
           {/* Column 3 (Left - RTL): Contact Info */}
-          <div className="md:col-span-1">
+          <div className="md:col-span-1 lg:col-span-1"> {/* Adjust col-span for better balance if needed */}
             <h3 className="text-lg font-semibold text-white mb-5 border-b border-gray-700 pb-2">تواصل معنا</h3>
             <ul className="space-y-4 text-sm">
               <li className="flex items-center">
                 <Phone className="w-4 h-4 ml-3 text-gray-400" />
-                <a href={`tel:${footerPhone}`} className="hover:text-white transition-colors" dir="ltr">{footerPhone}</a>
+                <a href={`tel:${currentBrandData?.hotline}`} className="hover:text-white transition-colors" dir="ltr">{currentBrandData?.hotline}</a>
               </li>
-              {footerEmail && footerEmail !== "[email protected]" && ( // Only show if email is set
+              {footerEmail && footerEmail !== "info@alalamiah.com" && ( // Check against your actual email
                 <li className="flex items-center">
                     <Mail className="w-4 h-4 ml-3 text-gray-400" />
                     <a href={`mailto:${footerEmail}`} className="hover:text-white transition-colors">{footerEmail}</a>
@@ -84,16 +109,13 @@ const Footer = () => {
               )}
               <li className="flex items-start">
                 <MapPin className="w-4 h-4 ml-3 text-gray-400 mt-1 flex-shrink-0" />
-                <span>القاهرة، مصر (يمكن إضافة عنوان أكثر تفصيلاً هنا)</span> {/* Replace address */}
+                <span>{siteAddress}</span>
               </li>
                <li className="flex items-center mt-3 pt-3 border-t border-gray-700">
                   <span className="ml-2 font-medium text-gray-400">مفتوح:</span>
                   <span>طوال أيام الأسبوع</span>
               </li>
-               <li className="flex items-center">
-                   <span className="ml-2 font-medium text-gray-400">فيسبوك:</span>
-                   <a href={facebookLink} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors text-xs"> صفحتنا على الفيسبوك</a>
-              </li>
+               {/* Removed duplicate Facebook link from here, it's in the first column */}
             </ul>
           </div>
 
@@ -101,11 +123,12 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-700 pt-6 mt-8 text-center text-xs text-gray-500">
-              <div>
+              <div className="mb-3"> {/* Added margin-bottom to separate from links */}
                 <p>© {new Date().getFullYear()} العالمية للصيانة. جميع الحقوق محفوظة.</p>
-                <p className="mt-2">مصمم ومتطور من قبل <a href="https://sourcemediaagency.com" target="_blank" rel="noopener noreferrer" className="hover:underline text-[#0d6efd] transition-colors">source media group</a></p>
+                <p className="mt-1">مصمم ومطور بواسطة <a href="https://sourcemediaagency.com" target="_blank" rel="noopener noreferrer" className="hover:underline text-[#0d6efd] transition-colors">source media group</a></p>
               </div>
-           <ul className="flex items-center justify-center space-x-4 mt-2">
+           {/* Moved page links to the "Quick Links" column above, this can be removed or kept for redundancy based on preference */}
+           {/* <ul className="flex items-center justify-center space-x-4 space-x-reverse mt-2">
              <li>
                <Link href="/privacy-policy" className="hover:text-white transition-colors">
                  سياسة الخصوصية
@@ -121,7 +144,7 @@ const Footer = () => {
                  اتصل بنا
                </Link>
              </li>
-           </ul>
+           </ul> */}
         </div>
       </div>
     </footer>
