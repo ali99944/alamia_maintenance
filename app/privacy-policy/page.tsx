@@ -1,18 +1,20 @@
 import React from 'react';
 import type { Metadata } from 'next';
+import Navbar from '@/components/navbar';
 
 export const metadata: Metadata = {
-  title: 'سياسة الخصوصية - العالمية للصيانة',
-  description: 'تعرف على كيفية جمع واستخدام وحماية بياناتك الشخصية عند استخدامك لموقع وخدمات العالمية للصيانة.',
+  title: 'سياسة الخصوصية - مركز الصيانة المعتمد',
+  description: 'تعرف على كيفية جمع واستخدام وحماية بياناتك الشخصية عند استخدامك لموقع وخدمات مركز الصيانة المعتمد.',
 };
 
 export default function PrivacyPolicyPage() {
-  const siteName = "العالمية للصيانة";
+  const siteName = "مركز الصيانة المعتمد";
   const primaryColor = "#0d6efd"; // Main site color
-  const contactEmail = "info@alalamiah-maintenance.com"; // REPLACE with your actual contact email
+  const contactEmail = "alitarek99944@gmail.com"; // REPLACE with your actual contact email
 
   return (
     <>
+      <Navbar />
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-gray-100 to-white pt-24 pb-16 md:pt-32 md:pb-20">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -77,6 +79,7 @@ export default function PrivacyPolicyPage() {
           </div>
         </div>
       </section>
+      <Navbar />
     </>
   );
 }

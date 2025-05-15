@@ -86,12 +86,12 @@ const ArticlesOrLocationsSection: React.FC<ArticlesOrLocationsProps> = ({
                 <Image
                   src={logo}
                   alt={item.category}
-                  className="absolute top-3 right-3 w-8 h-8"
+                  className="absolute top-2 right-2 w-auto h-4"
                   width={32}
                   height={32}
                 />
               </div>
-              <div className="p-6 flex flex-col flex-grow">
+              <div className="p-4 flex flex-col flex-grow">
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">{item.title}</h3>
                 <p className="text-gray-600 text-sm leading-relaxed mb-4 flex-grow">{item.description}</p>
                 <Link href={item.link}>

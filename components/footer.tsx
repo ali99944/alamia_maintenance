@@ -32,7 +32,7 @@ const Footer = () => {
   // Quick Links
   const quickLinks = [
     { label: "الرئيسية", href: "/" },
-    { label: "عن العالمية للصيانة", href: "/about" },
+    { label: "من نحن", href: "/about" },
     { label: "خدمات الصيانة", href: "/#brands" }, // Link to brands section on homepage
     { label: "اتصل بنا", href: "/contact" },
     { label: "سياسة الخصوصية", href: "/privacy-policy" },
@@ -59,7 +59,7 @@ const Footer = () => {
                  </Link>
              </div>
              <p className="text-gray-400 text-sm mb-6 leading-relaxed">
-                نوفر في مركز العالمية للصيانة خدمة موثوقة لعملائنا الكرام. لدينا فريق عمل متاح على مدار الساعة لضمان راحتكم وتلبية احتياجاتكم في صيانة الأجهزة المنزلية للعلامات التجارية الرائدة.
+                نوفر خدمة موثوقة لعملائنا الكرام. لدينا فريق عمل متاح على مدار الساعة لضمان راحتكم وتلبية احتياجاتكم في صيانة الأجهزة المنزلية للعلامات التجارية الرائدة.
              </p>
               {/* Social Links */}
              <div className="flex gap-x-4">
@@ -99,7 +99,7 @@ const Footer = () => {
             <ul className="space-y-4 text-sm">
               <li className="flex items-center">
                 <Phone className="w-4 h-4 ml-3 text-gray-400" />
-                <a href={`tel:${currentBrandData?.hotline}`} className="hover:text-white transition-colors" dir="ltr">{currentBrandData?.hotline}</a>
+                <a href={`tel:${currentBrandData?.hotline}`} className="hover:text-white transition-colors" dir="ltr">{currentBrandData?.hotline ?? '01150421159'}</a>
               </li>
               {footerEmail && footerEmail !== "info@alalamiah.com" && ( // Check against your actual email
                 <li className="flex items-center">
@@ -124,7 +124,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-gray-700 pt-6 mt-8 text-center text-xs text-gray-500">
               <div className="mb-3"> {/* Added margin-bottom to separate from links */}
-                <p>© {new Date().getFullYear()} العالمية للصيانة. جميع الحقوق محفوظة.</p>
+                <p>© {new Date().getFullYear()} جميع الحقوق محفوظة.</p>
                 <p className="mt-1">مصمم ومطور بواسطة <a href="https://sourcemediaagency.com" target="_blank" rel="noopener noreferrer" className="hover:underline text-[#0d6efd] transition-colors">source media group</a></p>
               </div>
            {/* Moved page links to the "Quick Links" column above, this can be removed or kept for redundancy based on preference */}

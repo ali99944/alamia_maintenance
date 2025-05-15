@@ -30,7 +30,15 @@ const TopBar = () => {
                 <div className="flex items-center">
                      <Phone className="w-3 h-3 ml-1 text-[#0d6efd]" />
                      <Link href={`tel:${currentBrandData?.hotline}`} className="hover:text-[#0d6efd]">
-                        الخط الساخن لمركز صيانة <span className="font-semibold text-[#0d6efd]">{currentBrandData?.name}</span>: <span className="font-semibold" dir="ltr">{currentBrandData?.hotline}</span>
+                        {
+                            currentBrandData?.hotline ? (
+                                <>
+                                <span>الخط الساخن لمركز صيانة</span> <span className="font-semibold text-[#0d6efd]">{currentBrandData?.name}</span>: <span className="font-semibold" dir="ltr">{currentBrandData?.hotline}</span>
+                                </>
+                            ) : (
+                                <span className="font-semibold text-[#0d6efd]">01150421159</span>
+                            )
+                        }
                     </Link>
                 </div>
 

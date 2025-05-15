@@ -1,17 +1,20 @@
 import React from 'react';
 import type { Metadata } from 'next';
+import Navbar from '@/components/navbar';
+import Footer from '@/components/footer';
 
 export const metadata: Metadata = {
-  title: 'عن العالمية للصيانة | مركز الصيانة المعتمد',
-  description: 'تعرف على العالمية للصيانة، المركز الرائد في صيانة الأجهزة المنزلية المعتمدة بمصر، مع فروع تغطي جميع المحافظات وخدمة عملاء متميزة.',
+  title: 'عن مركز الصيانة المعتمد',
+  description: 'تعرف على المركز الرائد في صيانة الأجهزة المنزلية المعتمدة بمصر، مع فروع تغطي جميع المحافظات وخدمة عملاء متميزة.',
 };
 
 export default function AboutPage() {
-  const siteName = "العالمية للصيانة"; // Use a variable for the company name
+  const siteName = "مركز الصيانة المعتمد"; // Use a variable for the company name
   const primaryColor = "#0d6efd"; // Main site color
 
   return (
     <>
+    <Navbar />
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-gray-100 to-white pt-24 pb-16 md:pt-32 md:pb-20">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -53,6 +56,7 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 }

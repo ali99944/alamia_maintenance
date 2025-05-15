@@ -239,7 +239,7 @@ export const carrierData: BrandData = {
 export const unionaireData: BrandData = {
   name: "يونيون اير",
   slug: "unionaire",
-  primaryColor: "#D81B2F", // Unionaire Red
+  primaryColor: "#2260A4", // Unionaire Red
   secondaryColor: "#FFFFFF",
   logo: "/brands/unionaire.png",
   logoWhite: "/brands/unionaire/logos/unionaire-logo-white.png",
@@ -395,7 +395,7 @@ export const freshData: BrandData = {
   slug: "fresh",
   primaryColor: "#ED1C24", // Fresh Red
   secondaryColor: "#FFFFFF",
-  logo: "/brands/fresh.svg",
+  logo: "/brands/fresh.png",
   logoWhite: "/brands/fresh.svg",
   hotline: "19006", // Assuming hotline for Fresh
 

@@ -1,9 +1,11 @@
 import React from 'react';
 import type { Metadata } from 'next';
 import ContactFormSection from '@/components/brand-sections/contact-form';
+import Navbar from '@/components/navbar';
+import Footer from '@/components/footer';
 
 export const metadata: Metadata = {
-  title: 'تواصل مع العالمية للصيانة | خدمة العملاء',
+  title: 'تواصل معنا | خدمة العملاء',
   description: 'اتصل بمركز العالمية للصيانة للاستفسار عن خدماتنا أو لحجز موعد صيانة. فريقنا جاهز لمساعدتك.',
 };
 
@@ -17,6 +19,7 @@ export default function ContactPage() {
 
   return (
     <>
+    <Navbar />
       {/* Hero Section for Contact Page */}
       <section className="bg-gradient-to-b from-blue-50 via-gray-50 to-gray-100 pt-24 pb-16 md:pt-32 md:pb-20 text-center">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -24,7 +27,7 @@ export default function ContactPage() {
              تواصل معنا
            </h1>
            <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-             هل لديك استفسار أو ترغب في حجز موعد صيانة؟ فريق خدمة عملاء العالمية للصيانة في خدمتك.
+             هل لديك استفسار أو ترغب في حجز موعد صيانة؟ فريق خدمة في خدمتك.
            </p>
            {/* Optional: Add main contact number button here too */}
            {/* <a href={`tel:+201098765432`}>
@@ -53,6 +56,8 @@ export default function ContactPage() {
              // Embed Google Map iframe here if desired
           </div>
       </section> */}
+
+      <Footer />
     </>
   );
 }

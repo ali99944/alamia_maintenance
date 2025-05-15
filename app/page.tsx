@@ -8,6 +8,8 @@ import BrandsSection from '@/components/brands-section';
 import { HeroSlide } from '@/src/types/brand';
 import ProcessSection from '@/components/proccess-section';
 import WhyChooseUsSection from '@/components/why-choose-us';
+import Navbar from '@/components/navbar';
+import Footer from '@/components/footer';
 
 
 // --- Define Homepage Slider Data ---
@@ -27,7 +29,7 @@ const homePageSlides: HeroSlide[] = [
     buttonText: "اعرف المزيد عن خدمات صيانة المكيفات",
     buttonLink: "/about"
   },
-   {
+  {
     image: 'https://maintenance-eg.com/files/slider3.webp',
     title: "صيانة معتمدة لجميع أنواع المكيفات",
     subtitle: "نغطي كافة أنحاء الجمهورية",
@@ -43,6 +45,7 @@ export default function HomePage() {
 
   return (
     <>
+    <Navbar />
       {/* --- Hero Slider Section --- */}
       <HeroSlider slides={homePageSlides} primaryColor={sitePrimaryColor} />
 
@@ -62,13 +65,10 @@ export default function HomePage() {
       </motion.div>
 
 
-{/* === NEW: Why Choose Us Section === */}
-<WhyChooseUsSection />
-      {/* ================================ */}
-
-      {/* === NEW: Our Simple Process Section === */}
+     <WhyChooseUsSection />
       <ProcessSection />
-      {/* ===================================== */}
+
+      <Footer />
 
     </>
   );
