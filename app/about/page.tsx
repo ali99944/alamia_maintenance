@@ -1,7 +1,5 @@
 import React from 'react';
 import type { Metadata } from 'next';
-import Navbar from '@/components/navbar';
-import Footer from '@/components/footer';
 
 export const metadata: Metadata = {
   title: 'عن مركز الصيانة المعتمد',
@@ -14,7 +12,6 @@ export default function AboutPage() {
 
   return (
     <>
-    <Navbar />
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-gray-100 to-white pt-24 pb-16 md:pt-32 md:pb-20">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -56,7 +53,6 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-      <Footer />
     </>
   );
 }

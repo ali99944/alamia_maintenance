@@ -74,8 +74,7 @@ export default function PrivacyPolicyPage() {
             <p>إذا كان لديك أي أسئلة بخصوص سياسة الخصوصية هذه، يمكنك الاتصال بنا باستخدام المعلومات الواردة أدناه:</p>
             <p><strong className="font-semibold">{siteName}</strong></p>
             <p>البريد الإلكتروني: <a href={`mailto:${contactEmail}`} className="text-blue-600 hover:underline">{contactEmail}</a></p>
-            {/* Add Phone Number if desired */}
-            {/* <p>الهاتف: [أدخل رقم الهاتف هنا]</p> */}
+
           </div>
         </div>
       </section>

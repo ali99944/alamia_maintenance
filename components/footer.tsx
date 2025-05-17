@@ -29,15 +29,7 @@ const Footer = () => {
     setCurrentBrandData(brand || null);
   }, [params.slug]); // Re-run when path changes
 
-  // Quick Links
-  const quickLinks = [
-    { label: "الرئيسية", href: "/" },
-    { label: "من نحن", href: "/about" },
-    { label: "خدمات الصيانة", href: "/#brands" }, // Link to brands section on homepage
-    { label: "اتصل بنا", href: "/contact" },
-    { label: "سياسة الخصوصية", href: "/privacy-policy" },
-    // Add more links if needed, e.g., to a blog or specific service pages if you create them
-  ];
+
 
   return (
     <footer id="footer" className="bg-[#212529] text-gray-300 pt-16 pb-8">
@@ -78,20 +70,20 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Column 2 (Middle): Quick Links */}
-          <div className="md:col-span-1 lg:col-span-1"> {/* Adjust col-span for better balance if needed */}
-            <h3 className="text-lg font-semibold text-white mb-5 border-b border-gray-700 pb-2">روابط سريعة</h3>
-            <ul className="space-y-3">
-              {quickLinks.map(link => (
-                 <li key={link.href} className="flex items-center text-sm">
-                   <ArrowLeftCircle className="w-4 h-4 ml-2 text-gray-500" /> {/* Changed icon */}
-                   <Link href={link.href} className="hover:text-white transition-colors">
-                      {link.label}
-                    </Link>
-                 </li>
-              ))}
-            </ul>
-          </div>
+          {/* Column 2 (Middle): Brand Services */}
+          {currentBrandData && (
+            <div className="md:col-span-1 lg:col-span-1">
+              <h3 className="text-lg font-semibold text-white mb-5 border-b border-gray-700 pb-2">خدماتنا</h3>
+              <ul className="space-y-3">
+                {currentBrandData.articles?.items.map((service, index) => (
+                  <li key={index} className="flex items-center text-sm">
+                    <ArrowLeftCircle className="w-4 h-4 ml-2 text-gray-500" />
+                    <span className="text-gray-400">{service.title}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
 
           {/* Column 3 (Left - RTL): Contact Info */}
           <div className="md:col-span-1 lg:col-span-1"> {/* Adjust col-span for better balance if needed */}

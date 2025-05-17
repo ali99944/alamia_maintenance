@@ -43,17 +43,15 @@ const TopBar = () => {
                 </div>
 
                 <div className="flex-shrink-0">
-                        <Link href="/">
-                            <Image
-                                key={currentBrandData?.logo} // Add key to force re-render on change
-                                src={currentBrandData?.logo || '/logo.png'}
-                                alt={currentBrandData ? `صيانة ${currentBrandData.name}` : "العالمية للصيانة Logo"}
-                                width={180}
-                                height={50}
-                                className="h-10 md:h-8 lg:h-8 w-auto object-contain" // Adjust height as needed
-                                priority // Prioritize logo loading
-                            />
-                        </Link>
+                    <Image
+                        key={currentBrandData?.logo} // Add key to force re-render on change
+                        src={currentBrandData?.logo || '/logo.png'}
+                        alt={currentBrandData ? `صيانة ${currentBrandData.name}` : "العالمية للصيانة Logo"}
+                        width={180}
+                        height={50}
+                        className="h-10 md:h-8 lg:h-8 w-auto object-contain" // Adjust height as needed
+                        priority // Prioritize logo loading
+                    />
                     </div>
             </div>
         </div>
