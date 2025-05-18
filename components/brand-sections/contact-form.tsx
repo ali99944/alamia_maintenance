@@ -38,14 +38,14 @@ const ContactFormSection: React.FC<ContactFormSectionProps> = ({
     // Construct mailto link
     const subject = encodeURIComponent(`طلب تواصل/صيانة جديد من: ${fullName} (${brandName})`);
     const body = encodeURIComponent(
-`الاسم: ${fullName}
-رقم الهاتف: ${phone}
+      `الاسم: ${fullName}
+      رقم الهاتف: ${phone}
 
-الرسالة:
-${message}
+      الرسالة:
+      ${message}
 
----
-تم الإرسال من نموذج الاتصال بموقع ${brandName}`
+      ---
+      تم الإرسال من نموذج الاتصال بموقع ${brandName}`
     );
 
     const mailtoLink = `mailto:${targetEmail}?subject=${subject}&body=${body}`;

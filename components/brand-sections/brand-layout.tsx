@@ -33,7 +33,7 @@ const BrandPageLayout: React.FC<BrandPageLayoutProps> = ({ brandData }) => {
     <div className="brand-page"> {/* Add a class for potential global styling */}
       <Navbar />
       {/* Section 1: Hero Slider */}
-      <HeroSlider slides={brandData.hero.slides} primaryColor={primaryColor} />
+      <HeroSlider logo={brandData.logo} slides={brandData.hero.slides} primaryColor={primaryColor} />
 
       {/* Section 2: Intro Section */}
       <IntroSection data={brandData.intro} primaryColor={primaryColor} brandName={name} />

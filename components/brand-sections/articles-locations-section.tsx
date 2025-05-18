@@ -2,7 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowLeft } from 'lucide-react';
+import { Clipboard } from 'lucide-react';
 import { motion } from 'framer-motion'; // Import motion
 import { BrandArticleOrLocation } from '@/src/types/brand';
 
@@ -75,12 +75,12 @@ const ArticlesOrLocationsSection: React.FC<ArticlesOrLocationsProps> = ({
               className="bg-white rounded-lg overflow-hidden flex flex-col border border-gray-200 duration-300 group"
               variants={itemVariants} // Use the item variant
             >
-              <div className="relative w-full h-48">
+              <div className="relative w-full h-88">
                 <Image
                   src={item.image}
                   alt={item.title}
                   layout="fill"
-                  objectFit="cover"
+                  objectFit={''}
                 />
                 {/* Category Tag */}
                 <Image
@@ -94,10 +94,10 @@ const ArticlesOrLocationsSection: React.FC<ArticlesOrLocationsProps> = ({
               <div className="p-4 flex flex-col flex-grow">
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">{item.title}</h3>
                 <p className="text-gray-600 text-sm leading-relaxed mb-4 flex-grow">{item.description}</p>
-                <Link href={item.link}>
+                <Link href={'tel:+201288582979'}>
                    <span className="inline-flex items-center text-sm font-medium group-hover:underline" style={{ color: primaryColor }}>
-                    {item.linkText}
-                    <ArrowLeft className="h-4 w-4 mr-1 group-hover:translate-x-[-3px] transition-transform duration-200" />
+                    احجز صيانة
+                    <Clipboard className="h-4 w-4 mr-1 group-hover:translate-x-[-3px] transition-transform duration-200" />
                   </span>
                 </Link>
               </div>

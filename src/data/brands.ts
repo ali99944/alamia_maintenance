@@ -11,14 +11,14 @@ export const lgData: BrandData = {
   secondaryColor: "#FFFFFF",
   logo: "/brands/lg.png",
   logoWhite: "/brands/lg/logos/lg-logo-white.png",
-  hotline: "19001",
-  contactEmail: "lg@lg.com.eg",
+  hotline: "01288582979",
+  contactEmail: "maintenance.service1111@gmail.com",
 
   hero: {
     slides: [
-      { image: 'https://maintenance-eg.com/files/slider1.webp', title: "فنيين ذو خبره وكفاءة لصيانة تكييف ال جي", subtitle: "خدمة فورية بالمنزل", buttonText: "اتصل بنا الآن", buttonLink: "tel:19001" },
-      { image: 'https://maintenance-eg.com/files/slider2.webp', title: "قطع غيار أصلية ١٠٠٪ من تكييف ال جي", subtitle: "ضمان معتمد لمدة عام", buttonText: "اطلب صيانة", buttonLink: "#footer" },
-      { image: 'https://maintenance-eg.com/files/slider3.webp', title: "نغطي جميع محافظات مصر لصيانة تكييف ال جي", subtitle: "مراكز صيانة تكييف ال جي منتشرة", buttonText: "تواصل معنا", buttonLink: "tel:19001" },
+      { image: 'https://www.lg.com/content/dam/channel/wcms/eg_ar/images/split-air-conditioners/s4-q12ja2mc_aa6geeg_efeg_eg_ar_c/Basic-350-V1.jpg', title: "صيانة تكييفات ال جي رقم #1 في مصر", subtitle: "خبراء التبريد والتدفئة", buttonText: "اتصل بنا للتكييف", buttonLink: "tel:01288582979" },
+      { image: 'https://www.lg.com/content/dam/channel/wcms/eg_ar/images/split-air-conditioners/s4-w12jarma_aa6geeg_efeg_eg_ar_c/Thumb-350.jpg', title: "تركيب وصيانة جميع موديلات ال جي", subtitle: "خدمة معتمدة وموثوقة", buttonText: "حجز موعد صيانة", buttonLink: "#footer" },
+      { image: 'https://www.lg.com/content/dam/channel/wcms/eg_ar/images/split-air-conditioners/abnw60gm3t2_anwgeeg_efeg_eg_ar_c/ABNW60GM3T2_ANWGEEG_EFEG_EG_AR_C-350x350.jpg', title: "صيانة تكييفات ال جي كونسيلر مركزي", subtitle: "فنيون متخصصون في إصلاح وصيانة تكييفات الكونسيلر المركزي", buttonText: "اتصل بنا لصيانة التكييف", buttonLink: "tel:01288582979" },
     ]
   },
   intro: {
@@ -38,16 +38,20 @@ export const lgData: BrandData = {
   ctaBanner1: {
     title: "الخط الساخن الموحد لصيانة ال جي",
     text: "هل تواجه مشكلة في جهاز ال جي الخاص بك؟ لا تتردد! اتصل بنا الآن على الخط الساخن المعتمد. فريقنا جاهز للرد على استفساراتك وتحديد موعد زيارة منزلية فورية لتقييم العطل وإصلاحه باستخدام قطع غيار أصلية معتمدة.",
-    buttonText: "اتصل بنا الآن 19001",
-    buttonLink: "tel:19001"
+    buttonText: "اتصل بنا الآن 01288582979",
+    buttonLink: "tel:01288582979"
   },
   articles: {
     preTitle: "خدمات مركز ال جي",
     title: "كل ما تحتاجه لصيانة أجهزة ال جي",
     items: [
-      { image: "https://img.freepik.com/free-photo/air-conditioning-decoration-interior_74190-6226.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات ال جي سبليت", title: "صيانة تكييفات ال جي سبليت", description: "خدمات صيانة دورية وشاملة لتكييفات ال جي سبليت، تشمل تنظيف الفلاتر، فحص الفريون، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/سبليت" },
-      { image: "https://img.freepik.com/free-photo/checking-conditioner_1098-17787.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات ال جي شباك", title: "صيانة تكييفات ال جي شباك", description: "نقدم خدمات صيانة متخصصة لتكييفات ال جي شباك، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/شباك" },
-      { image: "https://img.freepik.com/premium-photo/young-happy-woman-with-closed-eyes-sitting-sofa-air-conditioning-adjusting-comfortable-temperature-with-remote-control-modern-home_122732-3729.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات ال جي فيلكس", title: "صيانة تكييفات ال جي فيلكس", description: "نقدم خدمات صيانة متخصصة لتكييفات ال جي فيلكس، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/فيلكس" },
+      { image: "https://www.lg.com/content/dam/channel/wcms/eg_ar/images/split-air-conditioners/s4-q12ja2mc_aa6geeg_efeg_eg_ar_c/Basic-350-V1.jpg", category: "صيانة تكييفات ال جي سبليت", title: "صيانة تكييفات ال جي سبليت", description: "خدمات صيانة دورية وشاملة لتكييفات ال جي سبليت، تشمل تنظيف الفلاتر، فحص الفريون، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/سبليت" },
+      { image: "https://media.us.lg.com/transform/ecomm-PDPGalleryThumbnail-350x350/83bcac6f-1b8a-4845-b755-c3f278a44695/LW1223HRSM_thumbnail_350x350?io=transform:fill,width:250", category: "صيانة تكييفات ال جي شباك", title: "صيانة تكييفات ال جي شباك", description: "نقدم خدمات صيانة متخصصة لتكييفات ال جي شباك، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/شباك" },
+      { image: "https://www.lg.com/content/dam/channel/wcms/eg_ar/images/split-air-conditioners/abnw60gm3t2_anwgeeg_efeg_eg_ar_c/ABNW60GM3T2_ANWGEEG_EFEG_EG_AR_C-350x350.jpg", category: "صيانة تكييفات ال جي فيلكس", title: "صيانة تكييفات ال جي كونسليد", description: "نقدم خدمات صيانة متخصصة لتكييفات ال جي فيلكس، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/فيلكس" },
+      { image: "https://img.freepik.com/free-photo/close-up-heat-pump-outside-home_23-2149250243.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "تأسيس مواسير التكييف", title: "خدمات تأسيس مواسير التكييف", description: "نقدم خدمات احترافية في تأسيس وتركيب مواسير التكييف، مع ضمان جودة العمل وسلامة التركيب.", linkText: "اعرف المزيد", link: "/صيانة/lg/تأسيس-مواسير" },
+      { image: "https://www.lg.com/content/dam/channel/wcms/eg_ar/images/refrigerators/gc-x257cqhw/450.jpg/jcr:content/renditions/thum-350x350.jpeg", category: "صيانة ثلاجات ال جي", title: "خدمات صيانة ثلاجات ال جي", description: "صيانة شاملة لجميع موديلات ثلاجات ال جي، تشمل إصلاح نظام التبريد، الثرموستات، وجميع الأعطال الفنية.", linkText: "اعرف المزيد", link: "/صيانة/lg/ثلاجات" },
+      { image: "https://www.lg.com/content/dam/channel/wcms/sa/images/tvs/osn-remove/86ut80006lb-450.jpg/jcr:content/renditions/thum-350x350.jpeg", category: "صيانة شاشات ال جي", title: "خدمات صيانة شاشات ال جي", description: "صيانة متخصصة لشاشات ال جي الذكية والعادية، مع توفير قطع غيار أصلية وضمان على الإصلاح.", linkText: "اعرف المزيد", link: "/صيانة/lg/شاشات" },
+      { image: "https://img.freepik.com/free-vector/flow-chart-showing-web-purchases-with-man-holding-tablet-linked-shopping-cart_1284-44266.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "خدمة المبيعات والتوريدات", title: "خدمات المبيعات وتوريد الأجهزة", description: "نوفر خدمات بيع وتوريد جميع أجهزة ال جي مع ضمان الوكيل وخدمات ما بعد البيع.", linkText: "اعرف المزيد", link: "/صيانة/lg/مبيعات" }
     ]
   },
   features: {
@@ -74,9 +78,8 @@ export const lgData: BrandData = {
     preTitle: "فروعنا",
     title: "أقرب مركز صيانة ال جي إليك",
      items: [
-      { image: "https://maintenance-eg.com/uploads/lg-maintenance-branches.webp", category: "فرع القاهرة", title: "مركز صيانة ال جي القاهرة", description: "نوفر خدمات صيانة ال جي المعتمدة لجميع أحياء القاهرة الكبرى، بما في ذلك مدينة نصر، مصر الجديدة، المعادي، والزمالك.", linkText: "عرض التفاصيل", link: "/صيانة/lg/locations/cairo" },
-      { image: "https://maintenance-eg.com/uploads/lg-maintenance-branches-in-cairo.webp", category: "فرع الإسكندرية", title: "مركز صيانة ال جي الإسكندرية", description: "خدماتنا تغطي جميع مناطق الإسكندرية، من المنتزه إلى العجمي. اتصل بنا لحجز موعد صيانة سريع وموثوق.", linkText: "عرض التفاصيل", link: "/صيانة/lg/locations/alexandria" },
-      { image: "https://maintenance-eg.com/uploads/2.jpg", category: "فرع الجيزة", title: "مركز صيانة ال جي الجيزة", description: "نخدم عملاءنا في الجيزة، 6 أكتوبر، والشيخ زايد. مركزنا يقدم صيانة فورية لجميع أجهزة ال جي.", linkText: "عرض التفاصيل", link: "/صيانة/lg/locations/giza" },
+      { image: "https://img.freepik.com/free-photo/woman-working-call-center-holding-pair-headphones_23-2149256146.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "فرع القاهرة", title: "مركز صيانة ال جي القاهرة", description: "نوفر خدمات صيانة ال جي المعتمدة لجميع أحياء القاهرة الكبرى، بما في ذلك مدينة نصر، مصر الجديدة، المعادي، والزمالك.", linkText: "عرض التفاصيل", link: "/صيانة/lg/locations/cairo" },
+      { image: "https://img.freepik.com/free-photo/woman-working-call-center-holding-pair-headphones_23-2149256146.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "فرع الغردقة", title: "مركز صيانة ال جي الغردقة", description: "خدماتنا تغطي جميع مناطق الغردقة. اتصل بنا لحجز موعد صيانة سريع وموثوق.", linkText: "عرض التفاصيل", link: "/صيانة/lg/locations/alexandria" },
     ]
   },
 };
@@ -89,14 +92,14 @@ export const samsungData: BrandData = {
   secondaryColor: "#FFFFFF",
   logo: "/brands/samsung.png",
   logoWhite: "/brands/samsung/logos/samsung-logo-white.png",
-  hotline: "19002",
-  contactEmail: "samsung@lg.com.eg",
+  hotline: "01288582979",
+  contactEmail: "maintenance.service1111@gmail.com",
 
   hero: {
     slides: [
-      { image: 'https://maintenance-eg.com/files/slider1.webp', title: "صيانة مكيفات سامسونج المعتمدة في مصر", subtitle: "خبراء التبريد والتدفئة", buttonText: "اتصل بالخط الساخن", buttonLink: "tel:19002" },
-      { image: 'https://maintenance-eg.com/files/slider2.webp', title: "حلول مبتكرة لصيانة مكيفات سامسونج", subtitle: "تكنولوجيا وجودة", buttonText: "اطلب زيارة فني", buttonLink: "#footer" },
-      { image: 'https://maintenance-eg.com/files/slider3.webp', title: "مكيفات سامسونج المعتمدة - جودة لا مثيل لها", subtitle: "نوفر خدمات صيانة معتمدة لجميع منتجات سامسونج", buttonText: "اطلب زيارة فني", buttonLink: "#footer" },
+      { image: 'https://images.samsung.com/is/image/samsung/assets/eg/p6_gro3/p6_initial_pcd/p6_initial_home-appliances/448x488-Thumbnail.png?$448_488_PNG$', title: "صيانة مكيفات سامسونج المعتمدة في مصر", subtitle: "خبراء التبريد والتدفئة", buttonText: "اتصل بالخط الساخن", buttonLink: "tel:01288582979" },
+      { image: 'https://images.samsung.com/is/image/samsung/assets/eg/p6_gro3/p6_initial_pcd/p6_initial_home-appliances/cools-faster-farther-and-wider-pcv.jpg?$1440_N_JPG$', title: "حلول مبتكرة لصيانة مكيفات سامسونج", subtitle: "تكنولوجيا وجودة", buttonText: "اطلب زيارة فني", buttonLink: "#footer" },
+      { image: 'https://images.samsung.com/is/image/samsung/assets/eg/p6_gro3/p6_initial_pcd/p6_initial_home-appliances/1440x640-PCD-PC.jpg?imwidth=2560', title: "مكيفات سامسونج المعتمدة - جودة لا مثيل لها", subtitle: "نوفر خدمات صيانة معتمدة لجميع منتجات سامسونج", buttonText: "اطلب زيارة فني", buttonLink: "#footer" },
     ]
   },
   intro: {
@@ -115,17 +118,17 @@ export const samsungData: BrandData = {
   },
   ctaBanner1: {
     title: "لا تتردد في الاتصال بنا - الخط الساخن لسامسونج",
-    text: "إذا واجهت أي مشكلة مع جهاز سامسونج الخاص بك، فإن فريق الدعم الفني لدينا جاهز لمساعدتك. اتصل بنا على 19002 للحصول على مساعدة فورية أو لحجز موعد صيانة منزلية.",
-    buttonText: "اتصل الآن 19002",
-    buttonLink: "tel:19002"
+    text: "إذا واجهت أي مشكلة مع جهاز سامسونج الخاص بك، فإن فريق الدعم الفني لدينا جاهز لمساعدتك. اتصل بنا على 01288582979 للحصول على مساعدة فورية أو لحجز موعد صيانة منزلية.",
+    buttonText: "اتصل الآن 01288582979",
+    buttonLink: "tel:01288582979"
   },
   articles: {
     preTitle: "خدماتنا المتخصصة",
     title: "صيانة جميع منتجات سامسونج",
     items: [
-      { image: "https://img.freepik.com/free-photo/air-conditioning-decoration-interior_74190-6226.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات سامسونج سبليت", title: "صيانة تكييفات سامسونج سبليت", description: "خدمات صيانة دورية وشاملة لتكييفات سامسونج سبليت، تشمل تنظيف الفلاتر، فحص الفريون، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/سبليت" },
-      { image: "https://img.freepik.com/free-photo/checking-conditioner_1098-17787.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات سامسونج شباك", title: "صيانة تكييفات سامسونج شباك", description: "نقدم خدمات صيانة متخصصة لتكييفات سامسونج شباك، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/شباك" },
-      { image: "https://img.freepik.com/premium-photo/young-happy-woman-with-closed-eyes-sitting-sofa-air-conditioning-adjusting-comfortable-temperature-with-remote-control-modern-home_122732-3729.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات سامسونج فيلكس", title: "صيانة تكييفات سامسونج فيلكس", description: "نقدم خدمات صيانة متخصصة لتكييفات سامسونج فيلكس، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/فيلكس" },
+      { image: "https://images.samsung.com/is/image/samsung/assets/eg/p6_gro3/p6_initial_pcd/p6_initial_home-appliances/448x488-Thumbnail.png?$448_488_PNG$", category: "صيانة تكييفات سامسونج", title: "صيانة جميع أنواع تكييفات سامسونج", description: "خدمات صيانة شاملة لجميع موديلات تكييفات سامسونج (سبليت، شباك، كونسيلد). نقدم خدمات تنظيف الفلاتر، فحص وشحن الفريون، وإصلاح جميع الأعطال الفنية.", linkText: "اعرف المزيد", link: "/صيانة/samsung/تكييفات" },
+      { image: "https://img.freepik.com/premium-photo/cassette-type-air-conditioner-mounted-ceiling_39420-294.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "تأسيس مواسير نحاس", title: "خدمات تأسيس مواسير النحاس", description: "نقدم خدمات احترافية في تأسيس وتركيب مواسير النحاس للتكييفات، مع ضمان جودة العمل وسلامة التركيب والعزل الحراري المثالي.", linkText: "اعرف المزيد", link: "/صيانة/samsung/تأسيس-مواسير" },
+      { image: "https://img.freepik.com/free-vector/flow-chart-showing-web-purchases-with-man-holding-tablet-linked-shopping-cart_1284-44266.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "خدمة المبيعات والتوريدات", title: "خدمات المبيعات وتوريد الأجهزة", description: "نوفر خدمات بيع وتوريد جميع أجهزة سامسونج مع ضمان الوكيل وخدمات ما بعد البيع وأفضل الأسعار في السوق.", linkText: "اعرف المزيد", link: "/صيانة/samsung/مبيعات" }
     ]
   },
   features: {
@@ -152,8 +155,8 @@ export const samsungData: BrandData = {
     preTitle: "انتشارنا",
     title: "مراكز خدمة سامسونج المعتمدة",
      items: [
-      { image: "https://maintenance-eg.com/uploads/samsung-maintenance-branches.webp", category: "خدمة القاهرة", title: "مركز خدمة سامسونج القاهرة", description: "مركزنا الرئيسي بالقاهرة يقدم خدمات صيانة لجميع منتجات سامسونج مع أسرع استجابة.", linkText: "زيارة الفرع", link: "/صيانة/samsung/locations/cairo" },
-      { image: "https://maintenance-eg.com/uploads/samsung-maintenance-branches-in-cairo.webp", category: "خدمة الدلتا", title: "مراكز خدمة سامسونج بالدلتا", description: "نخدم محافظات الدلتا (طنطا، المنصورة، المحلة) من خلال فروعنا المعتمدة لضمان راحتكم.", linkText: "زيارة الفرع", link: "/صيانة/samsung/locations/delta" },
+      { image: "https://img.freepik.com/free-vector/flat-customer-support-illustration_23-2148899114.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "خدمة القاهرة", title: "مركز خدمة سامسونج القاهرة", description: "مركزنا الرئيسي بالقاهرة يقدم خدمات صيانة لجميع منتجات سامسونج مع أسرع استجابة.", linkText: "زيارة الفرع", link: "/صيانة/samsung/locations/cairo" },
+      { image: "https://img.freepik.com/free-vector/flat-customer-support-illustration_23-2148899114.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "خدمة الغردقة", title: "مراكز خدمة سامسونج بالغردقة", description: "نخدم محافظات الدلتا (طنطا، المنصورة، المحلة) من خلال فروعنا المعتمدة لضمان راحتكم.", linkText: "زيارة الفرع", link: "/صيانة/samsung/locations/delta" },
     ]
   },
 };
@@ -166,14 +169,14 @@ export const carrierData: BrandData = {
   secondaryColor: "#FFFFFF",
   logo: "/brands/carrier.svg",
   logoWhite: "/brands/carrier/logos/carrier-logo-white.png",
-  hotline: "19003",
-  contactEmail: 'carrier@alalamiah-maintenance.com',
+  hotline: "01288582979",
+  contactEmail: 'maintenance.service1111@gmail.com',
 
   hero: {
     slides: [
-      { image: 'https://maintenance-eg.com/files/slider1.webp', title: "صيانة تكييفات كارير رقم #1 في مصر", subtitle: "خبراء التبريد والتدفئة", buttonText: "اتصل بنا للتكييف", buttonLink: "tel:19003" },
-      { image: 'https://maintenance-eg.com/files/slider2.webp', title: "تركيب وصيانة جميع موديلات كارير", subtitle: "خدمة معتمدة وموثوقة", buttonText: "حجز موعد صيانة", buttonLink: "#footer" },
-      { image: 'https://maintenance-eg.com/files/slider3.webp', title: "صيانة سخانات كارير بجميع أنواعها", subtitle: "فنيون متخصصون في إصلاح جميع أعطال سخانات كارير", buttonText: "اتصل بنا لصيانة سخانات", buttonLink: "tel:19003" },
+      { image: 'https://m.media-amazon.com/images/I/51BxKXvfS0L._AC_SX679_.jpg', title: "صيانة تكييفات كارير رقم #1 في مصر", subtitle: "خبراء التبريد والتدفئة", buttonText: "اتصل بنا للتكييف", buttonLink: "tel:01288582979" },
+      { image: 'https://m.media-amazon.com/images/I/81FO5aSLfzL._AC_SX679_.jpg', title: "تركيب وصيانة جميع موديلات كارير", subtitle: "خدمة معتمدة وموثوقة", buttonText: "حجز موعد صيانة", buttonLink: "#footer" },
+      { image: 'https://m.media-amazon.com/images/I/61Tx6xLzQPL._AC_UL480_FMwebp_QL65_.jpg', title: "صيانة سخانات كارير بجميع أنواعها", subtitle: "فنيون متخصصون في إصلاح جميع أعطال سخانات كارير", buttonText: "اتصل بنا لصيانة سخانات", buttonLink: "tel:01288582979" },
     ]
   },
   intro: {
@@ -192,17 +195,20 @@ export const carrierData: BrandData = {
   },
   ctaBanner1: {
     title: "حافظ على برودة وانتعاش منزلك مع كارير",
-    text: "لا تدع حرارة الصيف أو برودة الشتاء تؤثر على راحتك. اتصل بمركز صيانة كارير المعتمد الآن على 19003 للحصول على خدمة صيانة سريعة وموثوقة لتكييفك.",
-    buttonText: "اتصل الآن 19003",
-    buttonLink: "tel:19003"
+    text: "لا تدع حرارة الصيف أو برودة الشتاء تؤثر على راحتك. اتصل بمركز صيانة كارير المعتمد الآن على 01288582979 للحصول على خدمة صيانة سريعة وموثوقة لتكييفك.",
+    buttonText: "اتصل الآن 01288582979",
+    buttonLink: "tel:01288582979"
   },
   articles: {
     preTitle: "خدمات تكييف كارير",
     title: "صيانة وتركيب تكييفات كارير",
     items: [
-      { image: "https://img.freepik.com/free-photo/air-conditioning-decoration-interior_74190-6226.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات كاريير سبليت", title: "صيانة تكييفات كاريير سبليت", description: "خدمات صيانة دورية وشاملة لتكييفات كاريير سبليت، تشمل تنظيف الفلاتر، فحص الفريون، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/سبليت" },
-      { image: "https://img.freepik.com/free-photo/checking-conditioner_1098-17787.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات كاريير شباك", title: "صيانة تكييفات كاريير شباك", description: "نقدم خدمات صيانة متخصصة لتكييفات كاريير شباك، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/شباك" },
-      { image: "https://img.freepik.com/premium-photo/young-happy-woman-with-closed-eyes-sitting-sofa-air-conditioning-adjusting-comfortable-temperature-with-remote-control-modern-home_122732-3729.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات كاريير فيلكس", title: "صيانة تكييفات كاريير فيلكس", description: "نقدم خدمات صيانة متخصصة لتكييفات كاريير فيلكس، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/فيلكس" },
+      { image: "https://www.raneen.com/media/catalog/product/c/a/carrier_optimax_1__1_1_1_1_1_2_o4xbti4fvt7qadrw.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=300&width=300&canvas=300:300", category: "صيانة تكييفات كاريير سبليت", title: "صيانة تكييفات كاريير سبليت", description: "خدمات صيانة دورية وشاملة لتكييفات كاريير سبليت، تشمل تنظيف الفلاتر، فحص الفريون، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/سبليت" },
+      { image: "https://cairocart.com/pub/media/catalog/product/cache/f65e4f3f0d55f7c692e033a9434b3a7f/5/1/51kwt-12.jpg", category: "صيانة تكييفات كاريير شباك", title: "صيانة تكييفات كاريير شباك", description: "نقدم خدمات صيانة متخصصة لتكييفات كاريير شباك، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/شباك" },
+      { image: "https://airgroupegypt.com/media/catalog/product/cache/c57d994eba41dd4549c7a0b36a9cd959/d/u/ducteda6.jpg", category: "صيانة تكييفات كاريير كونسيلد", title: "صيانة تكييفات كاريير كونسيلد", description: "نقدم خدمات صيانة متخصصة لتكييفات كاريير فيلكس، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/فيلكس" },
+      { image: "https://img.freepik.com/free-photo/close-up-ventilation-system_23-2149388949.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "تأسيس مواسير التكييف", title: "خدمات تأسيس مواسير التكييف", description: "نقدم خدمات احترافية في تأسيس وتركيب مواسير التكييف، مع ضمان جودة العمل وسلامة التركيب والعزل الحراري المثالي.", linkText: "اعرف المزيد", link: "/صيانة/carrier/تأسيس-مواسير" },
+      { image: "https://www.raneen.com/media/catalog/product/e/s/es241_silver_high3.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=300&width=300&canvas=300:300", category: "صيانة ثلاجات كاريير", title: "خدمات صيانة ثلاجات كاريير", description: "صيانة شاملة لجميع موديلات ثلاجات كاريير، تشمل إصلاح نظام التبريد، الثرموستات، وجميع الأعطال الفنية مع ضمان الخدمة.", linkText: "اعرف المزيد", link: "/صيانة/carrier/ثلاجات" },
+      { image: "https://img.freepik.com/free-vector/flow-chart-showing-web-purchases-with-man-holding-tablet-linked-shopping-cart_1284-44266.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "خدمة المبيعات والتوريدات", title: "خدمات المبيعات وتوريد الأجهزة", description: "نوفر خدمات بيع وتوريد جميع أجهزة كاريير مع ضمان الوكيل وخدمات ما بعد البيع وأفضل الأسعار في السوق.", linkText: "اعرف المزيد", link: "/صيانة/carrier/مبيعات" }
     ]
   },
   features: {
@@ -229,8 +235,8 @@ export const carrierData: BrandData = {
     preTitle: "نصل إليك",
     title: "مراكز خدمة تكييف كارير",
      items: [
-      { image: "https://maintenance-eg.com/uploads/carrier-maintenance-branches.webp", category: "خدمة القاهرة والجيزة", title: "مركز خدمة كارير القاهرة والجيزة", description: "نخدم جميع مناطق القاهرة الكبرى والجيزة، اتصل بنا لتركيب أو صيانة تكييف كارير.", linkText: "اتصل الآن", link: "tel:19003" },
-      { image: "https://maintenance-eg.com/uploads/carrier-maintenance-branches.webp", category: "خدمة الساحل الشمالي", title: "مركز خدمة كارير الساحل الشمالي", description: "نوفر خدمات صيانة وتركيب سريعة في الساحل الشمالي خلال فصل الصيف لضمان راحتك.", linkText: "اتصل الآن", link: "tel:19003" },
+      { image: "https://img.freepik.com/free-vector/flat-customer-support-illustration_23-2148899114.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "خدمة القاهرة", title: "مركز خدمة كارير القاهرة", description: "نخدم جميع مناطق القاهرة الكبرى والجيزة، اتصل بنا لتركيب أو صيانة تكييف كارير.", linkText: "اتصل الآن", link: "tel:01288582979" },
+      { image: "https://img.freepik.com/free-vector/flat-customer-support-illustration_23-2148899114.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "خدمة الغردقة", title: "مركز خدمة كارير الغردقة", description: "نوفر خدمات صيانة وتركيب سريعة في الساحل الشمالي خلال فصل الصيف لضمان راحتك.", linkText: "اتصل الآن", link: "tel:01288582979" },
     ]
   },
 };
@@ -243,14 +249,14 @@ export const unionaireData: BrandData = {
   secondaryColor: "#FFFFFF",
   logo: "/brands/unionaire.png",
   logoWhite: "/brands/unionaire/logos/unionaire-logo-white.png",
-  hotline: "19004",
-  contactEmail: 'unionaire@alalamiah-maintenance.com',
+  hotline: "01288582979",
+  contactEmail: 'maintenance.service1111@gmail.com',
 
   hero: {
     slides: [
-      { image: 'https://maintenance-eg.com/files/slider1.webp', title: "صيانة تكييف يونيون اير المعتمدة", subtitle: "جودة وكفاءة تثق بها", buttonText: "اتصل بالصيانة", buttonLink: "tel:19004" },
-      { image: 'https://maintenance-eg.com/files/slider2.webp', title: "تركيب وصيانة تكييف يونيون اير", subtitle: "استمتع بجو مثالي", buttonText: "طلب صيانة تكييف", buttonLink: "#footer" },
-      { image: 'https://maintenance-eg.com/files/slider3.webp', title: "فريق فني متخصص لصيانة تكييف يونيون اير", subtitle: "نقدم لكم خبرة 22 سنة في خدمة الصناعة المصرية", buttonText: "اعرف المزيد", buttonLink: "#intro" },
+      { image: 'https://unionaire.com/wp-content/uploads/2025/02/ARTIFY-024_HR.png', title: "صيانة تكييف يونيون اير المعتمدة", subtitle: "جودة وكفاءة تثق بها", buttonText: "اتصل بالصيانة", buttonLink: "tel:01288582979" },
+      { image: 'https://unionaire.com/wp-content/uploads/2025/03/artify.png', title: "تركيب وصيانة تكييف يونيون اير", subtitle: "استمتع بجو مثالي", buttonText: "طلب صيانة تكييف", buttonLink: "#footer" },
+      { image: 'https://unionaire.com/wp-content/uploads/2024/09/ARTI012HV50NBRLNPRO.png', title: "فريق فني متخصص لصيانة تكييف يونيون اير", subtitle: "نقدم لكم خبرة 22 سنة في خدمة الصناعة المصرية", buttonText: "اعرف المزيد", buttonLink: "#intro" },
     ]
   },
   intro: {
@@ -269,17 +275,20 @@ export const unionaireData: BrandData = {
   },
   ctaBanner1: {
     title: "هل يحتاج جهاز يونيون اير الخاص بك للصيانة؟",
-    text: "اتصل بنا الآن على الخط الساخن 19004. مركز صيانة يونيون اير المعتمد يقدم لك حلولاً سريعة وموثوقة لجميع أجهزتك المنزلية مع ضمان الجودة.",
-    buttonText: "اتصل الآن 19004",
-    buttonLink: "tel:19004"
+    text: "اتصل بنا الآن على الخط الساخن 01288582979. مركز صيانة يونيون اير المعتمد يقدم لك حلولاً سريعة وموثوقة لجميع أجهزتك المنزلية مع ضمان الجودة.",
+    buttonText: "اتصل الآن 01288582979",
+    buttonLink: "tel:01288582979"
   },
   articles: {
     preTitle: "خدمات صيانة يونيون اير",
     title: "صيانة شاملة لأجهزة يونيون اير",
     items: [
-      { image: "https://img.freepik.com/free-photo/air-conditioning-decoration-interior_74190-6226.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات يونيون اير سبليت", title: "صيانة تكييفات يونيون اير سبليت", description: "خدمات صيانة دورية وشاملة لتكييفات يونيون اير سبليت، تشمل تنظيف الفلاتر، فحص الفريون، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/سبليت" },
-      { image: "https://img.freepik.com/free-photo/checking-conditioner_1098-17787.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات يونيون اير شباك", title: "صيانة تكييفات يونيون اير شباك", description: "نقدم خدمات صيانة متخصصة لتكييفات يونيون اير شباك، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/شباك" },
-      { image: "https://img.freepik.com/premium-photo/young-happy-woman-with-closed-eyes-sitting-sofa-air-conditioning-adjusting-comfortable-temperature-with-remote-control-modern-home_122732-3729.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات يونيون اير فيلكس", title: "صيانة تكييفات يونيون اير فيلكس", description: "نقدم خدمات صيانة متخصصة لتكييفات يونيون اير فيلكس، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/فيلكس" },
+      { image: "https://unionaire.com/wp-content/uploads/2024/09/ARTI012HV50NBRLNPRO.png", category: "صيانة تكييفات يونيون اير سبليت", title: "صيانة تكييفات يونيون اير سبليت", description: "خدمات صيانة دورية وشاملة لتكييفات يونيون اير سبليت، تشمل تنظيف الفلاتر، فحص الفريون، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/unionaire/سبليت" },
+      { image: "https://cairocart.com/pub/media/catalog/product/cache/f65e4f3f0d55f7c692e033a9434b3a7f/r/a/raq12cr.jpg", category: "صيانة تكييفات يونيون اير شباك", title: "صيانة تكييفات يونيون اير شباك", description: "نقدم خدمات صيانة متخصصة لتكييفات يونيون اير شباك، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/unionaire/شباك" },
+      { image: "https://img.freepik.com/premium-photo/metal-pipes-mounted-ceiling-are-covered-with-thermal-insulation_137416-1078.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "تأسيس مواسير التكييف", title: "خدمات تأسيس مواسير التكييف", description: "نقدم خدمات احترافية في تأسيس وتركيب مواسير التكييف، مع ضمان جودة العمل وسلامة التركيب وأفضل الخامات.", linkText: "اعرف المزيد", link: "/صيانة/unionaire/تأسيس-مواسير" },
+      { image: "https://img.freepik.com/free-vector/flow-chart-showing-web-purchases-with-man-holding-tablet-linked-shopping-cart_1284-44266.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "خدمة المبيعات والتوريدات", title: "خدمات المبيعات وتوريد الأجهزة", description: "نوفر خدمات بيع وتوريد جميع أجهزة يونيون اير مع ضمان الوكيل وخدمات ما بعد البيع.", linkText: "اعرف المزيد", link: "/صيانة/unionaire/مبيعات" },
+      { image: "https://unionaire.com/wp-content/uploads/2024/06/Artboard-1.png", category: "صيانة ثلاجات يونيون اير", title: "خدمات صيانة ثلاجات يونيون اير", description: "صيانة شاملة لجميع موديلات ثلاجات يونيون اير، تشمل إصلاح نظام التبريد، الثرموستات، وجميع الأعطال الفنية.", linkText: "اعرف المزيد", link: "/صيانة/unionaire/ثلاجات" },
+      { image: "https://unionaire.com/wp-content/uploads/2022/12/Screen-500@3x-600x600.png", category: "صيانة شاشات يونيون اير", title: "خدمات صيانة شاشات يونيون اير", description: "صيانة متخصصة لشاشات يونيون اير الذكية والعادية، مع توفير قطع غيار أصلية وضمان على الإصلاح.", linkText: "اعرف المزيد", link: "/صيانة/unionaire/شاشات" }
     ]
   },
   features: {
@@ -306,8 +315,8 @@ export const unionaireData: BrandData = {
     preTitle: "فروعنا المعتمدة",
     title: "مراكز صيانة يونيون اير القريبة منك",
      items: [
-      { image: "https://maintenance-eg.com/uploads/unionaire-company.webp", category: "المركز الرئيسي", title: "مركز يونيون اير الرئيسي", description: "المركز الرئيسي بالقاهرة لخدمة عملاء يونيون اير وتقديم الدعم الشامل.", linkText: "تواصل معنا", link: "tel:19004" },
-      { image: "https://maintenance-eg.com/uploads/unionaire-company.webp", category: "فرع الإسكندرية", title: "مركز يونيون اير بالإسكندرية", description: "فرعنا في الإسكندرية لخدمة عملاء المحافظة والمناطق المجاورة بسرعة وكفاءة.", linkText: "تواصل معنا", link: "tel:19004" },
+      { image: "https://img.freepik.com/free-vector/flat-customer-support-illustration_23-2148899114.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "فرع القاهرة", title: "مركز يونيون اير القاهرة", description: "المركز الرئيسي بالقاهرة لخدمة عملاء يونيون اير وتقديم الدعم الشامل.", linkText: "تواصل معنا", link: "tel:01288582979" },
+      { image: "https://img.freepik.com/free-vector/flat-customer-support-illustration_23-2148899114.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "فرع الغردقة", title: "مركز يونيون اير الغردقة", description: "فرعنا في الغردقة لخدمة عملاء المحافظة والمناطق المجاورة بسرعة وكفاءة.", linkText: "تواصل معنا", link: "tel:01288582979" },
     ]
   },
 };
@@ -320,14 +329,15 @@ export const sharpData: BrandData = {
   secondaryColor: "#FFFFFF",
   logo: "/brands/sharp.png",
   logoWhite: "/brands/sharp/logos/sharp-logo-white.png",
-  hotline: "19005", // Assuming hotline for Sharp
+  hotline: "01288582979", // Assuming hotline for Sharp
 
-  contactEmail: 'sharp@alalamiah-maintenance.com',
+  contactEmail: 'maintenance.service1111@gmail.com',
 
   hero: {
     slides: [
-      { image: 'https://maintenance-eg.com/files/slider1.webp', title: "صيانة مكيفات شارب المعتمدة", subtitle: "خبراء التبريد والتدفئة", buttonText: "اتصل بنا للتكييف", buttonLink: "tel:19005" },
-      { image: 'https://maintenance-eg.com/files/slider2.webp', title: "تركيب وصيانة جميع موديلات مكيفات شارب", subtitle: "خدمة معتمدة وموثوقة", buttonText: "حجز موعد صيانة", buttonLink: "#footer" },
+      { image: 'https://www.elarabygroup.com/media/iopt/catalog/product/cache/112e87ce2e3e8d6e36e718da758ea3a7/image/56737a12/2-25-ay-xp18yher.jpg', title: "صيانة تكييفات كارير رقم #1 في مصر", subtitle: "خبراء التبريد والتدفئة", buttonText: "اتصل بنا للتكييف", buttonLink: "tel:01288582979" },
+      { image: 'https://sharpelaraby.group/wp-content/uploads/2025/03/1-5-th-c12uee-300x225.jpg', title: "تركيب وصيانة جميع موديلات كارير", subtitle: "خدمة معتمدة وموثوقة", buttonText: "حجز موعد صيانة", buttonLink: "#footer" },
+      { image: 'https://sharpelaraby.group/wp-content/uploads/2025/03/2-25-ay-ap18uhe-300x225.jpg', title: "صيانة سخانات كارير بجميع أنواعها", subtitle: "فنيون متخصصون في إصلاح جميع أعطال سخانات كارير", buttonText: "اتصل بنا لصيانة سخانات", buttonLink: "tel:01288582979" },
     ]
   },
   intro: {
@@ -346,17 +356,19 @@ export const sharpData: BrandData = {
   },
   ctaBanner1: {
     title: "هل لديك جهاز شارب يحتاج إلى صيانة؟",
-    text: "اتصل بمركز صيانة شارب المعتمد على 19005. نقدم لك خدمة احترافية وسريعة باستخدام قطع غيار أصلية لضمان أفضل أداء لجهازك.",
-    buttonText: "اتصل الآن 19005",
-    buttonLink: "tel:19005"
+    text: "اتصل بمركز صيانة شارب المعتمد على 01288582979. نقدم لك خدمة احترافية وسريعة باستخدام قطع غيار أصلية لضمان أفضل أداء لجهازك.",
+    buttonText: "اتصل الآن 01288582979",
+    buttonLink: "tel:01288582979"
   },
   articles: {
     preTitle: "خدمات صيانة شارب",
     title: "صيانة جميع أجهزة شارب المنزلية",
     items: [
-      { image: "https://img.freepik.com/free-photo/air-conditioning-decoration-interior_74190-6226.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات شارب سبليت", title: "صيانة تكييفات شارب سبليت", description: "خدمات صيانة دورية وشاملة لتكييفات شارب سبليت، تشمل تنظيف الفلاتر، فحص الفريون، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/سبليت" },
-      { image: "https://img.freepik.com/free-photo/checking-conditioner_1098-17787.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات شارب شباك", title: "صيانة تكييفات شارب شباك", description: "نقدم خدمات صيانة متخصصة لتكييفات شارب شباك، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/شباك" },
-      { image: "https://img.freepik.com/premium-photo/young-happy-woman-with-closed-eyes-sitting-sofa-air-conditioning-adjusting-comfortable-temperature-with-remote-control-modern-home_122732-3729.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات شارب فيلكس", title: "صيانة تكييفات شارب فيلكس", description: "نقدم خدمات صيانة متخصصة لتكييفات شارب فيلكس، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/فيلكس" },
+      { image: "https://sharpelaraby.group/wp-content/uploads/2025/03/2-25-ay-ap18uhe-300x225.jpg", category: "صيانة تكييفات شارب سبليت", title: "صيانة تكييفات شارب سبليت", description: "خدمات صيانة دورية وشاملة لتكييفات شارب سبليت، تشمل تنظيف الفلاتر، فحص الفريون، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/sharp/سبليت" },
+      { image: "https://img.freepik.com/free-photo/3d-rendering-ventilation-system_23-2149281320.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "تأسيس مواسير التكييف", title: "خدمات تأسيس مواسير التكييف", description: "نقدم خدمات احترافية في تأسيس وتركيب مواسير التكييف، مع ضمان جودة العمل وسلامة التركيب.", linkText: "اعرف المزيد", link: "/صيانة/sharp/تأسيس-مواسير" },
+      { image: "https://www.elarabygroup.com/media/iopt/catalog/product/cache/112e87ce2e3e8d6e36e718da758ea3a7/image/55e9f1/450-sj-pc58a-sl.jpg", category: "صيانة ثلاجات شارب", title: "خدمات صيانة ثلاجات شارب", description: "صيانة شاملة لجميع موديلات ثلاجات شارب، تشمل إصلاح نظام التبريد، الثرموستات، وجميع الأعطال الفنية.", linkText: "اعرف المزيد", link: "/صيانة/sharp/ثلاجات" },
+      { image: "https://www.elarabygroup.com/media/catalog/product/cache/112e87ce2e3e8d6e36e718da758ea3a7/image/76244b00/hd-32-2t-c32fg6ex.jpg", category: "صيانة شاشات شارب", title: "خدمات صيانة شاشات شارب", description: "صيانة متخصصة لشاشات شارب الذكية والعادية، مع توفير قطع غيار أصلية وضمان على الإصلاح.", linkText: "اعرف المزيد", link: "/صيانة/sharp/شاشات" },
+      { image: "https://img.freepik.com/free-vector/flow-chart-showing-web-purchases-with-man-holding-tablet-linked-shopping-cart_1284-44266.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "خدمة المبيعات والتوريدات", title: "خدمات المبيعات وتوريد الأجهزة", description: "نوفر خدمات بيع وتوريد جميع أجهزة شارب مع ضمان الوكيل وخدمات ما بعد البيع.", linkText: "اعرف المزيد", link: "/صيانة/sharp/مبيعات" }
     ]
   },
   features: {
@@ -383,8 +395,8 @@ export const sharpData: BrandData = {
     preTitle: "أين تجدنا؟",
     title: "مراكز صيانة شارب المعتمدة",
      items: [
-      { image: "https://maintenance-eg.com/uploads/sharp-company.webp", category: "مركز القاهرة", title: "مركز صيانة شارب بالقاهرة", description: "المركز المعتمد لصيانة شارب في القاهرة الكبرى، يقدم خدمة سريعة ومضمونة.", linkText: "اتصل بالمركز", link: "tel:19005" },
-      { image: "https://maintenance-eg.com/uploads/sharp-company.webp", category: "مركز الجيزة", title: "مركز صيانة شارب بالجيزة", description: "نخدم عملاء الجيزة و6 أكتوبر بخدمات صيانة معتمدة لجميع أجهزة شارب.", linkText: "اتصل بالمركز", link: "tel:19005" },
+      { image: "https://img.freepik.com/free-vector/flat-customer-support-illustration_23-2148899114.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "مركز القاهرة", title: "مركز صيانة شارب بالقاهرة", description: "المركز المعتمد لصيانة شارب في القاهرة الكبرى، يقدم خدمة سريعة ومضمونة.", linkText: "اتصل بالمركز", link: "tel:01288582979" },
+      { image: "https://img.freepik.com/free-vector/flat-customer-support-illustration_23-2148899114.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "مركز الغردقة", title: "مركز صيانة شارب بالغردقة", description: "نخدم عملاء الغردقة بخدمات صيانة معتمدة لجميع أجهزة شارب.", linkText: "اتصل بالمركز", link: "tel:01288582979" },
     ]
   },
 };
@@ -397,16 +409,16 @@ export const freshData: BrandData = {
   secondaryColor: "#FFFFFF",
   logo: "/brands/fresh.png",
   logoWhite: "/brands/fresh.svg",
-  hotline: "19006", // Assuming hotline for Fresh
+  hotline: "01288582979", // Assuming hotline for Fresh
 
-  contactEmail: 'fresh@alalamiah-maintenance.com',
+  contactEmail: 'maintenance.service1111@gmail.com',
 
   hero: {
     slides: [
-      { image: 'https://maintenance-eg.com/files/slider1.webp', title: "صيانة فريش المعتمدة للمكيفات", subtitle: "اختيار العائلة المصرية", buttonText: "اتصل بصيانة فريش", buttonLink: "tel:19006" },
-      { image: 'https://maintenance-eg.com/files/slider2.webp', title: "إصلاح مكيفات فريش", subtitle: "خدمة سريعة بأسعار مناسبة", buttonText: "احجز موعد صيانة", buttonLink: "#footer" },
-      { image: 'https://maintenance-eg.com/files/slider3.webp', title: "دعم فني متواصل", subtitle: "استجابة سريعة على مدار الساعة", buttonText: "تواصل مع الدعم الفني", buttonLink: "tel:19006" },
-
+      { image: 'https://be.fresh.com.eg/media/catalog/product/cache/6fdb9282313a7e48374fe05a5418029a/h/u/hummer-_black_1.png', title: "صيانة تكييفات فريش انفرتر", subtitle: "خبراء التبريد والتدفئة", buttonText: "اتصل بنا للتكييف", buttonLink: "tel:01288582979" },
+      { image: 'https://be.fresh.com.eg/media/catalog/product/cache/6fdb9282313a7e48374fe05a5418029a/f/r/fresh_air_conditioner_duct_inverter_turbo_3hp_cold_-_hot_2.png', title: "تركيب وصيانة تكييفات فريش كونسيلد", subtitle: "خدمة معتمدة وموثوقة", buttonText: "حجز موعد صيانة", buttonLink: "#footer" },
+      { image: 'https://be.fresh.com.eg/media/catalog/product/cache/6fdb9282313a7e48374fe05a5418029a/f/r/fresh_air_conditioner_floor_standing_5hp_cold_-_hot_2.png', title: "صيانة تكييفات فريش فري ستاند", subtitle: "فنيون متخصصون في صيانة التكييفات الرأسية", buttonText: "اتصل بنا للصيانة", buttonLink: "tel:01288582979" },
+      { image: 'https://be.fresh.com.eg/media/catalog/product/cache/6fdb9282313a7e48374fe05a5418029a/a/i/air_curtain_1.png', title: "تركيب وصيانة ستائر هواء فريش", subtitle: "حلول مثالية للمحلات والمطاعم", buttonText: "احجز معاينة", buttonLink: "tel:01288582979" },
     ]
   },
   intro: {
@@ -425,17 +437,21 @@ export const freshData: BrandData = {
   },
   ctaBanner1: {
     title: "جهاز فريش لديك لا يعمل؟ الحل بسيط!",
-    text: "اتصل الآن بمركز صيانة فريش المعتمد على 19006. سيقوم فريقنا بتقديم الدعم اللازم وتحديد موعد لإصلاح جهازك بسرعة وكفاءة وبأسعار معقولة.",
-    buttonText: "اتصل الآن 19006",
-    buttonLink: "tel:19006"
+    text: "اتصل الآن بمركز صيانة فريش المعتمد على 01288582979. سيقوم فريقنا بتقديم الدعم اللازم وتحديد موعد لإصلاح جهازك بسرعة وكفاءة وبأسعار معقولة.",
+    buttonText: "اتصل الآن 01288582979",
+    buttonLink: "tel:01288582979"
   },
   articles: {
     preTitle: "خدماتنا لأجهزة فريش",
     title: "صيانة شاملة لمنتجات فريش",
     items: [
-      { image: "https://img.freepik.com/free-photo/air-conditioning-decoration-interior_74190-6226.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات فريش سبليت", title: "صيانة تكييفات فريش سبليت", description: "خدمات صيانة دورية وشاملة لتكييفات فريش سبليت، تشمل تنظيف الفلاتر، فحص الفريون، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/سبليت" },
-      { image: "https://img.freepik.com/free-photo/checking-conditioner_1098-17787.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات فريش شباك", title: "صيانة تكييفات فريش شباك", description: "نقدم خدمات صيانة متخصصة لتكييفات فريش شباك، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/شباك" },
-      { image: "https://img.freepik.com/premium-photo/young-happy-woman-with-closed-eyes-sitting-sofa-air-conditioning-adjusting-comfortable-temperature-with-remote-control-modern-home_122732-3729.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات فريش فيلكس", title: "صيانة تكييفات فريش فيلكس", description: "نقدم خدمات صيانة متخصصة لتكييفات فريش فيلكس، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/فيلكس" },
+      { image: "https://img.freepik.com/free-photo/air-conditioner-mounted-white-wall_53876-128235.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات فريش سبليت", title: "صيانة تكييفات فريش سبليت", description: "خدمات صيانة دورية وشاملة لتكييفات فريش سبليت، تشمل تنظيف الفلاتر، فحص الفريون، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/fresh/سبليت" },
+      { image: "https://img.freepik.com/premium-photo/outdoor-air-conditioner-unit-installed-wall-residential-building-window-installation-repair-maintenance-air-conditioning-systems-residential-premises_678914-3130.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات فريش شباك", title: "صيانة تكييفات فريش شباك", description: "نقدم خدمات صيانة متخصصة لتكييفات فريش شباك، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/fresh/شباك" },
+      { image: "https://be.fresh.com.eg/media/catalog/product/cache/6fdb9282313a7e48374fe05a5418029a/f/r/fresh_air_conditioner_duct_inverter_turbo_3hp_cold_-_hot_2.png", category: "صيانة تكييفات فريش كونسلير مركزي", title: "صيانة تكييفات فريش كونسيلد", description: "نقدم خدمات صيانة متخصصة لتكييفات فريش كونسيلد، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/fresh/فيلكس" },
+      { image: "https://img.freepik.com/free-photo/close-up-heat-pump-outside-home_23-2149250243.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "تأسيس مواسير التكييف", title: "خدمات تأسيس مواسير التكييف", description: "نقدم خدمات احترافية في تأسيس وتركيب مواسير التكييف، مع ضمان جودة العمل وسلامة التركيب وفقاً للمعايير الفنية.", linkText: "اعرف المزيد", link: "/صيانة/fresh/تأسيس-مواسير" },
+      { image: "https://be.fresh.com.eg/media/catalog/product/cache/6fdb9282313a7e48374fe05a5418029a/k/a/kashmeer_1.png", category: "صيانة ثلاجات فريش", title: "خدمات صيانة ثلاجات فريش", description: "صيانة شاملة لجميع موديلات ثلاجات فريش، تشمل إصلاح نظام التبريد، الثرموستات، وجميع الأعطال الفنية مع ضمان الخدمة.", linkText: "اعرف المزيد", link: "/صيانة/fresh/ثلاجات" },
+      { image: "https://be.fresh.com.eg/media/catalog/product/cache/6fdb9282313a7e48374fe05a5418029a/3/2/32lh123.png", category: "صيانة شاشات فريش", title: "خدمات صيانة شاشات فريش", description: "صيانة متخصصة لشاشات فريش الذكية والعادية، مع توفير قطع غيار أصلية وضمان على الإصلاح لجميع الموديلات.", linkText: "اعرف المزيد", link: "/صيانة/fresh/شاشات" },
+      { image: "https://img.freepik.com/free-vector/flow-chart-showing-web-purchases-with-man-holding-tablet-linked-shopping-cart_1284-44266.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "خدمة المبيعات والتوريدات", title: "خدمات المبيعات وتوريد الأجهزة", description: "نوفر خدمات بيع وتوريد جميع أجهزة فريش مع ضمان الوكيل وخدمات ما بعد البيع بأفضل الأسعار التنافسية.", linkText: "اعرف المزيد", link: "/صيانة/fresh/مبيعات" }
     ]
   },
   features: {
@@ -462,8 +478,8 @@ export const freshData: BrandData = {
     preTitle: "فروع خدمة فريش",
     title: "أين تجد خدمة صيانة فريش؟",
      items: [
-      { image: "https://maintenance-eg.com/uploads/fresh-maintenance-branches.webp", category: "خدمة القاهرة الكبرى", title: "مراكز خدمة فريش بالقاهرة والجيزة", description: "نقاط خدمة متعددة في القاهرة والجيزة لضمان سرعة الوصول إليك.", linkText: "اتصل بنا", link: "tel:19006" },
-      { image: "https://maintenance-eg.com/uploads/fresh-maintenance-branches.webp", category: "خدمة الإسكندرية", title: "مركز خدمة فريش بالإسكندرية", description: "فرعنا بالإسكندرية يقدم صيانة شاملة لجميع أجهزة فريش.", linkText: "اتصل بنا", link: "tel:19006" },
+      { image: "https://img.freepik.com/free-vector/flat-design-illustration-customer-support_23-2148887720.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "خدمة القاهرة", title: "مراكز خدمة فريش بالقاهرة", description: "نقاط خدمة متعددة في القاهرة والجيزة لضمان سرعة الوصول إليك.", linkText: "اتصل بنا", link: "tel:01288582979" },
+      { image: "https://img.freepik.com/free-vector/flat-design-illustration-customer-support_23-2148887720.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "خدمة الغردقة", title: "مركز خدمة فريش بالغردقة", description: "فرعنا بالإسكندرية يقدم صيانة شاملة لجميع أجهزة فريش.", linkText: "اتصل بنا", link: "tel:01288582979" },
     ]
   },
 };

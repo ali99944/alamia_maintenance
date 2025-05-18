@@ -16,13 +16,14 @@ import { HeroSlide } from '@/src/types/brand';
 interface HeroSliderProps {
   slides: HeroSlide[];
   primaryColor: string;
+  logo: string
 }
 
-const HeroSlider: React.FC<HeroSliderProps> = ({ slides, primaryColor }) => {
+const HeroSlider: React.FC<HeroSliderProps> = ({ slides, primaryColor, logo }) => {
   return (
     // Wrap the entire slider container with motion.div for initial load animation
     <motion.div
-      className="relative h-[60vh] md:h-[75vh] lg:h-[85vh] w-full group"
+      className="relative h-[70vh] md:h-[85vh] lg:h-[90vh] w-full group"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8 }}
@@ -46,11 +47,20 @@ const HeroSlider: React.FC<HeroSliderProps> = ({ slides, primaryColor }) => {
               src={slide.image}
               alt={slide.title || 'صيانة الأجهزة'}
               layout="fill"
-              objectFit="cover"
+              objectFit="contain"
               priority={index === 0} // Prioritize first image
             />
             <div className="absolute inset-0 bg-black/60 bg-opacity-50 flex items-center justify-center text-center">
               <div className="max-w-3xl px-4">
+                <div className="mb-6">
+                  <Image
+                    src={logo}
+                    alt="Brand Logo"
+                    width={150}
+                    height={150}
+                    className="mx-auto"
+                  />
+                </div>
                 {slide.subtitle && (
                   <p className="text-lg md:text-xl text-gray-200 mb-2">{slide.subtitle}</p>
                 )}
