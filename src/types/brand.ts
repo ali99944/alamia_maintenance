@@ -71,6 +71,12 @@ export interface BrandData {
     items: BrandArticleOrLocation[];
   };
 
+  other_articles: {
+    preTitle: string; // e.g., "خدمات صيانة ال جي"
+    title: string; // e.g., "صيانة ال جي"
+    items: BrandArticleOrLocation[];
+  } | null;
+
   // Section 5: Features & Counters
   features: {
     preTitle: string; // e.g., "خدماتنا!"

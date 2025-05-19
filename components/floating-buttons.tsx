@@ -6,12 +6,11 @@ import { MessageCircle } from 'lucide-react'; // Using MessageCircle as placehol
 
 const FloatingButtons = () => {
   const phoneNumber = "+201288582979"; // <-- REPLACE with your phone
-  const secondPhoneNumber = "+201143740234"; // <-- REPLACE with your phone
   const whatsappNumber = "201154021207"; // <-- REPLACE with WhatsApp number (no +)
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent("أرغب في الاستفسار عن خدمات الصيانة")}`;
 
   return (
-    <div className="fixed bottom-5 right-5 z-50 flex flex-col space-y-3"> {/* Changed to left-5 for RTL consistency? Or keep right-5 */}
+    <div className="fixed bottom-5 left-5 z-50 flex flex-col space-y-3"> {/* Changed to left-5 for RTL consistency? Or keep right-5 */}
        {/* Phone Button */}
       <a
         href={`tel:${phoneNumber}`}
@@ -21,14 +20,6 @@ const FloatingButtons = () => {
         <Phone className="h-6 w-6" />
       </a>
 
-       {/* Phone Button */}
-      <a
-        href={`tel:${secondPhoneNumber}`}
-        aria-label="اتصل بنا"
-        className="bg-[#0d6efd] hover:bg-[#0b5ed7] text-white p-3.5 rounded-full  transition duration-300 ease-in-out flex items-center justify-center" // Adjusted blue color, slightly larger padding
-      >
-        <Phone className="h-6 w-6" />
-      </a>
 
        {/* WhatsApp Button */}
        <a

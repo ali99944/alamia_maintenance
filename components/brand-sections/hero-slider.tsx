@@ -16,14 +16,13 @@ import { HeroSlide } from '@/src/types/brand';
 interface HeroSliderProps {
   slides: HeroSlide[];
   primaryColor: string;
-  logo: string
 }
 
-const HeroSlider: React.FC<HeroSliderProps> = ({ slides, primaryColor, logo }) => {
+const HeroSlider: React.FC<HeroSliderProps> = ({ slides, primaryColor }) => {
   return (
     // Wrap the entire slider container with motion.div for initial load animation
     <motion.div
-      className="relative h-[70vh] md:h-[85vh] lg:h-[90vh] w-full group"
+      className="relative h-[40vh] md:h-[85vh] lg:h-[90vh] w-full group"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8 }}
@@ -47,20 +46,11 @@ const HeroSlider: React.FC<HeroSliderProps> = ({ slides, primaryColor, logo }) =
               src={slide.image}
               alt={slide.title || 'صيانة الأجهزة'}
               layout="fill"
-              objectFit="contain"
+              objectFit="fill"
               priority={index === 0} // Prioritize first image
             />
             <div className="absolute inset-0 bg-black/60 bg-opacity-50 flex items-center justify-center text-center">
               <div className="max-w-3xl px-4">
-                <div className="mb-6">
-                  <Image
-                    src={logo}
-                    alt="Brand Logo"
-                    width={150}
-                    height={150}
-                    className="mx-auto"
-                  />
-                </div>
                 {slide.subtitle && (
                   <p className="text-lg md:text-xl text-gray-200 mb-2">{slide.subtitle}</p>
                 )}
@@ -69,7 +59,7 @@ const HeroSlider: React.FC<HeroSliderProps> = ({ slides, primaryColor, logo }) =
                 </h1>
                 <Link href={slide.buttonLink}>
                   <button
-                    className="mt-4 px-8 py-3 text-white font-semibold rounded-md hover:opacity-90 transition duration-300 transform hover:scale-105"
+                    className="mt-4 px-8 py-2 text-white font-semibold hover:opacity-90 transition duration-300 cursor-pointer"
                     style={{ backgroundColor: primaryColor }}
                   >
                     {slide.buttonText}

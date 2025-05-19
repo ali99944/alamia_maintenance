@@ -1,6 +1,7 @@
 import React from 'react';
 import type { Metadata } from 'next';
-import Navbar from '@/components/navbar';
+import Footer from '@/components/footer';
+import BrandNavbar from '@/components/brand-sections/brand-navbar';
 
 export const metadata: Metadata = {
   title: 'سياسة الخصوصية - مركز الصيانة المعتمد',
@@ -10,11 +11,66 @@ export const metadata: Metadata = {
 export default function PrivacyPolicyPage() {
   const siteName = "مركز الصيانة المعتمد";
   const primaryColor = "#0d6efd"; // Main site color
-  const contactEmail = "alitarek99944@gmail.com"; // REPLACE with your actual contact email
+  const contactEmail = "maintenance.service1111@gmail.com"; // REPLACE with your actual contact email
 
   return (
     <>
-      <Navbar />
+      <BrandNavbar 
+        services={[
+          {
+            title: 'ال جي',
+            description: 'صيانة معتمدة لجميع أجهزة ال جي',
+            image: '/brands/lg.png',
+            link: '/brands/lg',
+            category: 'brand',
+            linkText: 'عرض التفاصيل',
+          },
+          {
+            title: 'سامسونج',
+            description: 'صيانة معتمدة لجميع أجهزة سامسونج',
+            image: '/brands/samsung.png',
+            link: '/brands/samsung',
+            category: 'brand',
+            linkText: 'عرض التفاصيل',
+          },
+          {
+            title: 'كاريير',
+            description: 'صيانة معتمدة لجميع أجهزة كاريير',
+            image: '/brands/carrier.png',
+            link: '/brands/carrier',
+            category: 'brand',
+            linkText: 'عرض التفاصيل',
+          },
+          {
+            title: 'يونيون اير',
+            description: 'صيانة معتمدة لجميع أجهزة يونيون اير',
+            image: '/brands/unionaire.png',
+            link: '/brands/unionaire',
+            category: 'brand',
+            linkText: 'عرض التفاصيل',
+          },
+          {
+            title: 'شارب',
+            description: 'صيانة معتمدة لجميع أجهزة شارب',
+            image: '/brands/sharp.png',
+            link: '/brands/sharp',
+            category: 'brand',
+            linkText: 'عرض التفاصيل',
+          },
+          {
+            title: 'فريش',
+            description: 'صيانة معتمدة لجميع أجهزة فريش',
+            image: '/brands/fresh.png',
+            link: '/brands/fresh',
+            category: 'brand',
+            linkText: 'عرض التفاصيل',
+          }
+        ]} // Pass the services to the Navbar
+        logo={'/logo.png'} 
+        brandName={'مركز الصيانة'} 
+        hotline={'01150421159'} 
+        primaryColor={'#0d6efd'} 
+      />
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-gray-100 to-white pt-24 pb-16 md:pt-32 md:pb-20">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -78,7 +134,8 @@ export default function PrivacyPolicyPage() {
           </div>
         </div>
       </section>
-      <Navbar />
+
+    <Footer />
     </>
   );
 }

@@ -75,18 +75,21 @@ const ArticlesOrLocationsSection: React.FC<ArticlesOrLocationsProps> = ({
               className="bg-white rounded-lg overflow-hidden flex flex-col border border-gray-200 duration-300 group"
               variants={itemVariants} // Use the item variant
             >
-              <div className="relative w-full h-88">
+              <div className="relative w-full h-90">
                 <Image
                   src={item.image}
                   alt={item.title}
                   layout="fill"
-                  objectFit={''}
+                  objectFit={'cover'}
+                  quality={100}
+                  priority={true}
+                  loading={'eager'}
                 />
                 {/* Category Tag */}
                 <Image
                   src={logo}
                   alt={item.category}
-                  className="absolute top-2 right-2 w-auto h-4"
+                  className="absolute top-2 right-2 w-auto h-8"
                   width={32}
                   height={32}
                 />

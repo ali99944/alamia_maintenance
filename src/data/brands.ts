@@ -16,9 +16,9 @@ export const lgData: BrandData = {
 
   hero: {
     slides: [
-      { image: 'https://www.lg.com/content/dam/channel/wcms/eg_ar/images/split-air-conditioners/s4-q12ja2mc_aa6geeg_efeg_eg_ar_c/Basic-350-V1.jpg', title: "صيانة تكييفات ال جي رقم #1 في مصر", subtitle: "خبراء التبريد والتدفئة", buttonText: "اتصل بنا للتكييف", buttonLink: "tel:01288582979" },
-      { image: 'https://www.lg.com/content/dam/channel/wcms/eg_ar/images/split-air-conditioners/s4-w12jarma_aa6geeg_efeg_eg_ar_c/Thumb-350.jpg', title: "تركيب وصيانة جميع موديلات ال جي", subtitle: "خدمة معتمدة وموثوقة", buttonText: "حجز موعد صيانة", buttonLink: "#footer" },
-      { image: 'https://www.lg.com/content/dam/channel/wcms/eg_ar/images/split-air-conditioners/abnw60gm3t2_anwgeeg_efeg_eg_ar_c/ABNW60GM3T2_ANWGEEG_EFEG_EG_AR_C-350x350.jpg', title: "صيانة تكييفات ال جي كونسيلر مركزي", subtitle: "فنيون متخصصون في إصلاح وصيانة تكييفات الكونسيلر المركزي", buttonText: "اتصل بنا لصيانة التكييف", buttonLink: "tel:01288582979" },
+      { image: 'https://unionaire.com/wp-content/uploads/2025/03/tropical-comprocer-01-2048x1274.webp', title: "صيانة تكييفات ال جي رقم #1 في مصر", subtitle: "خبراء التبريد والتدفئة", buttonText: "اتصل بنا للتكييف", buttonLink: "tel:01288582979" },
+      { image: 'https://unionaire.com/wp-content/uploads/2025/02/artify-black-1.png', title: "تركيب وصيانة جميع موديلات ال جي", subtitle: "خدمة معتمدة وموثوقة", buttonText: "حجز موعد صيانة", buttonLink: "#footer" },
+      { image: 'https://unionaire.com/wp-content/uploads/2025/03/Air-con-1.png', title: "صيانة تكييفات ال جي كونسيلر مركزي", subtitle: "فنيون متخصصون في إصلاح وصيانة تكييفات الكونسيلر المركزي", buttonText: "اتصل بنا لصيانة التكييف", buttonLink: "tel:01288582979" },
     ]
   },
   intro: {
@@ -45,13 +45,24 @@ export const lgData: BrandData = {
     preTitle: "خدمات مركز ال جي",
     title: "كل ما تحتاجه لصيانة أجهزة ال جي",
     items: [
-      { image: "https://www.lg.com/content/dam/channel/wcms/eg_ar/images/split-air-conditioners/s4-q12ja2mc_aa6geeg_efeg_eg_ar_c/Basic-350-V1.jpg", category: "صيانة تكييفات ال جي سبليت", title: "صيانة تكييفات ال جي سبليت", description: "خدمات صيانة دورية وشاملة لتكييفات ال جي سبليت، تشمل تنظيف الفلاتر، فحص الفريون، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/سبليت" },
-      { image: "https://media.us.lg.com/transform/ecomm-PDPGalleryThumbnail-350x350/83bcac6f-1b8a-4845-b755-c3f278a44695/LW1223HRSM_thumbnail_350x350?io=transform:fill,width:250", category: "صيانة تكييفات ال جي شباك", title: "صيانة تكييفات ال جي شباك", description: "نقدم خدمات صيانة متخصصة لتكييفات ال جي شباك، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/شباك" },
-      { image: "https://www.lg.com/content/dam/channel/wcms/eg_ar/images/split-air-conditioners/abnw60gm3t2_anwgeeg_efeg_eg_ar_c/ABNW60GM3T2_ANWGEEG_EFEG_EG_AR_C-350x350.jpg", category: "صيانة تكييفات ال جي فيلكس", title: "صيانة تكييفات ال جي كونسليد", description: "نقدم خدمات صيانة متخصصة لتكييفات ال جي فيلكس، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/فيلكس" },
-      { image: "https://img.freepik.com/free-photo/close-up-heat-pump-outside-home_23-2149250243.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "تأسيس مواسير التكييف", title: "خدمات تأسيس مواسير التكييف", description: "نقدم خدمات احترافية في تأسيس وتركيب مواسير التكييف، مع ضمان جودة العمل وسلامة التركيب.", linkText: "اعرف المزيد", link: "/صيانة/lg/تأسيس-مواسير" },
+       { image: "https://m.media-amazon.com/images/I/61DClSTtjbL._AC_UL480_FMwebp_QL65_.jpg", category: "تأسيس مواسير التكييف", title: "خدمات تأسيس مواسير التكييف", description: "نقدم خدمات احترافية في تأسيس وتركيب مواسير التكييف، مع ضمان جودة العمل وسلامة التركيب.", linkText: "اعرف المزيد", link: "/صيانة/lg/تأسيس-مواسير" },
+      { image: "https://img.freepik.com/premium-photo/set-different-home-appliances-with-vacuum-cleaner-yellow-background_1339860-3766.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "خدمة المبيعات والتوريدات", title: "خدمات المبيعات وتوريد الأجهزة", description: "نوفر خدمات بيع وتوريد جميع أجهزة ال جي مع ضمان الوكيل وخدمات ما بعد البيع.", linkText: "اعرف المزيد", link: "/صيانة/lg/مبيعات" }
+    ]
+  },
+
+  other_articles: {
+    preTitle: "خدماتنا الاخرى",
+    title: "خدماتنا الاخرى",
+    items: [
       { image: "https://www.lg.com/content/dam/channel/wcms/eg_ar/images/refrigerators/gc-x257cqhw/450.jpg/jcr:content/renditions/thum-350x350.jpeg", category: "صيانة ثلاجات ال جي", title: "خدمات صيانة ثلاجات ال جي", description: "صيانة شاملة لجميع موديلات ثلاجات ال جي، تشمل إصلاح نظام التبريد، الثرموستات، وجميع الأعطال الفنية.", linkText: "اعرف المزيد", link: "/صيانة/lg/ثلاجات" },
-      { image: "https://www.lg.com/content/dam/channel/wcms/sa/images/tvs/osn-remove/86ut80006lb-450.jpg/jcr:content/renditions/thum-350x350.jpeg", category: "صيانة شاشات ال جي", title: "خدمات صيانة شاشات ال جي", description: "صيانة متخصصة لشاشات ال جي الذكية والعادية، مع توفير قطع غيار أصلية وضمان على الإصلاح.", linkText: "اعرف المزيد", link: "/صيانة/lg/شاشات" },
-      { image: "https://img.freepik.com/free-vector/flow-chart-showing-web-purchases-with-man-holding-tablet-linked-shopping-cart_1284-44266.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "خدمة المبيعات والتوريدات", title: "خدمات المبيعات وتوريد الأجهزة", description: "نوفر خدمات بيع وتوريد جميع أجهزة ال جي مع ضمان الوكيل وخدمات ما بعد البيع.", linkText: "اعرف المزيد", link: "/صيانة/lg/مبيعات" }
+      { image: "https://www.lg.com/content/dam/channel/wcms/eg_ar/2025_ms_lg-com/tv/uhd/ua75/gp1/gallery/43-ua75-a/450-43.jpg/jcr:content/renditions/thum-350x350.jpeg", category: "صيانة شاشات ال جي", title: "خدمات صيانة شاشات ال جي", description: "صيانة متخصصة لشاشات ال جي الذكية والعادية، مع توفير قطع غيار أصلية وضمان على الإصلاح.", linkText: "اعرف المزيد", link: "/صيانة/lg/شاشات" },
+      { image: "https://www.lg.com/content/dam/channel/wcms/eg_ar/images/washing-machines/ha_tag/hu641bbg-450.jpg/jcr:content/renditions/thum-350x350.jpeg", category: "صيانة بوتاجازات ال جي", title: "خدمات صيانة بوتاجازات ال جي", description: "صيانة متخصصة لجميع موديلات بوتاجازات ال جي، تشمل إصلاح الشعلات، الفرن، والثرموستات مع ضمان الخدمة.", linkText: "اعرف المزيد", link: "/صيانة/lg/بوتاجازات" },
+      { image: "https://www.lg.com/content/dam/channel/wcms/eg_ar/images/washing-machines/f0z6dyp24-/450_BASIC.jpg/jcr:content/renditions/thum-350x350.jpeg", category: "صيانة غسالات ال جي", title: "خدمات صيانة غسالات ال جي", description: "صيانة شاملة لغسالات ال جي الأوتوماتيك والعادية، مع حل مشاكل التصريف، الموتور، والبرمجة.", linkText: "اعرف المزيد", link: "/صيانة/lg/غسالات" },
+      { image: "https://www.lg.com/content/dam/channel/wcms/eg_ar/images/air-purifier/as60ghwg0_aeg_efeg_eg_ar_c/AS60GHWG0_AEG_EFEG_EG_AR_C-350x350.jpg", category: "صيانة منقيات هواء ال جي", title: "خدمات صيانة منقيات هواء ال جي", description: "خدمات صيانة وتنظيف لمنقيات الهواء من ال جي، تشمل تغيير الفلاتر وإصلاح نظام التنقية.", linkText: "اعرف المزيد", link: "/صيانة/lg/منقيات-هواء" },
+      { image: "https://www.lg.com/content/dam/channel/wcms/eg_ar/images/vacuum-cleaners/vc5420nntr_aprqeec_efeg_eg_ar_c/VC5420NNTR_APRQEEC_EFEG_EG_AR_C-350x350.jpg", category: "صيانة مكانس ال جي", title: "خدمات صيانة مكانس ال جي", description: "صيانة متخصصة لجميع أنواع مكانس ال جي، تشمل إصلاح المحرك، نظام الشفط، والبطاريات للموديلات اللاسلكية.", linkText: "اعرف المزيد", link: "/صيانة/lg/مكانس" },
+      { image: "https://www.lg.com/content/dam/channel/wcms/eg_ar/images/vacuum-cleaners/vc5420nntr_aprqeec_efeg_eg_ar_c/VC5420NNTR_APRQEEC_EFEG_EG_AR_C-350x350.jpg", category: "صيانة ميكروويف ال جي", title: "خدمات صيانة ميكروويف ال جي", description: "صيانة متخصصة لجميع موديلات ميكروويف ال جي، تشمل إصلاح نظام التسخين، لوحة التحكم، والأعطال الكهربائية.", linkText: "اعرف المزيد", link: "/صيانة/lg/ميكروويف" },
+      { image: "https://www.lg.com/content/dam/channel/wcms/eg_ar/images/washing-machines/ha_tag/dfc532fpe-450.jpg/jcr:content/renditions/thum-350x350.jpeg", category: "صيانة غسالات أطباق ال جي", title: "خدمات صيانة غسالات أطباق ال جي", description: "خدمات صيانة شاملة لغسالات أطباق ال جي، تشمل إصلاح مشاكل التصريف، نظام الرش، والبرمجة.", linkText: "اعرف المزيد", link: "/صيانة/lg/غسالات-اطباق" },
+      { image: "https://www.lg.com/content/dam/channel/wcms/eg_ar/images/refrigerators/gtf569psam_avspeec_efeg_eg_ar_c/GTF569PSAM_AVSPEEC_EFEG_EG_AR_C-350x350.jpg", category: "صيانة فريزر ال جي", title: "خدمات صيانة فريزر ال جي", description: "صيانة متخصصة لفريزرات ال جي، تشمل إصلاح نظام التبريد، الثرموستات، وضبط درجات الحرارة.", linkText: "اعرف المزيد", link: "/صيانة/lg/فريزر" },
     ]
   },
   features: {
@@ -97,9 +108,9 @@ export const samsungData: BrandData = {
 
   hero: {
     slides: [
-      { image: 'https://images.samsung.com/is/image/samsung/assets/eg/p6_gro3/p6_initial_pcd/p6_initial_home-appliances/448x488-Thumbnail.png?$448_488_PNG$', title: "صيانة مكيفات سامسونج المعتمدة في مصر", subtitle: "خبراء التبريد والتدفئة", buttonText: "اتصل بالخط الساخن", buttonLink: "tel:01288582979" },
-      { image: 'https://images.samsung.com/is/image/samsung/assets/eg/p6_gro3/p6_initial_pcd/p6_initial_home-appliances/cools-faster-farther-and-wider-pcv.jpg?$1440_N_JPG$', title: "حلول مبتكرة لصيانة مكيفات سامسونج", subtitle: "تكنولوجيا وجودة", buttonText: "اطلب زيارة فني", buttonLink: "#footer" },
-      { image: 'https://images.samsung.com/is/image/samsung/assets/eg/p6_gro3/p6_initial_pcd/p6_initial_home-appliances/1440x640-PCD-PC.jpg?imwidth=2560', title: "مكيفات سامسونج المعتمدة - جودة لا مثيل لها", subtitle: "نوفر خدمات صيانة معتمدة لجميع منتجات سامسونج", buttonText: "اطلب زيارة فني", buttonLink: "#footer" },
+      { image: 'https://unionaire.com/wp-content/uploads/2025/03/tropical-comprocer-01-2048x1274.webp', title: "صيانة مكيفات سامسونج المعتمدة في مصر", subtitle: "خبراء التبريد والتدفئة", buttonText: "اتصل بالخط الساخن", buttonLink: "tel:01288582979" },
+      { image: 'https://unionaire.com/wp-content/uploads/2025/02/artify-black-1.png', title: "حلول مبتكرة لصيانة مكيفات سامسونج", subtitle: "تكنولوجيا وجودة", buttonText: "اطلب زيارة فني", buttonLink: "#footer" },
+      { image: 'https://unionaire.com/wp-content/uploads/2025/03/Air-con-1.png', title: "مكيفات سامسونج المعتمدة - جودة لا مثيل لها", subtitle: "نوفر خدمات صيانة معتمدة لجميع منتجات سامسونج", buttonText: "اطلب زيارة فني", buttonLink: "#footer" },
     ]
   },
   intro: {
@@ -127,10 +138,11 @@ export const samsungData: BrandData = {
     title: "صيانة جميع منتجات سامسونج",
     items: [
       { image: "https://images.samsung.com/is/image/samsung/assets/eg/p6_gro3/p6_initial_pcd/p6_initial_home-appliances/448x488-Thumbnail.png?$448_488_PNG$", category: "صيانة تكييفات سامسونج", title: "صيانة جميع أنواع تكييفات سامسونج", description: "خدمات صيانة شاملة لجميع موديلات تكييفات سامسونج (سبليت، شباك، كونسيلد). نقدم خدمات تنظيف الفلاتر، فحص وشحن الفريون، وإصلاح جميع الأعطال الفنية.", linkText: "اعرف المزيد", link: "/صيانة/samsung/تكييفات" },
-      { image: "https://img.freepik.com/premium-photo/cassette-type-air-conditioner-mounted-ceiling_39420-294.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "تأسيس مواسير نحاس", title: "خدمات تأسيس مواسير النحاس", description: "نقدم خدمات احترافية في تأسيس وتركيب مواسير النحاس للتكييفات، مع ضمان جودة العمل وسلامة التركيب والعزل الحراري المثالي.", linkText: "اعرف المزيد", link: "/صيانة/samsung/تأسيس-مواسير" },
-      { image: "https://img.freepik.com/free-vector/flow-chart-showing-web-purchases-with-man-holding-tablet-linked-shopping-cart_1284-44266.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "خدمة المبيعات والتوريدات", title: "خدمات المبيعات وتوريد الأجهزة", description: "نوفر خدمات بيع وتوريد جميع أجهزة سامسونج مع ضمان الوكيل وخدمات ما بعد البيع وأفضل الأسعار في السوق.", linkText: "اعرف المزيد", link: "/صيانة/samsung/مبيعات" }
+      { image: "https://m.media-amazon.com/images/I/61DClSTtjbL._AC_UL480_FMwebp_QL65_.jpg", category: "تأسيس مواسير تكييف", title: "خدمات تأسيس مواسير التكييف", description: "نقدم خدمات احترافية في تأسيس وتركيب مواسير للتكييفات، مع ضمان جودة العمل وسلامة التركيب والعزل الحراري المثالي.", linkText: "اعرف المزيد", link: "/صيانة/samsung/تأسيس-مواسير" },
+      { image: "https://img.freepik.com/premium-photo/set-different-home-appliances-with-vacuum-cleaner-yellow-background_1339860-3766.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "خدمة المبيعات والتوريدات", title: "خدمات المبيعات وتوريد الأجهزة", description: "نوفر خدمات بيع وتوريد جميع أجهزة سامسونج مع ضمان الوكيل وخدمات ما بعد البيع وأفضل الأسعار في السوق.", linkText: "اعرف المزيد", link: "/صيانة/samsung/مبيعات" }
     ]
   },
+  other_articles: null,
   features: {
     preTitle: "لماذا نحن الأفضل؟",
     title: "مميزات الاعتماد على مركز سامسونج",
@@ -174,9 +186,9 @@ export const carrierData: BrandData = {
 
   hero: {
     slides: [
-      { image: 'https://m.media-amazon.com/images/I/51BxKXvfS0L._AC_SX679_.jpg', title: "صيانة تكييفات كارير رقم #1 في مصر", subtitle: "خبراء التبريد والتدفئة", buttonText: "اتصل بنا للتكييف", buttonLink: "tel:01288582979" },
-      { image: 'https://m.media-amazon.com/images/I/81FO5aSLfzL._AC_SX679_.jpg', title: "تركيب وصيانة جميع موديلات كارير", subtitle: "خدمة معتمدة وموثوقة", buttonText: "حجز موعد صيانة", buttonLink: "#footer" },
-      { image: 'https://m.media-amazon.com/images/I/61Tx6xLzQPL._AC_UL480_FMwebp_QL65_.jpg', title: "صيانة سخانات كارير بجميع أنواعها", subtitle: "فنيون متخصصون في إصلاح جميع أعطال سخانات كارير", buttonText: "اتصل بنا لصيانة سخانات", buttonLink: "tel:01288582979" },
+      { image: 'https://unionaire.com/wp-content/uploads/2025/03/tropical-comprocer-01-2048x1274.webp', title: "صيانة تكييفات كارير رقم #1 في مصر", subtitle: "خبراء التبريد والتدفئة", buttonText: "اتصل بنا للتكييف", buttonLink: "tel:01288582979" },
+      { image: 'https://unionaire.com/wp-content/uploads/2025/02/artify-black-1.png', title: "تركيب وصيانة جميع موديلات كارير", subtitle: "خدمة معتمدة وموثوقة", buttonText: "حجز موعد صيانة", buttonLink: "#footer" },
+      { image: 'https://unionaire.com/wp-content/uploads/2025/03/Air-con-1.png', title: "صيانة تكييفات كارير المركزية", subtitle: "فنيون متخصصون في إصلاح وصيانة التكييفات المركزية", buttonText: "اتصل بنا لصيانة التكييف", buttonLink: "tel:01288582979" },
     ]
   },
   intro: {
@@ -203,12 +215,18 @@ export const carrierData: BrandData = {
     preTitle: "خدمات تكييف كارير",
     title: "صيانة وتركيب تكييفات كارير",
     items: [
-      { image: "https://www.raneen.com/media/catalog/product/c/a/carrier_optimax_1__1_1_1_1_1_2_o4xbti4fvt7qadrw.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=300&width=300&canvas=300:300", category: "صيانة تكييفات كاريير سبليت", title: "صيانة تكييفات كاريير سبليت", description: "خدمات صيانة دورية وشاملة لتكييفات كاريير سبليت، تشمل تنظيف الفلاتر، فحص الفريون، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/سبليت" },
-      { image: "https://cairocart.com/pub/media/catalog/product/cache/f65e4f3f0d55f7c692e033a9434b3a7f/5/1/51kwt-12.jpg", category: "صيانة تكييفات كاريير شباك", title: "صيانة تكييفات كاريير شباك", description: "نقدم خدمات صيانة متخصصة لتكييفات كاريير شباك، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/شباك" },
-      { image: "https://airgroupegypt.com/media/catalog/product/cache/c57d994eba41dd4549c7a0b36a9cd959/d/u/ducteda6.jpg", category: "صيانة تكييفات كاريير كونسيلد", title: "صيانة تكييفات كاريير كونسيلد", description: "نقدم خدمات صيانة متخصصة لتكييفات كاريير فيلكس، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/lg/فيلكس" },
-      { image: "https://img.freepik.com/free-photo/close-up-ventilation-system_23-2149388949.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "تأسيس مواسير التكييف", title: "خدمات تأسيس مواسير التكييف", description: "نقدم خدمات احترافية في تأسيس وتركيب مواسير التكييف، مع ضمان جودة العمل وسلامة التركيب والعزل الحراري المثالي.", linkText: "اعرف المزيد", link: "/صيانة/carrier/تأسيس-مواسير" },
+      { image: "https://m.media-amazon.com/images/I/61DClSTtjbL._AC_UL480_FMwebp_QL65_.jpg", category: "تأسيس مواسير التكييف", title: "خدمات تأسيس مواسير التكييف", description: "نقدم خدمات احترافية في تأسيس وتركيب مواسير التكييف، مع ضمان جودة العمل وسلامة التركيب والعزل الحراري المثالي.", linkText: "اعرف المزيد", link: "/صيانة/carrier/تأسيس-مواسير" },
       { image: "https://www.raneen.com/media/catalog/product/e/s/es241_silver_high3.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=300&width=300&canvas=300:300", category: "صيانة ثلاجات كاريير", title: "خدمات صيانة ثلاجات كاريير", description: "صيانة شاملة لجميع موديلات ثلاجات كاريير، تشمل إصلاح نظام التبريد، الثرموستات، وجميع الأعطال الفنية مع ضمان الخدمة.", linkText: "اعرف المزيد", link: "/صيانة/carrier/ثلاجات" },
-      { image: "https://img.freepik.com/free-vector/flow-chart-showing-web-purchases-with-man-holding-tablet-linked-shopping-cart_1284-44266.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "خدمة المبيعات والتوريدات", title: "خدمات المبيعات وتوريد الأجهزة", description: "نوفر خدمات بيع وتوريد جميع أجهزة كاريير مع ضمان الوكيل وخدمات ما بعد البيع وأفضل الأسعار في السوق.", linkText: "اعرف المزيد", link: "/صيانة/carrier/مبيعات" }
+      { image: "https://img.freepik.com/premium-photo/set-different-home-appliances-with-vacuum-cleaner-yellow-background_1339860-3766.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "خدمة المبيعات والتوريدات", title: "خدمات المبيعات وتوريد الأجهزة", description: "نوفر خدمات بيع وتوريد جميع أجهزة كاريير مع ضمان الوكيل وخدمات ما بعد البيع وأفضل الأسعار في السوق.", linkText: "اعرف المزيد", link: "/صيانة/carrier/مبيعات" }
+    ]
+  },
+  other_articles: {
+    preTitle: "خدمات تكييف كارير",
+    title: "صيانة وتركيب تكييفات كارير",
+    items: [
+      { image: "https://m.media-amazon.com/images/I/61DClSTtjbL._AC_UL480_FMwebp_QL65_.jpg", category: "تأسيس مواسير التكييف", title: "خدمات تأسيس مواسير التكييف", description: "نقدم خدمات احترافية في تأسيس وتركيب مواسير التكييف، مع ضمان جودة العمل وسلامة التركيب والعزل الحراري المثالي.", linkText: "اعرف المزيد", link: "/صيانة/carrier/تأسيس-مواسير" },
+      { image: "https://www.raneen.com/media/catalog/product/e/s/es241_silver_high3.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=300&width=300&canvas=300:300", category: "صيانة ثلاجات كاريير", title: "خدمات صيانة ثلاجات كاريير", description: "صيانة شاملة لجميع موديلات ثلاجات كاريير، تشمل إصلاح نظام التبريد، الثرموستات، وجميع الأعطال الفنية مع ضمان الخدمة.", linkText: "اعرف المزيد", link: "/صيانة/carrier/ثلاجات" },
+      { image: "https://img.freepik.com/premium-photo/set-different-home-appliances-with-vacuum-cleaner-yellow-background_1339860-3766.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "خدمة المبيعات والتوريدات", title: "خدمات المبيعات وتوريد الأجهزة", description: "نوفر خدمات بيع وتوريد جميع أجهزة كاريير مع ضمان الوكيل وخدمات ما بعد البيع وأفضل الأسعار في السوق.", linkText: "اعرف المزيد", link: "/صيانة/carrier/مبيعات" }
     ]
   },
   features: {
@@ -254,9 +272,9 @@ export const unionaireData: BrandData = {
 
   hero: {
     slides: [
-      { image: 'https://unionaire.com/wp-content/uploads/2025/02/ARTIFY-024_HR.png', title: "صيانة تكييف يونيون اير المعتمدة", subtitle: "جودة وكفاءة تثق بها", buttonText: "اتصل بالصيانة", buttonLink: "tel:01288582979" },
-      { image: 'https://unionaire.com/wp-content/uploads/2025/03/artify.png', title: "تركيب وصيانة تكييف يونيون اير", subtitle: "استمتع بجو مثالي", buttonText: "طلب صيانة تكييف", buttonLink: "#footer" },
-      { image: 'https://unionaire.com/wp-content/uploads/2024/09/ARTI012HV50NBRLNPRO.png', title: "فريق فني متخصص لصيانة تكييف يونيون اير", subtitle: "نقدم لكم خبرة 22 سنة في خدمة الصناعة المصرية", buttonText: "اعرف المزيد", buttonLink: "#intro" },
+      { image: 'https://unionaire.com/wp-content/uploads/2025/03/Air-con-1.png', title: "صيانة تكييف يونيون اير المعتمدة", subtitle: "جودة وكفاءة تثق بها", buttonText: "اتصل بالصيانة", buttonLink: "tel:01288582979" },
+      { image: 'https://unionaire.com/wp-content/uploads/2025/02/artify-black-1.png', title: "تركيب وصيانة تكييف يونيون اير", subtitle: "استمتع بجو مثالي", buttonText: "طلب صيانة تكييف", buttonLink: "#footer" },
+      { image: 'https://unionaire.com/wp-content/uploads/2025/03/tropical-comprocer-01-2048x1274.webp', title: "فريق فني متخصص لصيانة تكييف يونيون اير", subtitle: "نقدم لكم خبرة 22 سنة في خدمة الصناعة المصرية", buttonText: "اعرف المزيد", buttonLink: "#intro" },
     ]
   },
   intro: {
@@ -285,10 +303,58 @@ export const unionaireData: BrandData = {
     items: [
       { image: "https://unionaire.com/wp-content/uploads/2024/09/ARTI012HV50NBRLNPRO.png", category: "صيانة تكييفات يونيون اير سبليت", title: "صيانة تكييفات يونيون اير سبليت", description: "خدمات صيانة دورية وشاملة لتكييفات يونيون اير سبليت، تشمل تنظيف الفلاتر، فحص الفريون، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/unionaire/سبليت" },
       { image: "https://cairocart.com/pub/media/catalog/product/cache/f65e4f3f0d55f7c692e033a9434b3a7f/r/a/raq12cr.jpg", category: "صيانة تكييفات يونيون اير شباك", title: "صيانة تكييفات يونيون اير شباك", description: "نقدم خدمات صيانة متخصصة لتكييفات يونيون اير شباك، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/unionaire/شباك" },
-      { image: "https://img.freepik.com/premium-photo/metal-pipes-mounted-ceiling-are-covered-with-thermal-insulation_137416-1078.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "تأسيس مواسير التكييف", title: "خدمات تأسيس مواسير التكييف", description: "نقدم خدمات احترافية في تأسيس وتركيب مواسير التكييف، مع ضمان جودة العمل وسلامة التركيب وأفضل الخامات.", linkText: "اعرف المزيد", link: "/صيانة/unionaire/تأسيس-مواسير" },
-      { image: "https://img.freepik.com/free-vector/flow-chart-showing-web-purchases-with-man-holding-tablet-linked-shopping-cart_1284-44266.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "خدمة المبيعات والتوريدات", title: "خدمات المبيعات وتوريد الأجهزة", description: "نوفر خدمات بيع وتوريد جميع أجهزة يونيون اير مع ضمان الوكيل وخدمات ما بعد البيع.", linkText: "اعرف المزيد", link: "/صيانة/unionaire/مبيعات" },
+      { image: "https://m.media-amazon.com/images/I/61DClSTtjbL._AC_UL480_FMwebp_QL65_.jpg", category: "تأسيس مواسير التكييف", title: "خدمات تأسيس مواسير التكييف", description: "نقدم خدمات احترافية في تأسيس وتركيب مواسير التكييف، مع ضمان جودة العمل وسلامة التركيب وأفضل الخامات.", linkText: "اعرف المزيد", link: "/صيانة/unionaire/تأسيس-مواسير" }
+    ]
+  },
+  other_articles: {
+    preTitle: "خدماتنا الاخرى",
+    title: "خدماتنا الاخرى",
+    items: [
+      { image: "https://m.media-amazon.com/images/I/61DClSTtjbL._AC_UL480_FMwebp_QL65_.jpg", category: "تأسيس مواسير التكييف", title: "خدمات تأسيس مواسير التكييف", description: "نقدم خدمات احترافية في تأسيس وتركيب مواسير التكييف، مع ضمان جودة العمل وسلامة التركيب وأفضل الخامات.", linkText: "اعرف المزيد", link: "/صيانة/unionaire/تأسيس-مواسير" },
+      { image: "https://img.freepik.com/premium-photo/set-different-home-appliances-with-vacuum-cleaner-yellow-background_1339860-3766.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "خدمة المبيعات والتوريدات", title: "خدمات المبيعات وتوريد الأجهزة", description: "نوفر خدمات بيع وتوريد جميع أجهزة يونيون اير مع ضمان الوكيل وخدمات ما بعد البيع.", linkText: "اعرف المزيد", link: "/صيانة/unionaire/مبيعات" },
       { image: "https://unionaire.com/wp-content/uploads/2024/06/Artboard-1.png", category: "صيانة ثلاجات يونيون اير", title: "خدمات صيانة ثلاجات يونيون اير", description: "صيانة شاملة لجميع موديلات ثلاجات يونيون اير، تشمل إصلاح نظام التبريد، الثرموستات، وجميع الأعطال الفنية.", linkText: "اعرف المزيد", link: "/صيانة/unionaire/ثلاجات" },
-      { image: "https://unionaire.com/wp-content/uploads/2022/12/Screen-500@3x-600x600.png", category: "صيانة شاشات يونيون اير", title: "خدمات صيانة شاشات يونيون اير", description: "صيانة متخصصة لشاشات يونيون اير الذكية والعادية، مع توفير قطع غيار أصلية وضمان على الإصلاح.", linkText: "اعرف المزيد", link: "/صيانة/unionaire/شاشات" }
+      { image: "https://unionaire.com/wp-content/uploads/2022/12/Screen-500@3x-600x600.png", category: "صيانة شاشات يونيون اير", title: "خدمات صيانة شاشات يونيون اير", description: "صيانة متخصصة لشاشات يونيون اير الذكية والعادية، مع توفير قطع غيار أصلية وضمان على الإصلاح.", linkText: "اعرف المزيد", link: "/صيانة/unionaire/شاشات" },
+
+      { 
+        image: "https://unionaire.com/wp-content/uploads/2024/12/C69SSGC319IDSFMD2WAL-1.png",
+        category: "صيانة بوتاجازات يونيون اير",
+        title: "خدمات صيانة بوتاجازات يونيون اير",
+        description: "صيانة شاملة لجميع موديلات بوتاجازات يونيون اير مع ضمان الإصلاح وقطع الغيار الأصلية",
+        linkText: "اعرف المزيد",
+        link: "/صيانة/unionaire/بوتاجازات"
+      },
+      {
+        image: "https://unionaire.com/wp-content/uploads/2025/03/Unionaire1732-copy2-copy-600x600.png",
+        category: "صيانة ديب فريزر يونيون اير",
+        title: "خدمات صيانة ديب فريزر يونيون اير",
+        description: "صيانة احترافية لديب فريزر يونيون اير مع ضمان جودة الإصلاح",
+        linkText: "اعرف المزيد",
+        link: "/صيانة/unionaire/ديب-فريزر"
+      },
+      {
+        image: "https://unionaire.com/wp-content/uploads/2021/06/UW080TPLQGR.png",
+        category: "صيانة غسالات يونيون اير",
+        title: "خدمات صيانة غسالات يونيون اير",
+        description: "صيانة شاملة لغسالات يونيون اير الأوتوماتيك والعادية مع ضمان الخدمة",
+        linkText: "اعرف المزيد",
+        link: "/صيانة/unionaire/غسالات"
+      },
+      {
+        image: "https://unionaire.com/wp-content/uploads/2025/01/UGH060DGABK.png",
+        category: "صيانة سخانات يونيون اير",
+        title: "خدمات صيانة سخانات يونيون اير",
+        description: "صيانة متخصصة لسخانات يونيون اير مع ضمان السلامة والأداء",
+        linkText: "اعرف المزيد",
+        link: "/صيانة/unionaire/سخانات"
+      },
+      {
+        image: "https://unionaire.com/wp-content/uploads/2023/01/UFS18BVRAROMA-600x600.png",
+        category: "صيانة مراوح يونيون اير",
+        title: "خدمات صيانة مراوح يونيون اير",
+        description: "صيانة احترافية لمراوح يونيون اير مع ضمان الجودة",
+        linkText: "اعرف المزيد",
+        link: "/صيانة/unionaire/مراوح"
+      }
     ]
   },
   features: {
@@ -335,9 +401,9 @@ export const sharpData: BrandData = {
 
   hero: {
     slides: [
-      { image: 'https://www.elarabygroup.com/media/iopt/catalog/product/cache/112e87ce2e3e8d6e36e718da758ea3a7/image/56737a12/2-25-ay-xp18yher.jpg', title: "صيانة تكييفات كارير رقم #1 في مصر", subtitle: "خبراء التبريد والتدفئة", buttonText: "اتصل بنا للتكييف", buttonLink: "tel:01288582979" },
-      { image: 'https://sharpelaraby.group/wp-content/uploads/2025/03/1-5-th-c12uee-300x225.jpg', title: "تركيب وصيانة جميع موديلات كارير", subtitle: "خدمة معتمدة وموثوقة", buttonText: "حجز موعد صيانة", buttonLink: "#footer" },
-      { image: 'https://sharpelaraby.group/wp-content/uploads/2025/03/2-25-ay-ap18uhe-300x225.jpg', title: "صيانة سخانات كارير بجميع أنواعها", subtitle: "فنيون متخصصون في إصلاح جميع أعطال سخانات كارير", buttonText: "اتصل بنا لصيانة سخانات", buttonLink: "tel:01288582979" },
+      { image: 'https://img.freepik.com/premium-photo/1208084882_1221914-8128.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740', title: "صيانة تكييفات شارب رقم #1 في مصر", subtitle: "خبراء التكنولوجيا اليابانية", buttonText: "اتصل بنا للتكييف", buttonLink: "tel:01288582979" },
+      { image: 'https://img.freepik.com/free-photo/checking-conditioner_1098-17787.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740', title: "تركيب وصيانة جميع موديلات شارب", subtitle: "خدمة معتمدة وموثوقة", buttonText: "حجز موعد صيانة", buttonLink: "#footer" },
+      { image: 'https://img.freepik.com/premium-photo/male-technician-overalls-blue-cap-repairs-air-conditioner-wall_353017-470.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740', title: "صيانة تكييفات شارب المركزية", subtitle: "فنيون متخصصون في إصلاح وصيانة التكييفات اليابانية من شارب", buttonText: "اتصل بنا لصيانة التكييف", buttonLink: "tel:01288582979" },
     ]
   },
   intro: {
@@ -365,10 +431,67 @@ export const sharpData: BrandData = {
     title: "صيانة جميع أجهزة شارب المنزلية",
     items: [
       { image: "https://sharpelaraby.group/wp-content/uploads/2025/03/2-25-ay-ap18uhe-300x225.jpg", category: "صيانة تكييفات شارب سبليت", title: "صيانة تكييفات شارب سبليت", description: "خدمات صيانة دورية وشاملة لتكييفات شارب سبليت، تشمل تنظيف الفلاتر، فحص الفريون، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/sharp/سبليت" },
-      { image: "https://img.freepik.com/free-photo/3d-rendering-ventilation-system_23-2149281320.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "تأسيس مواسير التكييف", title: "خدمات تأسيس مواسير التكييف", description: "نقدم خدمات احترافية في تأسيس وتركيب مواسير التكييف، مع ضمان جودة العمل وسلامة التركيب.", linkText: "اعرف المزيد", link: "/صيانة/sharp/تأسيس-مواسير" },
+      { image: "https://m.media-amazon.com/images/I/61DClSTtjbL._AC_UL480_FMwebp_QL65_.jpg", category: "تأسيس مواسير التكييف", title: "خدمات تأسيس مواسير التكييف", description: "نقدم خدمات احترافية في تأسيس وتركيب مواسير التكييف، مع ضمان جودة العمل وسلامة التركيب.", linkText: "اعرف المزيد", link: "/صيانة/sharp/تأسيس-مواسير" },
+      { image: "https://img.freepik.com/premium-photo/set-different-home-appliances-with-vacuum-cleaner-yellow-background_1339860-3766.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "خدمة المبيعات والتوريدات", title: "خدمات المبيعات وتوريد الأجهزة", description: "نوفر خدمات بيع وتوريد جميع أجهزة شارب مع ضمان الوكيل وخدمات ما بعد البيع.", linkText: "اعرف المزيد", link: "/صيانة/sharp/مبيعات" },
+
+    ]
+  },
+  other_articles: {
+    preTitle: "خدمات صيانة شارب",
+    title: "صيانة جميع أجهزة شارب المنزلية",
+    items: [
       { image: "https://www.elarabygroup.com/media/iopt/catalog/product/cache/112e87ce2e3e8d6e36e718da758ea3a7/image/55e9f1/450-sj-pc58a-sl.jpg", category: "صيانة ثلاجات شارب", title: "خدمات صيانة ثلاجات شارب", description: "صيانة شاملة لجميع موديلات ثلاجات شارب، تشمل إصلاح نظام التبريد، الثرموستات، وجميع الأعطال الفنية.", linkText: "اعرف المزيد", link: "/صيانة/sharp/ثلاجات" },
       { image: "https://www.elarabygroup.com/media/catalog/product/cache/112e87ce2e3e8d6e36e718da758ea3a7/image/76244b00/hd-32-2t-c32fg6ex.jpg", category: "صيانة شاشات شارب", title: "خدمات صيانة شاشات شارب", description: "صيانة متخصصة لشاشات شارب الذكية والعادية، مع توفير قطع غيار أصلية وضمان على الإصلاح.", linkText: "اعرف المزيد", link: "/صيانة/sharp/شاشات" },
-      { image: "https://img.freepik.com/free-vector/flow-chart-showing-web-purchases-with-man-holding-tablet-linked-shopping-cart_1284-44266.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "خدمة المبيعات والتوريدات", title: "خدمات المبيعات وتوريد الأجهزة", description: "نوفر خدمات بيع وتوريد جميع أجهزة شارب مع ضمان الوكيل وخدمات ما بعد البيع.", linkText: "اعرف المزيد", link: "/صيانة/sharp/مبيعات" }
+
+{ image: "https://www.elarabygroup.com/media/iopt/catalog/product/cache/112e87ce2e3e8d6e36e718da758ea3a7/image/58042847/128-2-fx-j80sa-w.jpg", 
+  category: "صيانة منقيات هواء شارب", 
+  title: "خدمات صيانة منقيات هواء شارب", 
+  description: "صيانة شاملة لمنقيات الهواء من شارب مع تنظيف وتغيير الفلاتر وضمان جودة التنقية.", 
+  linkText: "اعرف المزيد", 
+  link: "/صيانة/fresh/منقي-هواء" },
+
+{ image: "https://www.elarabygroup.com/media/iopt/catalog/product/cache/112e87ce2e3e8d6e36e718da758ea3a7/image/5391d507/4k-65-4t-c65dl6ex.jpg", 
+  category: "صيانة شاشات شارب", 
+  title: "خدمات صيانة شاشات شارب", 
+  description: "صيانة متخصصة لشاشات شارب الذكية والعادية مع ضمان جودة الصورة والصوت.", 
+  linkText: "اعرف المزيد", 
+  link: "/صيانة/fresh/شاشات" },
+
+{ image: "https://www.elarabygroup.com/media/iopt/catalog/product/cache/112e87ce2e3e8d6e36e718da758ea3a7/image/49615a57/396-sj-pv48g-bk.jpg", 
+  category: "صيانة ثلاجات شارب", 
+  title: "خدمات صيانة ثلاجات شارب", 
+  description: "صيانة شاملة لثلاجات شارب مع إصلاح نظام التبريد وضمان كفاءة الأداء.", 
+  linkText: "اعرف المزيد", 
+  link: "/صيانة/fresh/ثلاجات" },
+
+{ image: "https://www.elarabygroup.com/media/iopt/catalog/product/cache/112e87ce2e3e8d6e36e718da758ea3a7/image/4951471e/7-300-fj-ec27-wh.jpg", 
+  category: "صيانة ديب فريزر شارب", 
+  title: "خدمات صيانة ديب فريزر شارب", 
+  description: "صيانة متخصصة لديب فريزر شارب مع ضمان التبريد المثالي وكفاءة الطاقة.", 
+  linkText: "اعرف المزيد", 
+  link: "/صيانة/fresh/ديب-فريزر" },
+
+{ image: "https://www.elarabygroup.com/media/iopt/catalog/product/cache/112e87ce2e3e8d6e36e718da758ea3a7/image/644775e2/11-ddm-es-td11gssp.jpg", 
+  category: "صيانة غسالات ملابس شارب", 
+  title: "خدمات صيانة غسالات ملابس شارب", 
+  description: "صيانة شاملة لغسالات الملابس شارب الأوتوماتيك والعادية مع ضمان الأداء.", 
+  linkText: "اعرف المزيد", 
+  link: "/صيانة/fresh/غسالات-ملابس" },
+
+{ image: "https://www.elarabygroup.com/media/iopt/catalog/product/cache/112e87ce2e3e8d6e36e718da758ea3a7/image/8344cc80/13-60-8-qw-v813-ss2.jpg", 
+  category: "صيانة غسالات أطباق شارب", 
+  title: "خدمات صيانة غسالات أطباق شارب", 
+  description: "صيانة متخصصة لغسالات الأطباق شارب مع ضمان كفاءة التنظيف والتجفيف.", 
+  linkText: "اعرف المزيد", 
+  link: "/صيانة/fresh/غسالات-اطباق" },
+{ 
+  image: "https://www.elarabygroup.com/media/iopt/catalog/product/cache/112e87ce2e3e8d6e36e718da758ea3a7/image/80475f7d/25-900-8-r-250mgr-sl2.jpg",
+  category: "صيانة ميكروويف شارب",
+  title: "خدمات صيانة ميكروويف شارب",
+  description: "صيانة شاملة لجميع موديلات ميكروويف شارب مع ضمان الإصلاح وقطع الغيار الأصلية.",
+  linkText: "اعرف المزيد",
+  link: "/صيانة/lg/ميكروويف"
+},
     ]
   },
   features: {
@@ -415,10 +538,9 @@ export const freshData: BrandData = {
 
   hero: {
     slides: [
-      { image: 'https://be.fresh.com.eg/media/catalog/product/cache/6fdb9282313a7e48374fe05a5418029a/h/u/hummer-_black_1.png', title: "صيانة تكييفات فريش انفرتر", subtitle: "خبراء التبريد والتدفئة", buttonText: "اتصل بنا للتكييف", buttonLink: "tel:01288582979" },
-      { image: 'https://be.fresh.com.eg/media/catalog/product/cache/6fdb9282313a7e48374fe05a5418029a/f/r/fresh_air_conditioner_duct_inverter_turbo_3hp_cold_-_hot_2.png', title: "تركيب وصيانة تكييفات فريش كونسيلد", subtitle: "خدمة معتمدة وموثوقة", buttonText: "حجز موعد صيانة", buttonLink: "#footer" },
-      { image: 'https://be.fresh.com.eg/media/catalog/product/cache/6fdb9282313a7e48374fe05a5418029a/f/r/fresh_air_conditioner_floor_standing_5hp_cold_-_hot_2.png', title: "صيانة تكييفات فريش فري ستاند", subtitle: "فنيون متخصصون في صيانة التكييفات الرأسية", buttonText: "اتصل بنا للصيانة", buttonLink: "tel:01288582979" },
-      { image: 'https://be.fresh.com.eg/media/catalog/product/cache/6fdb9282313a7e48374fe05a5418029a/a/i/air_curtain_1.png', title: "تركيب وصيانة ستائر هواء فريش", subtitle: "حلول مثالية للمحلات والمطاعم", buttonText: "احجز معاينة", buttonLink: "tel:01288582979" },
+      { image: 'https://be.fresh.com.eg/media/catalog/category/ac-01_2_2_.jpeg', title: "صيانة تكييفات فريش انفرتر", subtitle: "خبراء التبريد والتدفئة", buttonText: "اتصل بنا للتكييف", buttonLink: "tel:01288582979" },
+      { image: 'https://be.fresh.com.eg/media/catalog/category/Free_Stand-01_1.png', title: "تركيب وصيانة تكييفات فريش كونسيلد", subtitle: "خدمة معتمدة وموثوقة", buttonText: "حجز موعد صيانة", buttonLink: "#footer" },
+      { image: 'https://be.fresh.com.eg/media/catalog/category/duct-01_1_1.png', title: "صيانة تكييفات فريش فري ستاند", subtitle: "فنيون متخصصون في صيانة التكييفات الرأسية", buttonText: "اتصل بنا للصيانة", buttonLink: "tel:01288582979" },
     ]
   },
   intro: {
@@ -445,13 +567,68 @@ export const freshData: BrandData = {
     preTitle: "خدماتنا لأجهزة فريش",
     title: "صيانة شاملة لمنتجات فريش",
     items: [
-      { image: "https://img.freepik.com/free-photo/air-conditioner-mounted-white-wall_53876-128235.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات فريش سبليت", title: "صيانة تكييفات فريش سبليت", description: "خدمات صيانة دورية وشاملة لتكييفات فريش سبليت، تشمل تنظيف الفلاتر، فحص الفريون، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/fresh/سبليت" },
-      { image: "https://img.freepik.com/premium-photo/outdoor-air-conditioner-unit-installed-wall-residential-building-window-installation-repair-maintenance-air-conditioning-systems-residential-premises_678914-3130.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "صيانة تكييفات فريش شباك", title: "صيانة تكييفات فريش شباك", description: "نقدم خدمات صيانة متخصصة لتكييفات فريش شباك، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/fresh/شباك" },
-      { image: "https://be.fresh.com.eg/media/catalog/product/cache/6fdb9282313a7e48374fe05a5418029a/f/r/fresh_air_conditioner_duct_inverter_turbo_3hp_cold_-_hot_2.png", category: "صيانة تكييفات فريش كونسلير مركزي", title: "صيانة تكييفات فريش كونسيلد", description: "نقدم خدمات صيانة متخصصة لتكييفات فريش كونسيلد، تشمل فحص الفريون، تنظيف الفلاتر، وإصلاح أعطال ضعف التبريد أو التسريب.", linkText: "اعرف المزيد", link: "/صيانة/fresh/فيلكس" },
-      { image: "https://img.freepik.com/free-photo/close-up-heat-pump-outside-home_23-2149250243.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "تأسيس مواسير التكييف", title: "خدمات تأسيس مواسير التكييف", description: "نقدم خدمات احترافية في تأسيس وتركيب مواسير التكييف، مع ضمان جودة العمل وسلامة التركيب وفقاً للمعايير الفنية.", linkText: "اعرف المزيد", link: "/صيانة/fresh/تأسيس-مواسير" },
-      { image: "https://be.fresh.com.eg/media/catalog/product/cache/6fdb9282313a7e48374fe05a5418029a/k/a/kashmeer_1.png", category: "صيانة ثلاجات فريش", title: "خدمات صيانة ثلاجات فريش", description: "صيانة شاملة لجميع موديلات ثلاجات فريش، تشمل إصلاح نظام التبريد، الثرموستات، وجميع الأعطال الفنية مع ضمان الخدمة.", linkText: "اعرف المزيد", link: "/صيانة/fresh/ثلاجات" },
-      { image: "https://be.fresh.com.eg/media/catalog/product/cache/6fdb9282313a7e48374fe05a5418029a/3/2/32lh123.png", category: "صيانة شاشات فريش", title: "خدمات صيانة شاشات فريش", description: "صيانة متخصصة لشاشات فريش الذكية والعادية، مع توفير قطع غيار أصلية وضمان على الإصلاح لجميع الموديلات.", linkText: "اعرف المزيد", link: "/صيانة/fresh/شاشات" },
-      { image: "https://img.freepik.com/free-vector/flow-chart-showing-web-purchases-with-man-holding-tablet-linked-shopping-cart_1284-44266.jpg?ga=GA1.1.1880227217.1744728103&semt=ais_hybrid&w=740", category: "خدمة المبيعات والتوريدات", title: "خدمات المبيعات وتوريد الأجهزة", description: "نوفر خدمات بيع وتوريد جميع أجهزة فريش مع ضمان الوكيل وخدمات ما بعد البيع بأفضل الأسعار التنافسية.", linkText: "اعرف المزيد", link: "/صيانة/fresh/مبيعات" }
+      { image: "https://be.fresh.com.eg/media/catalog/product/cache/6fdb9282313a7e48374fe05a5418029a/h/u/hummer-_black_1.png", 
+        category: "صيانة تكييفات فريش سبليت", 
+        title: "صيانة تكييفات فريش سبليت", 
+        description: "خدمات صيانة شاملة لتكييفات فريش سبليت العادية، تشمل تنظيف الفلاتر، فحص الفريون، وإصلاح جميع الأعطال الفنية مع ضمان الخدمة.", 
+        linkText: "اعرف المزيد", 
+        link: "/صيانة/fresh/سبليت" },
+      
+      { image: "https://be.fresh.com.eg/media/catalog/product/cache/6fdb9282313a7e48374fe05a5418029a/f/r/fresh_air_conditioner_smart_inverter_wifi_3_hp_cool-hot_plasma_2.jpg", 
+        category: "صيانة تكييفات فريش سبليت انفرتر", 
+        title: "صيانة تكييفات فريش سبليت انفرتر", 
+        description: "خدمات صيانة متخصصة لتكييفات فريش سبليت انفرتر الموفرة للطاقة، مع فحص دوري للنظام الذكي وإصلاح الأعطال الإلكترونية.", 
+        linkText: "اعرف المزيد", 
+        link: "/صيانة/fresh/سبليت-انفرتر" },
+
+      { image: "https://be.fresh.com.eg/media/catalog/product/cache/6fdb9282313a7e48374fe05a5418029a/f/r/fresh_air_conditioner_smart_free_stand_7.5_hp_cold-hot.png", 
+        category: "صيانة تكييفات فريش فري ستاند", 
+        title: "صيانة تكييفات فريش فري ستاند", 
+        description: "صيانة شاملة لتكييفات فريش فري ستاند القوية، مع خدمات تركيب وصيانة دورية وإصلاح جميع المشاكل الفنية.", 
+        linkText: "اعرف المزيد", 
+        link: "/صيانة/fresh/فري-ستاند" },
+
+      { image: "https://be.fresh.com.eg/media/catalog/product/cache/6fdb9282313a7e48374fe05a5418029a/f/r/fresh_air_conditioner_duct_inverter_turbo_5_hp_cold_-_hot.jpg", 
+        category: "صيانة تكييفات فريش كونسيلد", 
+        title: "صيانة تكييفات فريش كونسيلد", 
+        description: "خدمات صيانة احترافية لتكييفات فريش الكونسيلد المخفية، مع فحص شامل لنظام التبريد وإصلاح التسريبات.", 
+        linkText: "اعرف المزيد", 
+        link: "/صيانة/fresh/كونسيلد" },
+
+      { image: "https://be.fresh.com.eg/media/catalog/product/cache/6fdb9282313a7e48374fe05a5418029a/a/i/air_curtain_2023.png", 
+        category: "صيانة ستائر الهواء فريش", 
+        title: "صيانة ستائر الهواء فريش", 
+        description: "خدمات تركيب وصيانة ستائر الهواء فريش للمحلات والمنشآت التجارية، مع ضمان كفاءة الأداء وتوفير قطع الغيار الأصلية.", 
+        linkText: "اعرف المزيد", 
+        link: "/صيانة/fresh/ستائر-هواء" },
+
+      { image: "https://be.fresh.com.eg/media/catalog/product/cache/6fdb9282313a7e48374fe05a5418029a/w/h/whatsapp_image_2025-05-15_at_1.39.15_pm.jpeg", 
+        category: "صيانة تكييفات فريش المحمولة", 
+        title: "صيانة تكييفات فريش المحمولة", 
+        description: "خدمات صيانة متخصصة للتكييفات المحمولة من فريش، تشمل تنظيف الفلاتر وفحص نظام التبريد وإصلاح كافة الأعطال.", 
+        linkText: "اعرف المزيد", 
+        link: "/صيانة/fresh/تكييف-محمول" },
+    ]
+  },
+  other_articles: {
+    preTitle: "خدماتنا لأجهزة فريش",
+    title: "صيانة شاملة لمنتجات فريش",
+    items: [
+{ image: "https://be.fresh.com.eg/media/catalog/product/cache/6fdb9282313a7e48374fe05a5418029a/2/5/25_liter_girl_1.png", category: "صيانة ميكروويف فريش", title: "خدمات صيانة ميكروويف فريش", description: "صيانة شاملة لجميع موديلات ميكروويف فريش مع ضمان الإصلاح وقطع الغيار الأصلية.", linkText: "اعرف المزيد", link: "/صيانة/fresh/ميكروويف" },
+
+{ image: "https://be.fresh.com.eg/media/catalog/product/cache/6fdb9282313a7e48374fe05a5418029a/f/r/fresh_plaza_oven_-_48_liters_grill_and_fan_.jpg", category: "صيانة أفران فريش", title: "خدمات صيانة أفران فريش الكهربائية", description: "صيانة متخصصة لأفران فريش الكهربائية مع حلول فعالة لجميع المشاكل الفنية.", linkText: "اعرف المزيد", link: "/صيانة/fresh/فرن-كهرباء" },
+
+{ image: "https://be.fresh.com.eg/media/catalog/product/cache/6fdb9282313a7e48374fe05a5418029a/f/r/fresh_vacuum_cleaner_spider_1500_w_bag.jpg", category: "صيانة مكانس فريش", title: "خدمات صيانة مكانس فريش", description: "صيانة احترافية لمكانس فريش الكهربائية مع ضمان جودة الإصلاح.", linkText: "اعرف المزيد", link: "/صيانة/fresh/مكنسة" },
+
+{ image: "https://be.fresh.com.eg/media/catalog/product/cache/6fdb9282313a7e48374fe05a5418029a/f/r/fresh_iron_cordless.png", category: "صيانة مكاوي فريش", title: "خدمات صيانة مكاوي فريش", description: "صيانة متخصصة لمكاوي فريش البخارية والعادية مع ضمان الخدمة.", linkText: "اعرف المزيد", link: "/صيانة/fresh/مكواة" },
+
+{ image: "https://be.fresh.com.eg/media/catalog/product/cache/6fdb9282313a7e48374fe05a5418029a/f/r/fresh_heater_2100_watt_-_quratez_psm-210.jpg", category: "صيانة دفايات فريش", title: "خدمات صيانة دفايات فريش", description: "صيانة شاملة لدفايات فريش الكهربائية مع ضمان السلامة والأداء.", linkText: "اعرف المزيد", link: "/صيانة/fresh/دفاية" },
+
+{ image: "https://be.fresh.com.eg/media/catalog/product/cache/6fdb9282313a7e48374fe05a5418029a/6/0/60-front.jpg", category: "صيانة مبردات فريش", title: "خدمات صيانة مبردات مياه فريش", description: "صيانة متخصصة لمبردات مياه فريش مع ضمان نظافة وجودة المياه.", linkText: "اعرف المزيد", link: "/صيانة/fresh/مبرد-مياه" },
+
+{ image: "https://be.fresh.com.eg/media/catalog/product/cache/6fdb9282313a7e48374fe05a5418029a/f/r/fresh_electric_water_heater_venus_40_liters.jpg", category: "صيانة سخانات فريش", title: "خدمات صيانة سخانات فريش", description: "صيانة شاملة لسخانات فريش الكهربائية مع ضمان السلامة والكفاءة.", linkText: "اعرف المزيد", link: "/صيانة/fresh/سخان" },
+
+{ image: "https://be.fresh.com.eg/media/catalog/product/cache/6fdb9282313a7e48374fe05a5418029a/5/0/500004503-500004500.jpg", category: "صيانة مراوح فريش", title: "خدمات صيانة مراوح فريش", description: "صيانة متكاملة لمراوح فريش بجميع أنواعها مع ضمان الأداء الأمثل.", linkText: "اعرف المزيد", link: "/صيانة/fresh/مروحة" }
     ]
   },
   features: {

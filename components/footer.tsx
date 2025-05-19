@@ -76,10 +76,12 @@ const Footer = () => {
               <h3 className="text-lg font-semibold text-white mb-5 border-b border-gray-700 pb-2">خدماتنا</h3>
               <ul className="space-y-3">
                 {currentBrandData.articles?.items.map((service, index) => (
-                  <li key={index} className="flex items-center text-sm">
-                    <ArrowLeftCircle className="w-4 h-4 ml-2 text-gray-500" />
-                    <span className="text-gray-400">{service.title}</span>
-                  </li>
+                  <Link href={'#services'} key={index}>
+                    <li className="flex items-center text-sm mb-2">
+                      <ArrowLeftCircle className="w-4 h-4 ml-2 text-gray-500" />
+                      <span className="text-gray-400">{service.title}</span>
+                    </li>
+                  </Link>
                 ))}
               </ul>
             </div>
@@ -119,24 +121,24 @@ const Footer = () => {
                 <p>© {new Date().getFullYear()} جميع الحقوق محفوظة.</p>
                 <p className="mt-1">مصمم ومطور بواسطة <a href="https://sourcemediaagency.com" target="_blank" rel="noopener noreferrer" className="hover:underline text-[#0d6efd] transition-colors">source media group</a></p>
               </div>
-           {/* Moved page links to the "Quick Links" column above, this can be removed or kept for redundancy based on preference */}
-           {/* <ul className="flex items-center justify-center space-x-4 space-x-reverse mt-2">
+           {/* Navigation Links */}
+           <ul className="flex items-center justify-center gap-x-4 space-x-reverse mt-2">
+             <li>
+               <Link href="/about" className="hover:text-white transition-colors">
+                 عن مركز الصيانة
+               </Link>
+             </li>
+             <li>
+               <Link href={`/brands/${currentBrandData?.slug}/contact`} className="hover:text-white transition-colors">
+                 اتصل بنا
+               </Link>
+             </li>
              <li>
                <Link href="/privacy-policy" className="hover:text-white transition-colors">
                  سياسة الخصوصية
                </Link>
              </li>
-             <li>
-               <Link href="/about" className="hover:text-white transition-colors">
-                 عن العالمية للصيانة
-               </Link>
-             </li>
-             <li>
-               <Link href="/contact" className="hover:text-white transition-colors">
-                 اتصل بنا
-               </Link>
-             </li>
-           </ul> */}
+           </ul>
         </div>
       </div>
     </footer>

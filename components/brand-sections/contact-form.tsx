@@ -83,7 +83,7 @@ const ContactFormSection: React.FC<ContactFormSectionProps> = ({
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-10">
            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mt-2">
-             اطلب صيانة {brandName} أو تواصل معنا
+             اطلب صيانة - تواصل معنا
            </h2>
            <p className="mt-3 text-gray-600">
               املأ النموذج التالي وسنحاول توجيهك لبرنامج البريد لديك لإرسال رسالتك.
@@ -159,7 +159,7 @@ const ContactFormSection: React.FC<ContactFormSectionProps> = ({
              )}
             <button
               type="submit"
-              className="inline-flex justify-center py-3 px-10 border border-transparent  text-base font-medium rounded-md text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition duration-150 ease-in-out"
+              className="inline-flex justify-center py-2 px-10 border border-transparent  text-base font-medium cursor-pointer text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition duration-150 ease-in-out"
               style={{ backgroundColor: primaryColor }}
             >
               إرسال عبر البريد الإلكتروني

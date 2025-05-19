@@ -47,7 +47,7 @@ export default function HomePage() {
     <>
     <Navbar />
       {/* --- Hero Slider Section --- */}
-      <HeroSlider logo={''} slides={homePageSlides} primaryColor={sitePrimaryColor} />
+      <HeroSlider slides={homePageSlides} primaryColor={sitePrimaryColor} />
 
       {/* === NEW: Air Conditioner Service Section === */}
       <AcServiceSection />

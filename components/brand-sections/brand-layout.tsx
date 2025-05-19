@@ -6,8 +6,8 @@ import CtaBanner from './cta-banner';
 import FeaturesSection from './features-section';
 import HeroSlider from './hero-slider';
 import IntroSection from './intro-section';
-import Navbar from '../navbar';
 import Footer from '../footer';
+import BrandNavbar from './brand-navbar';
 
 // Define the general contact email (can be imported from a config file)
 const GENERAL_CONTACT_EMAIL = "info@alalamiah-maintenance.com"; // <<-- REPLACE WITH YOUR ACTUAL EMAIL
@@ -31,9 +31,17 @@ const BrandPageLayout: React.FC<BrandPageLayoutProps> = ({ brandData }) => {
 
   return (
     <div className="brand-page"> {/* Add a class for potential global styling */}
-      <Navbar />
+
+      <BrandNavbar 
+        services={brandData.articles?.items} // Pass the services to the Navba
+        logo={brandData.logo} 
+        brandName={brandData.name} 
+        hotline={brandData.hotline || '01150421159'} 
+        primaryColor={brandData.primaryColor} 
+      />
+
       {/* Section 1: Hero Slider */}
-      <HeroSlider logo={brandData.logo} slides={brandData.hero.slides} primaryColor={primaryColor} />
+      <HeroSlider slides={brandData.hero.slides} primaryColor={primaryColor} />
 
       {/* Section 2: Intro Section */}
       <IntroSection data={brandData.intro} primaryColor={primaryColor} brandName={name} />
@@ -42,16 +50,18 @@ const BrandPageLayout: React.FC<BrandPageLayoutProps> = ({ brandData }) => {
       <CtaBanner data={brandData.ctaBanner1} primaryColor={primaryColor} />
 
       {/* Section 4: Articles/Services */}
-      {brandData.articles?.items && brandData.articles.items.length > 0 && (
-        <ArticlesOrLocationsSection
-          logo={brandData.logo}
-          preTitle={brandData.articles.preTitle}
-          title={brandData.articles.title}
-          items={brandData.articles.items}
-          primaryColor={primaryColor}
-          bgColorClass="bg-gray-50" // Alternate background
-        />
-      )}
+      <div id='services'>
+        {brandData.articles?.items && brandData.articles.items.length > 0 && (
+          <ArticlesOrLocationsSection
+            logo={brandData.logo}
+            preTitle={brandData.articles.preTitle}
+            title={brandData.articles.title}
+            items={brandData.articles.items}
+            primaryColor={primaryColor}
+            bgColorClass="bg-gray-50" // Alternate background
+          />
+        )}
+      </div>
 
       {/* Section 5: Features & Counters */}
       <FeaturesSection
@@ -59,6 +69,20 @@ const BrandPageLayout: React.FC<BrandPageLayoutProps> = ({ brandData }) => {
         countersData={brandData.counters}
         primaryColor={primaryColor}
       />
+
+            {/* Section 4: Articles/Services */}
+            <div id='other_services'>
+        {brandData.other_articles?.items && brandData.other_articles.items.length > 0 && (
+          <ArticlesOrLocationsSection
+            logo={brandData.logo}
+            preTitle={brandData.other_articles.preTitle}
+            title={brandData.other_articles.title}
+            items={brandData.other_articles.items}
+            primaryColor={primaryColor}
+            bgColorClass="bg-gray-50" // Alternate background
+          />
+        )}
+      </div>
 
       {/* Section 6: Locations/Branches */}
        {brandData.locations?.items && brandData.locations.items.length > 0 && (
