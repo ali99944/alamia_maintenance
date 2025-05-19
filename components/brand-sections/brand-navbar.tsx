@@ -144,6 +144,13 @@ const BrandNavbar: React.FC<BrandNavbarProps> = ({
               </div>
               
               <Link 
+                href="/blog" 
+                className="px-4 py-3 text-gray-700 hover:bg-gray-100 font-medium"
+                onClick={() => setSideMenuOpen(false)}
+              >
+                مدونة صيانة {brandName}
+              </Link>
+              <Link 
                 href="/about" 
                 className="px-4 py-3 text-gray-700 hover:bg-gray-100 font-medium"
                 onClick={() => setSideMenuOpen(false)}
@@ -153,7 +160,7 @@ const BrandNavbar: React.FC<BrandNavbarProps> = ({
             </nav>
             
             {/* Social Media Icons */}
-            <div className="flex justify-center items-center gap-2 mb-6 mt-12 px-4">
+            <div className="flex justify-center items-center gap-2 mt-24 px-4">
               <Link 
                 href="#" 
                 className="flex items-center justify-center w-10 h-10 rounded-full text-white"

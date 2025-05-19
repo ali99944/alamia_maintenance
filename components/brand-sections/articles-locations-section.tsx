@@ -75,15 +75,12 @@ const ArticlesOrLocationsSection: React.FC<ArticlesOrLocationsProps> = ({
               className="bg-white rounded-lg overflow-hidden flex flex-col border border-gray-200 duration-300 group"
               variants={itemVariants} // Use the item variant
             >
-              <div className="relative w-full h-90">
+              <div className="relative w-full aspect-square">
                 <Image
                   src={item.image}
                   alt={item.title}
                   layout="fill"
                   objectFit={'cover'}
-                  quality={100}
-                  priority={true}
-                  loading={'eager'}
                 />
                 {/* Category Tag */}
                 <Image
@@ -99,8 +96,8 @@ const ArticlesOrLocationsSection: React.FC<ArticlesOrLocationsProps> = ({
                 <p className="text-gray-600 text-sm leading-relaxed mb-4 flex-grow">{item.description}</p>
                 <Link href={'tel:+201288582979'}>
                    <span className="inline-flex items-center text-sm font-medium group-hover:underline" style={{ color: primaryColor }}>
-                    احجز صيانة
-                    <Clipboard className="h-4 w-4 mr-1 group-hover:translate-x-[-3px] transition-transform duration-200" />
+                      للحجز هنا
+                    <Clipboard className="h-4 w-4 mr-1 transition-transform duration-200" />
                   </span>
                 </Link>
               </div>

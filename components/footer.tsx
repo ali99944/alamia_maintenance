@@ -39,16 +39,14 @@ const Footer = () => {
           {/* Column 1 (Right - RTL): About / Logo */}
           <div className="md:col-span-1">
              <div className="mb-5">
-                <Link href="/">
-                    <Image
-                        src={currentBrandData?.logo || '/logo.png'} // <<-- ENSURE you have a white/light version of your logo in /public
-                        alt="العالمية للصيانة Logo"
-                        width={180} // Adjust size
-                        height={45} // Adjust size
-                        className="h-auto w-auto max-w-[180px]"
-                        priority
-                     />
-                 </Link>
+              <Image
+                src={currentBrandData?.logo || '/logo.png'} // <<-- ENSURE you have a white/light version of your logo in /public
+                alt="العالمية للصيانة Logo"
+                width={180} // Adjust size
+                height={45} // Adjust size
+                className="h-auto w-auto max-w-[180px]"
+                priority
+              />
              </div>
              <p className="text-gray-400 text-sm mb-6 leading-relaxed">
                 نوفر خدمة موثوقة لعملائنا الكرام. لدينا فريق عمل متاح على مدار الساعة لضمان راحتكم وتلبية احتياجاتكم في صيانة الأجهزة المنزلية للعلامات التجارية الرائدة.
@@ -76,6 +74,14 @@ const Footer = () => {
               <h3 className="text-lg font-semibold text-white mb-5 border-b border-gray-700 pb-2">خدماتنا</h3>
               <ul className="space-y-3">
                 {currentBrandData.articles?.items.map((service, index) => (
+                  <Link href={'#services'} key={index}>
+                    <li className="flex items-center text-sm mb-2">
+                      <ArrowLeftCircle className="w-4 h-4 ml-2 text-gray-500" />
+                      <span className="text-gray-400">{service.title}</span>
+                    </li>
+                  </Link>
+                ))}
+                {currentBrandData.other_articles?.items.map((service, index) => (
                   <Link href={'#services'} key={index}>
                     <li className="flex items-center text-sm mb-2">
                       <ArrowLeftCircle className="w-4 h-4 ml-2 text-gray-500" />

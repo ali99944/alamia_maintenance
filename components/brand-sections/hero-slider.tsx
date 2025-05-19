@@ -46,7 +46,8 @@ const HeroSlider: React.FC<HeroSliderProps> = ({ slides, primaryColor }) => {
               src={slide.image}
               alt={slide.title || 'صيانة الأجهزة'}
               layout="fill"
-              objectFit="fill"
+              objectFit="cover"
+              objectPosition='top'
               priority={index === 0} // Prioritize first image
             />
             <div className="absolute inset-0 bg-black/60 bg-opacity-50 flex items-center justify-center text-center">
